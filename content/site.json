@@ -1,0 +1,408 @@
+{
+  "canonical": "https://lionscape.nl",
+  "languages": ["en", "nl"],
+  "company": {
+    "name": "LionScape",
+    "legalName": "LionScape BV",
+    "url": "https://lionscape.nl",
+    "email": "hello@lionscape.nl",
+    "phone": "+31 85 401 45 90",
+    "address": {
+      "street": "Rijkebuurtstraat 12",
+      "city": "Bergen op Zoom",
+      "postalCode": "4611 BN",
+      "country": "Netherlands"
+    }
+  },
+  "shared": {
+    "seoStrip": [
+      {"label": "Core Web Vitals", "value": "90+ scores"},
+      {"label": "Schema", "value": "Organization + LocalBusiness"},
+      {"label": "Analytics", "value": "Consent-first"},
+      {"label": "Performance", "value": "<1s LCP on LTE"}
+    ],
+    "socialLinks": [
+      {"label": "LinkedIn", "href": "https://www.linkedin.com"},
+      {"label": "Instagram", "href": "https://www.instagram.com"},
+      {"label": "Behance", "href": "https://www.behance.net"}
+    ],
+    "caseIndustries": ["E-commerce", "Healthcare", "B2B", "Media", "Hospitality", "Retail"],
+    "caseGoals": ["Leads", "Traffic", "Revenue", "Awareness"]
+  },
+  "en": {
+    "meta": {
+      "home": {
+        "title": "LionScape | Premium Webdesign & SEO Agency in Bergen op Zoom",
+        "description": "LionScape builds premium, conversion-focused websites and SEO programs for Dutch brands. More traffic, more leads, measurable momentum.",
+        "ogTitle": "LionScape — Premium Webdesign & SEO Agency",
+        "ogDescription": "BMW-blue digital experiences that turn traffic into revenue."
+      },
+      "cases": {
+        "title": "LionScape Case Studies | ROI-focused webdesign & SEO",
+        "description": "Real results across Dutch brands: traffic lifts, conversion jumps, and fast-loading experiences.",
+        "ogTitle": "LionScape Case Studies",
+        "ogDescription": "Evidence of fast, premium digital growth."
+      },
+      "privacy": {
+        "title": "LionScape Privacy & Cookies",
+        "description": "How LionScape handles data, privacy, and cookies with care and transparency.",
+        "ogTitle": "Privacy & Cookies — LionScape",
+        "ogDescription": "Our commitment to respectful data use."
+      },
+      "og": {
+        "imageAlt": "LionScape metallic blue gradient"
+      }
+    },
+    "nav": {
+      "logo": "LionScape",
+      "cta": "Get a proposal",
+      "links": [
+        {"id": "services", "label": "Services"},
+        {"id": "bento", "label": "Solutions"},
+        {"id": "cases", "label": "Case studies"},
+        {"id": "process", "label": "How we work"},
+        {"id": "faq", "label": "FAQ"},
+        {"id": "contact", "label": "Contact"}
+      ],
+      "languageToggle": {"label": "NL", "title": "Switch to Dutch"}
+    },
+    "hero": {
+      "eyebrow": "Bergen op Zoom · Webdesign · SEO",
+      "headline": "More traffic. More leads. Premium digital momentum.",
+      "subheadline": "LionScape designs conversion-grade websites and SEO engines for Dutch brands that want BMW-level polish and measurable growth.",
+      "primaryCta": "Get a free quick scan",
+      "secondaryCta": "See results",
+      "metrics": [
+        {"label": "+54% organic sessions", "detail": "Average after 90 days"},
+        {"label": "3.2x more leads", "detail": "From redesign + CRO"},
+        {"label": "<1s LCP", "detail": "On realistic mobile"}
+      ],
+      "logosLabel": "Trusted by fast-moving teams",
+      "logos": ["FjordMedia", "PeakSolar", "Benelux Logistics", "Nova Clinics", "Studio Delta"]
+    },
+    "bento": {
+      "title": "Strategic growth in one premium stack",
+      "subtitle": "Tight messaging, sharp UX, and SEO that compounds. Built to convert without slowing down.",
+      "cards": [
+        {"title": "Conversion-first redesigns", "description": "Rebuild your site with clear journeys, sharp copy, and a premium BMW-blue look.", "cta": "Book a redesign", "link": "#contact", "action": true},
+        {"title": "SEO growth sprints", "description": "Technical fixes, content ops, and link velocity to outrank bigger players.", "cta": "Plan a sprint", "link": "#services", "action": true},
+        {"title": "Funnels that capture intent", "description": "Landing pages, lead magnets, and nurturing that turn cold clicks into booked calls.", "cta": "Build my funnel", "link": "#cases", "action": true},
+        {"title": "Performance hardening", "description": "Core Web Vitals, CDN-ready assets, and resilient uptime for campaigns.", "cta": "Tune performance", "link": "#faq", "action": true},
+        {"title": "Social for Dutch names", "description": "Discreet management for bekende Nederlanders and brands that need polish.", "cta": "Discuss social", "link": "#contact", "action": true},
+        {"title": "Analytics with consent", "description": "Server-side tagging, cookieless tracking, and clear consent flows.", "cta": "Review my data", "link": "#privacy", "action": true}
+      ]
+    },
+    "services": {
+      "title": "Services tailored for momentum",
+      "subtitle": "From Bergen op Zoom, serving the Netherlands with enterprise-grade craft.",
+      "items": [
+        {"title": "Webdesign & UX", "description": "Premium interfaces, fast flows, and messaging that makes people act.", "icon": "interface"},
+        {"title": "SEO & Technical", "description": "Site structure, schema, and speed that search engines reward.", "icon": "seo"},
+        {"title": "Conversion design", "description": "CRO playbooks, persuasive components, and always-on experimentation.", "icon": "conversion"},
+        {"title": "Content & authority", "description": "Editorial calendars, NL/EN copy, and digital PR that earns links.", "icon": "content"},
+        {"title": "Social management", "description": "Reputation-safe social for founders and bekende Nederlanders.", "icon": "social"},
+        {"title": "Analytics & data", "description": "Measurement you can trust: GA4, Looker, and privacy-safe tagging.", "icon": "data"}
+      ]
+    },
+    "process": {
+      "title": "How we work",
+      "subtitle": "Calm, precise, and measurable in every phase.",
+      "steps": [
+        {"title": "Discovery", "description": "Audit performance, search demand, and brand goals to set clear targets."},
+        {"title": "Blueprint", "description": "Information architecture, copy pillars, and design directions with prototypes."},
+        {"title": "Build & ship", "description": "Accessible, performant pages with QA across devices and Core Web Vitals."},
+        {"title": "Optimize", "description": "SEO pushes, CRO tests, and weekly reporting with real-world metrics."}
+      ]
+    },
+    "cases": {
+      "title": "Case studies",
+      "subtitle": "Proof that premium design and SEO deliver compound growth.",
+      "cta": "View all cases",
+      "items": [
+        {"name": "Nova Clinics", "industry": "Healthcare", "goal": "Leads", "result": "+71% qualified consultations", "detail": "Local SEO + conversion rewrite"},
+        {"name": "FjordMedia", "industry": "Media", "goal": "Traffic", "result": "+142% organic sessions", "detail": "Schema, publishing cadence, Core Web Vitals"},
+        {"name": "PeakSolar", "industry": "Energy", "goal": "Revenue", "result": "+28% demo bookings", "detail": "Bento landing system + retargeting"},
+        {"name": "Benelux Logistics", "industry": "B2B", "goal": "Leads", "result": "3.4x contact form starts", "detail": "CRO on high-intent pages"},
+        {"name": "Maison Blau", "industry": "Retail", "goal": "Awareness", "result": "+52% time on site", "detail": "Editorial storytelling + speed"},
+        {"name": "Canal Resorts", "industry": "Hospitality", "goal": "Revenue", "result": "+19% direct bookings", "detail": "SEO + UX for offers"}
+      ]
+    },
+    "testimonials": {
+      "title": "What partners say",
+      "items": [
+        {"quote": "LionScape rebuilt our site with a clarity we could never get in-house. Leads doubled within weeks.", "name": "Daphne Vermeer", "role": "CMO", "company": "Benelux Logistics"},
+        {"quote": "Technical SEO, analytics, and a visual identity that finally feels premium—delivered with zero drama.", "name": "Ruben de Groot", "role": "Founder", "company": "Nova Clinics"},
+        {"quote": "Fast responses, sharp copy, and dashboards that actually show money, not vanity metrics.", "name": "Marleen Visser", "role": "Marketing Lead", "company": "PeakSolar"}
+      ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {"question": "How fast can we launch?", "answer": "Most redesigns ship within 4–6 weeks depending on scope and content readiness."},
+        {"question": "Do you handle content?", "answer": "Yes. We write and localize NL/EN copy, including structured data and on-page SEO."},
+        {"question": "Is SEO included?", "answer": "Technical SEO and analytics foundations are built into every project, with growth sprints available."},
+        {"question": "Can you manage social channels?", "answer": "We manage social for founders and bekende Nederlanders with discreet workflows and approvals."}
+      ]
+    },
+    "contact": {
+      "title": "Let’s build your next growth step",
+      "subtitle": "Tell us where you want to win. We’ll share a quick scan and a proposal tailored to your KPIs.",
+      "fields": {
+        "name": "Full name",
+        "email": "Work email",
+        "phone": "Phone (optional)",
+        "service": "What do you need?",
+        "message": "Project details",
+        "honeypot": "Leave this field empty"
+      },
+      "services": [
+        "Full website redesign",
+        "SEO & content engine",
+        "Conversion optimization",
+        "Social management",
+        "Analytics & dashboards"
+      ],
+      "submit": "Send message",
+      "success": "Thanks. We’ll reply within one business day.",
+      "error": "Something went wrong. Please try again.",
+      "details": {
+        "addressLabel": "Office",
+        "hours": "Mon–Fri · 09:00–18:00 CET",
+        "cta": "Call us"
+      }
+    },
+    "forms": {
+      "errors": {
+        "required": "Please fill out the required fields.",
+        "email": "Enter a valid email address.",
+        "honeypot": "Submission blocked.",
+        "rate": "Too many requests. Please wait a minute and try again.",
+        "server": "We could not send your message. Try again or call us."
+      }
+    },
+    "ui": {
+      "skip": "Skip to content",
+      "nav": "Main navigation",
+      "toggle": "Toggle navigation"
+    },
+    "footer": {
+      "tagline": "Premium webdesign and SEO for brands that refuse average.",
+      "legal": "All rights reserved.",
+      "privacy": "Privacy & cookies"
+    },
+    "cookie": {
+      "message": "We use minimal cookies to understand performance after you consent.",
+      "accept": "Accept cookies",
+      "policy": "Read privacy",
+      "ariaLabel": "Cookie consent banner"
+    },
+    "privacy": {
+      "title": "Privacy & cookies",
+      "intro": "We keep tracking minimal, respect consent, and only store the data we need to serve you.",
+      "sections": [
+        {"heading": "Data collection", "body": "We collect name, email, phone, and project details submitted through the contact form. We log anonymized performance data after consent."},
+        {"heading": "Use of data", "body": "We use your details to respond to requests and to prepare proposals. We never sell or rent data."},
+        {"heading": "Storage", "body": "Leads are stored securely and retained for as long as necessary to serve your request."},
+        {"heading": "Cookies", "body": "Analytics scripts load only after consent. You can revoke consent anytime by clearing site data."},
+        {"heading": "Contact", "body": "For privacy questions, contact hello@lionscape.nl."}
+      ]
+    },
+    "casesPage": {
+      "title": "Case studies",
+      "intro": "Browse the results LionScape delivers across sectors.",
+      "filters": {
+        "industry": "Industry",
+        "goal": "Goal",
+        "all": "All"
+      }
+    }
+  },
+  "nl": {
+    "meta": {
+      "home": {
+        "title": "LionScape | Premium webdesign & SEO bureau in Bergen op Zoom",
+        "description": "LionScape bouwt premium websites en SEO-programma's die verkeer en leads laten groeien. BMW-niveau afwerking met meetbaar resultaat.",
+        "ogTitle": "LionScape — Premium webdesign & SEO bureau",
+        "ogDescription": "BMW-blauwe digitale ervaringen die verkeer omzetten in omzet."
+      },
+      "cases": {
+        "title": "LionScape Cases | ROI-gedreven webdesign & SEO",
+        "description": "Echte resultaten voor Nederlandse merken: meer verkeer, conversies en razendsnelle sites.",
+        "ogTitle": "LionScape Cases",
+        "ogDescription": "Bewijs van snelle, premium digitale groei."
+      },
+      "privacy": {
+        "title": "LionScape Privacy & Cookies",
+        "description": "Zo gaat LionScape om met data, privacy en cookies: helder en respectvol.",
+        "ogTitle": "Privacy & Cookies — LionScape",
+        "ogDescription": "Onze toewijding aan zorgvuldige data." 
+      },
+      "og": {
+        "imageAlt": "LionScape metallic blue gradient"
+      }
+    },
+    "nav": {
+      "logo": "LionScape",
+      "cta": "Vraag een voorstel",
+      "links": [
+        {"id": "services", "label": "Diensten"},
+        {"id": "bento", "label": "Oplossingen"},
+        {"id": "cases", "label": "Cases"},
+        {"id": "process", "label": "Werkwijze"},
+        {"id": "faq", "label": "FAQ"},
+        {"id": "contact", "label": "Contact"}
+      ],
+      "languageToggle": {"label": "EN", "title": "Switch to English"}
+    },
+    "hero": {
+      "eyebrow": "Bergen op Zoom · Webdesign · SEO",
+      "headline": "Meer verkeer. Meer leads. Premium digitale momentum.",
+      "subheadline": "LionScape ontwerpt conversiegerichte websites en SEO-machines voor merken die BMW-afwerking en groei verwachten.",
+      "primaryCta": "Gratis quickscan",
+      "secondaryCta": "Bekijk resultaten",
+      "metrics": [
+        {"label": "+54% organisch verkeer", "detail": "Gemiddeld na 90 dagen"},
+        {"label": "3,2x meer leads", "detail": "Door redesign + CRO"},
+        {"label": "<1s LCP", "detail": "Op realistische mobiel"}
+      ],
+      "logosLabel": "Vertrouwd door teams met tempo",
+      "logos": ["FjordMedia", "PeakSolar", "Benelux Logistics", "Nova Clinics", "Studio Delta"]
+    },
+    "bento": {
+      "title": "Strategische groei in één premium stack",
+      "subtitle": "Scherpe messaging, strakke UX en SEO die stapelt. Gebouwd voor conversie zonder vertraging.",
+      "cards": [
+        {"title": "Redesigns met conversie", "description": "Herbouw je site met duidelijke journeys, strakke copy en BMW-blauwe uitstraling.", "cta": "Plan een redesign", "link": "#contact", "action": true},
+        {"title": "SEO growth sprints", "description": "Techniek, content en links om grotere spelers voorbij te gaan.", "cta": "Plan een sprint", "link": "#services", "action": true},
+        {"title": "Funnels die intentie vangen", "description": "Landingspages, lead magnets en nurturing die koude klikken omzetten in afspraken.", "cta": "Bouw mijn funnel", "link": "#cases", "action": true},
+        {"title": "Performance hardening", "description": "Core Web Vitals, CDN-klaar en stabiel voor campagnes.", "cta": "Optimaliseer snelheid", "link": "#faq", "action": true},
+        {"title": "Social voor bekende Nederlanders", "description": "Discrete management voor BN'ers en merken die perfecte afwerking eisen.", "cta": "Bespreek social", "link": "#contact", "action": true},
+        {"title": "Analytics met consent", "description": "Server-side tagging, cookieloos meten en heldere consent flows.", "cta": "Check mijn data", "link": "#privacy", "action": true}
+      ]
+    },
+    "services": {
+      "title": "Diensten voor momentum",
+      "subtitle": "Vanuit Bergen op Zoom leveren we enterprise-kwaliteit door heel Nederland.",
+      "items": [
+        {"title": "Webdesign & UX", "description": "Premium interfaces, snelle flows en messaging die aanzet tot actie.", "icon": "interface"},
+        {"title": "SEO & Techniek", "description": "Sitestructuur, schema en snelheid die zoekmachines belonen.", "icon": "seo"},
+        {"title": "Conversie design", "description": "CRO-playbooks, overtuigende componenten en testen die nooit stoppen.", "icon": "conversion"},
+        {"title": "Content & autoriteit", "description": "Editorial planning, NL/EN copy en digitale PR die links oplevert.", "icon": "content"},
+        {"title": "Social management", "description": "Reputatie-veilig social voor founders en bekende Nederlanders.", "icon": "social"},
+        {"title": "Analytics & data", "description": "Betrouwbare meting: GA4, Looker en privacy-veilige tagging.", "icon": "data"}
+      ]
+    },
+    "process": {
+      "title": "Zo werken we",
+      "subtitle": "Kalm, precies en meetbaar in elke fase.",
+      "steps": [
+        {"title": "Discovery", "description": "Audit van performance, zoekvraag en doelen zodat targets helder zijn."},
+        {"title": "Blueprint", "description": "Informatie-architectuur, copy pilaren en designrichtingen met prototypes."},
+        {"title": "Build & ship", "description": "Toegankelijke, snelle pagina's met QA op devices en Core Web Vitals."},
+        {"title": "Optimaliseer", "description": "SEO pushes, CRO-tests en wekelijkse rapportages met echte metrics."}
+      ]
+    },
+    "cases": {
+      "title": "Cases",
+      "subtitle": "Bewijs dat premium design en SEO samen groeien.",
+      "cta": "Bekijk alle cases",
+      "items": [
+        {"name": "Nova Clinics", "industry": "Zorg", "goal": "Leads", "result": "+71% gekwalificeerde consults", "detail": "Lokale SEO + conversiecopy"},
+        {"name": "FjordMedia", "industry": "Media", "goal": "Verkeer", "result": "+142% organische sessies", "detail": "Schema, publicatiecadans, Core Web Vitals"},
+        {"name": "PeakSolar", "industry": "Energie", "goal": "Omzet", "result": "+28% demo bookings", "detail": "Bento landingssystemen + retargeting"},
+        {"name": "Benelux Logistics", "industry": "B2B", "goal": "Leads", "result": "3,4x formuliersstarts", "detail": "CRO op high-intent pagina's"},
+        {"name": "Maison Blau", "industry": "Retail", "goal": "Awareness", "result": "+52% tijd op site", "detail": "Verhalende content + snelheid"},
+        {"name": "Canal Resorts", "industry": "Hospitality", "goal": "Omzet", "result": "+19% directe boekingen", "detail": "SEO + UX voor aanbiedingen"}
+      ]
+    },
+    "testimonials": {
+      "title": "Wat partners zeggen",
+      "items": [
+        {"quote": "LionScape gaf onze site eindelijk de helderheid die we intern misten. Leads verdubbelden binnen weken.", "name": "Daphne Vermeer", "role": "CMO", "company": "Benelux Logistics"},
+        {"quote": "Technische SEO, analytics en een identiteit die eindelijk premium voelt—zonder gedoe.", "name": "Ruben de Groot", "role": "Founder", "company": "Nova Clinics"},
+        {"quote": "Snelle responses, strakke copy en dashboards die echt omzet tonen, geen vanity metrics.", "name": "Marleen Visser", "role": "Marketing Lead", "company": "PeakSolar"}
+      ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {"question": "Hoe snel kunnen we live?", "answer": "Meeste redesigns gaan live in 4–6 weken afhankelijk van scope en content."},
+        {"question": "Regelen jullie content?", "answer": "Ja. We schrijven en localiseren NL/EN copy, inclusief structured data en on-page SEO."},
+        {"question": "Is SEO inbegrepen?", "answer": "Technische SEO en analytics zijn standaard; growth sprints zijn optioneel."},
+        {"question": "Beheren jullie social?", "answer": "We managen social voor founders en BN'ers met discrete workflows en approvals."}
+      ]
+    },
+    "contact": {
+      "title": "Laat je volgende groeistap bouwen",
+      "subtitle": "Vertel waar je wilt winnen. Wij delen een quickscan en voorstel op maat van jouw KPI's.",
+      "fields": {
+        "name": "Volledige naam",
+        "email": "Zakelijk e-mail",
+        "phone": "Telefoon (optioneel)",
+        "service": "Wat heb je nodig?",
+        "message": "Projectdetails",
+        "honeypot": "Laat dit veld leeg"
+      },
+      "services": [
+        "Volledige redesign",
+        "SEO & content engine",
+        "Conversie optimalisatie",
+        "Social beheer",
+        "Analytics & dashboards"
+      ],
+      "submit": "Verstuur",
+      "success": "Dank je. We reageren binnen één werkdag.",
+      "error": "Er ging iets mis. Probeer opnieuw.",
+      "details": {
+        "addressLabel": "Kantoor",
+        "hours": "Ma–Vr · 09:00–18:00 CET",
+        "cta": "Bel ons"
+      }
+    },
+    "forms": {
+      "errors": {
+        "required": "Vul de verplichte velden in.",
+        "email": "Vul een geldig e-mailadres in.",
+        "honeypot": "Inzending geblokkeerd.",
+        "rate": "Te veel verzoeken. Wacht even en probeer opnieuw.",
+        "server": "Bericht kon niet worden verzonden. Probeer opnieuw of bel ons."
+      }
+    },
+    "ui": {
+      "skip": "Ga naar inhoud",
+      "nav": "Hoofdmenu",
+      "toggle": "Menu openen/sluiten"
+    },
+    "footer": {
+      "tagline": "Premium webdesign en SEO voor merken die geen middelmaat accepteren.",
+      "legal": "Alle rechten voorbehouden.",
+      "privacy": "Privacy & cookies"
+    },
+    "cookie": {
+      "message": "We gebruiken minimale cookies voor performance, alleen na jouw consent.",
+      "accept": "Accepteer cookies",
+      "policy": "Lees privacy",
+      "ariaLabel": "Cookiebanner"
+    },
+    "privacy": {
+      "title": "Privacy & cookies",
+      "intro": "We houden tracking minimaal, respecteren consent en bewaren alleen wat nodig is.",
+      "sections": [
+        {"heading": "Dataverzameling", "body": "We verzamelen naam, e-mail, telefoon en projectdetails via het contactformulier. Na consent loggen we geanonimiseerde performance data."},
+        {"heading": "Gebruik van data", "body": "We gebruiken je gegevens om te antwoorden en voorstellen te maken. We verkopen of verhuren geen data."},
+        {"heading": "Opslag", "body": "Leads worden veilig opgeslagen en bewaard zolang nodig voor je verzoek."},
+        {"heading": "Cookies", "body": "Analytics scripts laden pas na consent. Je kunt consent intrekken door site data te wissen."},
+        {"heading": "Contact", "body": "Voor privacyvragen: hello@lionscape.nl."}
+      ]
+    },
+    "casesPage": {
+      "title": "Cases",
+      "intro": "Bekijk de resultaten die LionScape levert per sector.",
+      "filters": {
+        "industry": "Branche",
+        "goal": "Doel",
+        "all": "Alles"
+      }
+    }
+  }
+}
