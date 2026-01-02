@@ -6,6 +6,17 @@ $footer = content_value('footer', $lang) ?? [];
 $company = content_value('company');
 $nav = content_value('nav', $lang) ?? [];
 $logoMark = strtoupper(substr((string) ($nav['logo'] ?? 'LS'), 0, 2));
+$contactHeading = '';
+foreach (($nav['links'] ?? []) as $link) {
+    if (($link['id'] ?? '') === 'contact') {
+        $contactHeading = $link['label'] ?? '';
+        break;
+    }
+}
+if ($contactHeading === '' && !empty($nav['links'])) {
+    $last = end($nav['links']);
+    $contactHeading = $last['label'] ?? '';
+}
 ?>
 <footer class="site-footer" aria-label="Footer">
   <div class="container footer__grid">
@@ -18,18 +29,12 @@ $logoMark = strtoupper(substr((string) ($nav['logo'] ?? 'LS'), 0, 2));
       <div class="footer__legal">&copy; <?= date('Y') ?> <?= h($company['name'] ?? '') ?> · <?= h($footer['legal'] ?? '') ?></div>
     </div>
     <div class="footer__col">
-      <h3 class="kicker"><?= h($contact['details']['addressLabel'] ?? '') ?></h3>
-      <p class="muted"><?= h(($company['address']['street'] ?? '') . ', ' . ($company['address']['postalCode'] ?? '') . ' ' . ($company['address']['city'] ?? '')) ?></p>
-      <p class="muted"><?= h($contact['details']['hours'] ?? '') ?></p>
-    </div>
-    <div class="footer__col">
-      <h3 class="kicker"><?= h($nav['links'][5]['label'] ?? ($nav['links'][0]['label'] ?? '')) ?></h3>
+      <h3 class="kicker"><?= h($contactHeading) ?></h3>
       <?php $phoneRaw = $company['phone'] ?? ''; $phoneHref = preg_replace('/\\s+/', '', (string) $phoneRaw); ?>
       <a class="footer__link" href="tel:<?= h($phoneHref) ?>"><?= h((string) $phoneRaw) ?></a>
       <a class="footer__link" href="mailto:<?= h($company['email'] ?? '') ?>"><?= h($company['email'] ?? '') ?></a>
       <div class="footer__links">
         <a class="footer__link" href="<?= h(page_url('privacy.php', $lang)) ?>"><?= h($footer['privacy'] ?? '') ?></a>
-        <a class="footer__link" href="<?= h(page_url('cases.php', $lang)) ?>"><?= h($nav['links'][2]['label'] ?? '') ?></a>
       </div>
     </div>
   </div>

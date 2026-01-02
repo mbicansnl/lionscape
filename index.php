@@ -13,8 +13,6 @@ $hero = content_value('hero', $lang) ?? [];
 $bento = content_value('bento', $lang) ?? [];
 $services = content_value('services', $lang) ?? [];
 $process = content_value('process', $lang) ?? [];
-$cases = content_value('cases', $lang) ?? [];
-$testimonials = content_value('testimonials', $lang) ?? [];
 $faq = content_value('faq', $lang) ?? [];
 $contact = content_value('contact', $lang) ?? [];
 $privacyContent = content_value('privacy', $lang) ?? [];
@@ -32,7 +30,7 @@ $company = content_value('company');
         <p class="lead"><?= h($hero['subheadline'] ?? '') ?></p>
         <div class="hero__actions">
           <a class="btn btn-primary" href="<?= h(nav_link('contact', $lang)) ?>"><?= h($hero['primaryCta'] ?? '') ?></a>
-          <a class="btn btn-secondary" href="<?= h(nav_link('cases', $lang)) ?>"><?= h($hero['secondaryCta'] ?? '') ?></a>
+          <a class="btn btn-secondary" href="<?= h(nav_link('services', $lang)) ?>"><?= h($hero['secondaryCta'] ?? '') ?></a>
         </div>
         <div class="hero__logos">
           <span class="muted"><?= h($hero['logosLabel'] ?? '') ?></span>
@@ -127,35 +125,6 @@ $company = content_value('company');
     </div>
   </section>
 
-  <section class="section" id="cases">
-    <div class="container section__header">
-      <div>
-        <p class="kicker"><?= h($cases['title'] ?? '') ?></p>
-        <h2><?= h($cases['subtitle'] ?? '') ?></h2>
-      </div>
-      <a class="btn btn-secondary" href="<?= h(page_url('cases.php', $lang)) ?>"><?= h($cases['cta'] ?? '') ?></a>
-    </div>
-    <div class="container grid grid--cases">
-      <?php foreach (array_slice(($cases['items'] ?? []), 0, 3) as $case): ?>
-        <article class="card card--action">
-          <div class="card__body">
-            <div class="chip">
-              <span><?= h($case['industry'] ?? '') ?></span>
-              <span class="chip__pill"><?= h($case['goal'] ?? '') ?></span>
-            </div>
-            <h3><?= h($case['name'] ?? '') ?></h3>
-            <p class="highlight"><?= h($case['result'] ?? '') ?></p>
-            <p class="muted"><?= h($case['detail'] ?? '') ?></p>
-          </div>
-          <a class="card__link" href="<?= h(page_url('cases.php', $lang)) ?>">
-            <span><?= h($cases['cta'] ?? '') ?></span>
-            <span aria-hidden="true">→</span>
-          </a>
-        </article>
-      <?php endforeach; ?>
-    </div>
-  </section>
-
   <section class="section section--strip" aria-label="<?= h($services['title'] ?? '') ?>">
     <div class="container strip">
       <?php foreach ($sharedSeo as $item): ?>
@@ -163,23 +132,6 @@ $company = content_value('company');
           <div class="muted"><?= h($item['label'] ?? '') ?></div>
           <div class="strong"><?= h($item['value'] ?? '') ?></div>
         </div>
-      <?php endforeach; ?>
-    </div>
-  </section>
-
-  <section class="section" id="testimonials">
-    <div class="container section__header">
-      <div>
-        <p class="kicker"><?= h($testimonials['title'] ?? '') ?></p>
-        <h2><?= h($hero['headline'] ?? '') ?></h2>
-      </div>
-    </div>
-    <div class="container grid grid--testimonials">
-      <?php foreach (($testimonials['items'] ?? []) as $quote): ?>
-        <article class="card card--static testimonial">
-          <p class="quote">“<?= h($quote['quote'] ?? '') ?>”</p>
-          <div class="muted"><?= h($quote['name'] ?? '') ?> · <?= h($quote['role'] ?? '') ?> · <?= h($quote['company'] ?? '') ?></div>
-        </article>
       <?php endforeach; ?>
     </div>
   </section>
@@ -237,9 +189,6 @@ $company = content_value('company');
           <div class="alert alert--error"><?= h($errors['message'] ?? '') ?></div>
         <?php endif; ?>
         <div class="contact__meta">
-          <div class="muted"><?= h($contact['details']['addressLabel'] ?? '') ?></div>
-          <div class="strong"><?= h(($company['address']['street'] ?? '') . ', ' . ($company['address']['postalCode'] ?? '') . ' ' . ($company['address']['city'] ?? '')) ?></div>
-          <div class="muted"><?= h($contact['details']['hours'] ?? '') ?></div>
           <a class="btn btn-secondary" href="tel:<?= h(preg_replace('/\s+/', '', (string) ($company['phone'] ?? ''))) ?>"><?= h($contact['details']['cta'] ?? '') ?></a>
         </div>
         <div class="contact__social">
