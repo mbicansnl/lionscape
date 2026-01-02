@@ -5,10 +5,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://lionscape.nl/cases.php</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://lionscape.nl/privacy.php</loc>
     <changefreq>yearly</changefreq>
   </url>
