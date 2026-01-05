@@ -321,7 +321,7 @@ p {
 }
 
 .service-card {
-  transition: border-color 180ms ease, background 180ms ease;
+  transition: border-color 180ms ease, background 180ms ease, box-shadow 180ms ease;
 }
 
 .service-card .icon {
