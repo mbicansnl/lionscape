@@ -98,11 +98,11 @@ $company = content_value('company');
     </div>
     <div class="container grid grid--services">
       <?php foreach (($services['items'] ?? []) as $item): ?>
-        <article class="card card--static service-card">
+        <a class="card card--action service-card" href="<?= h(nav_link('contact', $lang)) ?>">
           <div class="icon" aria-hidden="true"><?= svg_icon((string) ($item['icon'] ?? '')) ?></div>
           <h3><?= h($item['title'] ?? '') ?></h3>
           <p class="muted"><?= h($item['description'] ?? '') ?></p>
-        </article>
+        </a>
       <?php endforeach; ?>
     </div>
   </section>
@@ -116,11 +116,11 @@ $company = content_value('company');
     </div>
     <div class="container grid grid--process">
       <?php foreach (($process['steps'] ?? []) as $index => $step): ?>
-        <article class="card card--static step-card">
+        <a class="card card--action step-card" href="<?= h(nav_link('contact', $lang)) ?>">
           <div class="pill">0<?= h((string) ($index + 1)) ?></div>
           <h3><?= h($step['title'] ?? '') ?></h3>
           <p class="muted"><?= h($step['description'] ?? '') ?></p>
-        </article>
+        </a>
       <?php endforeach; ?>
     </div>
   </section>
@@ -146,10 +146,10 @@ $company = content_value('company');
     </div>
     <div class="container grid grid--privacy">
       <?php foreach (array_slice(($privacyContent['sections'] ?? []), 0, 2) as $section): ?>
-        <article class="card card--static">
+        <a class="card card--action" href="<?= h(page_url('privacy.php', $lang)) ?>">
           <h3><?= h($section['heading'] ?? '') ?></h3>
           <p class="muted"><?= h($section['body'] ?? '') ?></p>
-        </article>
+        </a>
       <?php endforeach; ?>
     </div>
   </section>

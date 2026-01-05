@@ -256,6 +256,8 @@ p {
 
 .card--action {
   cursor: pointer;
+  color: var(--text);
+  text-decoration: none;
 }
 
 .card--action:hover::after,
