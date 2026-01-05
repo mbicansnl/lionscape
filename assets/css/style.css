@@ -8,6 +8,8 @@
   --primary-2: #9dd6ff;
   --border: #304366;
   --glow: #7cc8ff;
+  --primary-soft: rgba(122, 184, 255, 0.14);
+  --glow-soft: rgba(122, 184, 255, 0.18);
   --bg-strong: #405275;
   --ink: #0f1d35;
   --error: #fca5a5;
@@ -319,10 +321,53 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
+.service-card {
+  transition: border-color 180ms ease, background 180ms ease, box-shadow 180ms ease;
+}
+
 .service-card .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 42px;
   height: 42px;
+  padding: 0.35rem;
   color: var(--primary-2);
+  background: var(--overlay);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-1);
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
+}
+
+.service-card::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: calc(var(--radius-2) - 2px);
+  background: radial-gradient(circle at 20% 20%, var(--glow-soft), transparent 45%),
+    radial-gradient(circle at 80% 0%, rgba(157, 214, 255, 0.16), transparent 40%);
+  opacity: 0;
+  transition: opacity 180ms ease;
+  pointer-events: none;
+}
+
+.service-card:hover,
+.service-card:focus-within {
+  border-color: var(--primary);
+  background: linear-gradient(180deg, var(--surface), var(--bg-strong));
+  box-shadow: 0 18px 38px rgba(124, 200, 255, 0.22);
+}
+
+.service-card:hover::after,
+.service-card:focus-within::after {
+  opacity: 1;
+}
+
+.service-card:hover .icon,
+.service-card:focus-within .icon {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+  color: var(--primary);
 }
 
 .step-card .pill {
