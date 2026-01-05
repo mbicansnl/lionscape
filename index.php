@@ -52,7 +52,6 @@ $company = content_value('company');
           <?php endforeach; ?>
         </div>
         <div class="hero__footer">
-          <div class="pill"><?= h(($company['address']['city'] ?? '') . ' · ' . ($company['address']['country'] ?? '')) ?></div>
           <div class="muted"><?= h($services['subtitle'] ?? '') ?></div>
         </div>
       </div>
