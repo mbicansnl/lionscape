@@ -97,7 +97,7 @@
       "items": [
         {"title": "Webdesign & UX", "description": "Premium interfaces, fast flows, and messaging that makes people act.", "icon": "interface"},
         {"title": "SEO & Technical", "description": "Site structure, schema, and speed that search engines reward.", "icon": "seo"},
-        {"title": "SEA & paid search", "description": "Campaign structure, landing pages, and budgets tuned for high-intent traffic.", "icon": "ads"},
+        {"title": "SEA & paid search", "description": "Google search and display advertising with structured campaigns, tuned landing pages, and budgets for high-intent traffic.", "icon": "ads"},
         {"title": "Conversion design", "description": "CRO playbooks, persuasive components, and always-on experimentation.", "icon": "conversion"},
         {"title": "Content & authority", "description": "Editorial calendars, NL/EN copy, and digital PR that earns links.", "icon": "content"},
         {"title": "Social management", "description": "Reputation-safe social for founders and bekende Nederlanders.", "icon": "social"},
@@ -274,7 +274,7 @@
       "items": [
         {"title": "Webdesign & UX", "description": "Premium interfaces, snelle flows en messaging die aanzet tot actie.", "icon": "interface"},
         {"title": "SEO & Techniek", "description": "Sitestructuur, schema en snelheid die zoekmachines belonen.", "icon": "seo"},
-        {"title": "SEA & paid search", "description": "Campagnestructuur, landingspages en budgetten afgestemd op koopgerichte zoekers.", "icon": "ads"},
+        {"title": "SEA & paid search", "description": "Zoekmachine- en displayadvertising via Google met campagnestructuur, landingspages en budgetten afgestemd op koopgerichte zoekers.", "icon": "ads"},
         {"title": "Conversie design", "description": "CRO-playbooks, overtuigende componenten en testen die nooit stoppen.", "icon": "conversion"},
         {"title": "Content & autoriteit", "description": "Editorial planning, NL/EN copy en digitale PR die links oplevert.", "icon": "content"},
         {"title": "Social management", "description": "Reputatie-veilig social voor founders en bekende Nederlanders.", "icon": "social"},
