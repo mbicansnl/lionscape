@@ -66,9 +66,9 @@
       "languageToggle": {"label": "NL", "title": "Switch to Dutch"}
     },
     "hero": {
-      "eyebrow": "Bergen op Zoom · Webdesign · SEO",
+      "eyebrow": "Bergen op Zoom · Webdesign · SEO · SEA",
       "headline": "More traffic. More leads. Premium digital momentum.",
-      "subheadline": "LionScape designs conversion-grade websites and SEO engines for Dutch brands that expect polished experiences and measurable growth.",
+      "subheadline": "LionScape designs conversion-grade websites plus SEO and SEA engines for Dutch brands that expect polished experiences and measurable growth.",
       "primaryCta": "Get a free quick scan",
       "secondaryCta": "View services",
       "metrics": [
@@ -97,6 +97,7 @@
       "items": [
         {"title": "Webdesign & UX", "description": "Premium interfaces, fast flows, and messaging that makes people act.", "icon": "interface"},
         {"title": "SEO & Technical", "description": "Site structure, schema, and speed that search engines reward.", "icon": "seo"},
+        {"title": "SEA & paid search", "description": "Campaign structure, landing pages, and budgets tuned for high-intent traffic.", "icon": "ads"},
         {"title": "Conversion design", "description": "CRO playbooks, persuasive components, and always-on experimentation.", "icon": "conversion"},
         {"title": "Content & authority", "description": "Editorial calendars, NL/EN copy, and digital PR that earns links.", "icon": "content"},
         {"title": "Social management", "description": "Reputation-safe social for founders and bekende Nederlanders.", "icon": "social"},
@@ -242,9 +243,9 @@
       "languageToggle": {"label": "EN", "title": "Switch to English"}
     },
     "hero": {
-      "eyebrow": "Bergen op Zoom · Webdesign · SEO",
+      "eyebrow": "Bergen op Zoom · Webdesign · SEO · SEA",
       "headline": "Meer verkeer. Meer leads. Premium digitale momentum.",
-      "subheadline": "LionScape ontwerpt conversiegerichte websites en SEO-machines voor merken die zorgvuldige afwerking en groei verwachten.",
+      "subheadline": "LionScape ontwerpt conversiegerichte websites plus SEO- en SEA-machines voor merken die zorgvuldige afwerking en groei verwachten.",
       "primaryCta": "Gratis quickscan",
       "secondaryCta": "Bekijk diensten",
       "metrics": [
@@ -273,6 +274,7 @@
       "items": [
         {"title": "Webdesign & UX", "description": "Premium interfaces, snelle flows en messaging die aanzet tot actie.", "icon": "interface"},
         {"title": "SEO & Techniek", "description": "Sitestructuur, schema en snelheid die zoekmachines belonen.", "icon": "seo"},
+        {"title": "SEA & paid search", "description": "Campagnestructuur, landingspages en budgetten afgestemd op koopgerichte zoekers.", "icon": "ads"},
         {"title": "Conversie design", "description": "CRO-playbooks, overtuigende componenten en testen die nooit stoppen.", "icon": "conversion"},
         {"title": "Content & autoriteit", "description": "Editorial planning, NL/EN copy en digitale PR die links oplevert.", "icon": "content"},
         {"title": "Social management", "description": "Reputatie-veilig social voor founders en bekende Nederlanders.", "icon": "social"},
