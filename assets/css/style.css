@@ -8,6 +8,7 @@
   --primary-2: #9dd6ff;
   --border: #304366;
   --glow: #7cc8ff;
+  --primary-soft: rgba(122, 184, 255, 0.14);
   --bg-strong: #405275;
   --ink: #0f1d35;
   --error: #fca5a5;
@@ -319,10 +320,35 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
+.service-card {
+  transition: border-color 180ms ease, background 180ms ease;
+}
+
 .service-card .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 42px;
   height: 42px;
+  padding: 0.35rem;
   color: var(--primary-2);
+  background: var(--overlay);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-1);
+  transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
+}
+
+.service-card:hover,
+.service-card:focus-within {
+  border-color: var(--primary);
+  background: linear-gradient(180deg, var(--surface), var(--bg-strong));
+}
+
+.service-card:hover .icon,
+.service-card:focus-within .icon {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+  color: var(--primary);
 }
 
 .step-card .pill {
