@@ -8,6 +8,14 @@ function h(string $value): string
     return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
 }
 
+function starts_with(string $haystack, string $needle): bool
+{
+    if ($needle === '') {
+        return true;
+    }
+    return strncmp($haystack, $needle, strlen($needle)) === 0;
+}
+
 function load_content_data(): array
 {
     static $data = null;
@@ -56,7 +64,7 @@ function content_value(string $path, ?string $lang = null)
     $default = default_language($data);
 
     $root = null;
-    if (str_starts_with($path, 'company') || str_starts_with($path, 'shared')) {
+    if (starts_with($path, 'company') || starts_with($path, 'shared')) {
         $root = $data;
     } else {
         $root = $data[$lang] ?? [];
@@ -72,7 +80,7 @@ function content_value(string $path, ?string $lang = null)
         $value = $value[$segment];
     }
 
-    if ($value === null && $lang !== $default && !str_starts_with($path, 'company') && !str_starts_with($path, 'shared')) {
+    if ($value === null && $lang !== $default && !starts_with($path, 'company') && !starts_with($path, 'shared')) {
         $fallback = $data[$default] ?? [];
         $value = $fallback;
         foreach ($segments as $segment) {
