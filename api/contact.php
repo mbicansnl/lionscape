@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/../functions.php';
+require __DIR__ . '/../partials/helpers.php';
 
 $data = load_content_data();
 $lang = current_language($data);

@@ -20,7 +20,7 @@ function load_content_data(): array
 {
     static $data = null;
     if ($data === null) {
-        $path = __DIR__ . '/content/site.json';
+        $path = __DIR__ . '/../content/site.json';
         $json = file_get_contents($path);
         $data = $json ? json_decode($json, true) : [];
         if (!is_array($data)) {
