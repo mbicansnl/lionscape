@@ -49,6 +49,12 @@
         "ogTitle": "Privacy & Cookies — LionScape",
         "ogDescription": "Our commitment to respectful data use."
       },
+      "page-services": {
+        "title": "LionScape Services | Webdesign, SEO, SEA & Social",
+        "description": "Explore the LionScape service stack: social media admin, website creation, maintenance, SEO, and SEA.",
+        "ogTitle": "LionScape Services",
+        "ogDescription": "Premium web, search, and social services built for growth."
+      },
       "og": {
         "imageAlt": "LionScape metallic blue gradient"
       }
@@ -57,7 +63,7 @@
       "logo": "LionScape",
       "cta": "Get a proposal",
       "links": [
-        {"id": "services", "label": "Services"},
+        {"id": "page-services", "label": "Services"},
         {"id": "bento", "label": "Solutions"},
         {"id": "process", "label": "How we work"},
         {"id": "faq", "label": "FAQ"},
@@ -103,6 +109,18 @@
         {"title": "Social management", "description": "Reputation-safe social for founders and bekende Nederlanders.", "icon": "social"},
         {"title": "Analytics & data", "description": "Measurement you can trust: consent-first dashboards and lightweight tagging.", "icon": "data"}
       ]
+    },
+    "servicesPage": {
+      "title": "Services",
+      "intro": "A focused list of the work we deliver for brands that want premium execution.",
+      "items": [
+        {"title": "Social media admin", "description": "Always-on management, planning, and approvals to keep your brand consistent.", "icon": "social"},
+        {"title": "Website creation", "description": "Conversion-first websites with premium UX, crisp copy, and fast performance.", "icon": "interface"},
+        {"title": "Website maintenance", "description": "Security updates, performance tuning, and content changes without delays.", "icon": "data"},
+        {"title": "SEO", "description": "Technical audits, content structure, and on-page optimization that compounds.", "icon": "seo"},
+        {"title": "SEA", "description": "Structured search campaigns with tuned landing pages for high-intent traffic.", "icon": "ads"}
+      ],
+      "cta": "Talk to us"
     },
     "process": {
       "title": "How we work",
@@ -226,6 +244,12 @@
         "ogTitle": "Privacy & Cookies — LionScape",
         "ogDescription": "Onze toewijding aan zorgvuldige data." 
       },
+      "page-services": {
+        "title": "LionScape Diensten | Webdesign, SEO, SEA & Social",
+        "description": "Ontdek het LionScape dienstenpakket: social media beheer, websitebouw, onderhoud, SEO en SEA.",
+        "ogTitle": "LionScape Diensten",
+        "ogDescription": "Premium web-, zoek- en social-diensten voor groei."
+      },
       "og": {
         "imageAlt": "LionScape metallic blue gradient"
       }
@@ -234,7 +258,7 @@
       "logo": "LionScape",
       "cta": "Vraag een voorstel",
       "links": [
-        {"id": "services", "label": "Diensten"},
+        {"id": "page-services", "label": "Diensten"},
         {"id": "bento", "label": "Oplossingen"},
         {"id": "process", "label": "Werkwijze"},
         {"id": "faq", "label": "FAQ"},
@@ -280,6 +304,18 @@
         {"title": "Social management", "description": "Reputatie-veilig social voor founders en bekende Nederlanders.", "icon": "social"},
         {"title": "Analytics & data", "description": "Betrouwbare meting met consent-first dashboards en lichte tagging.", "icon": "data"}
       ]
+    },
+    "servicesPage": {
+      "title": "Diensten",
+      "intro": "Een gerichte lijst met wat we leveren voor merken die premium uitvoering vragen.",
+      "items": [
+        {"title": "Social media beheer", "description": "Altijd-aan beheer, planning en approvals om je merk consistent te houden.", "icon": "social"},
+        {"title": "Website creatie", "description": "Conversiegerichte websites met premium UX, scherpe copy en snelle performance.", "icon": "interface"},
+        {"title": "Website onderhoud", "description": "Security updates, performance tuning en contentwijzigingen zonder vertraging.", "icon": "data"},
+        {"title": "SEO", "description": "Technische audits, contentstructuur en on-page optimalisatie die blijft groeien.", "icon": "seo"},
+        {"title": "SEA", "description": "Gestructureerde search campagnes met landingspagina’s voor hoge intentie.", "icon": "ads"}
+      ],
+      "cta": "Plan een gesprek"
     },
     "process": {
       "title": "Zo werken we",
