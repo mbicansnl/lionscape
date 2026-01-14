@@ -340,6 +340,19 @@ p {
   transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
 }
 
+.service-card--static .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  padding: 0.35rem;
+  color: var(--primary-2);
+  background: var(--overlay);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-1);
+}
+
 .service-card:hover,
 .service-card:focus-within {
   border-color: var(--primary);
