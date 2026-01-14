@@ -63,7 +63,7 @@
       "logo": "LionScape",
       "cta": "Get a proposal",
       "links": [
-        {"id": "services", "label": "Services"},
+        {"id": "page-services", "label": "Services"},
         {"id": "bento", "label": "Solutions"},
         {"id": "process", "label": "How we work"},
         {"id": "faq", "label": "FAQ"},
@@ -258,7 +258,7 @@
       "logo": "LionScape",
       "cta": "Vraag een voorstel",
       "links": [
-        {"id": "services", "label": "Diensten"},
+        {"id": "page-services", "label": "Diensten"},
         {"id": "bento", "label": "Oplossingen"},
         {"id": "process", "label": "Werkwijze"},
         {"id": "faq", "label": "FAQ"},

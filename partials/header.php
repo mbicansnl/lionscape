@@ -32,7 +32,13 @@ if (count($languages) > 1) {
         <ul class="nav__list">
           <?php foreach (($nav['links'] ?? []) as $link): ?>
             <li class="nav__item">
-              <a class="nav__link" href="<?= h(nav_link((string) ($link['id'] ?? ''), $lang)) ?>"><?= h($link['label'] ?? '') ?></a>
+              <?php
+                $linkId = (string) ($link['id'] ?? '');
+                $linkHref = $linkId === 'page-services'
+                    ? page_url('page-services.php', $lang)
+                    : nav_link($linkId, $lang);
+              ?>
+              <a class="nav__link" href="<?= h($linkHref) ?>"><?= h($link['label'] ?? '') ?></a>
             </li>
           <?php endforeach; ?>
         </ul>
