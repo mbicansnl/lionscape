@@ -1,0 +1,608 @@
+{
+  "nl": {
+    "brand": "LionScape",
+    "location": "Bergen op Zoom, Nederland",
+    "nav": {
+      "home": "Home",
+      "services": "Aanpak",
+      "cases": "Voorbeelden",
+      "pricing": "Prijzen",
+      "about": "Over",
+      "contact": "Contact"
+    },
+    "meta": {
+      "home": {
+        "title": "Websites en zichtbaarheid voor bekende Nederlanders | LionScape",
+        "description": "Website en social media voor Jack Plooij. Selectieve trajecten voor bekende Nederlanders en bedrijven zoals CANSERVICES.nl."
+      },
+      "services": {
+        "title": "Aanpak: online uitstraling zonder gedoe | LionScape",
+        "description": "Drie concrete pakketten: online uitstraling, website die klopt, zichtbaar blijven."
+      },
+      "cases": {
+        "title": "Voorbeelden: Jack Plooij en CANSERVICES.nl | LionScape",
+        "description": "Bewijs met echte voorbeelden: Jack Plooij en CANSERVICES.nl."
+      },
+      "case_jack": {
+        "title": "Case Jack Plooij | LionScape",
+        "description": "Website en socials voor Jack Plooij met duidelijke zichtbaarheid."
+      },
+      "case_canservices": {
+        "title": "Case CANSERVICES.nl | LionScape",
+        "description": "Zakelijke case voor CANSERVICES.nl met heldere site en uitstraling."
+      },
+      "pricing": {
+        "title": "Prijzen vanaf 1500 euro | LionScape",
+        "description": "Selectieve trajecten. Na de kennismaking krijg je een duidelijke indicatie."
+      },
+      "about": {
+        "title": "Over LionScape | LionScape",
+        "description": "Kleinschalig, kwaliteit eerst. Websites en socials voor bekende Nederlanders."
+      },
+      "contact": {
+        "title": "Contact | LionScape",
+        "description": "Plan een kennismaking of vraag de gratis groeiscan aan."
+      },
+      "privacy": {
+        "title": "Privacy | LionScape",
+        "description": "Privacybeleid en opslag van formulieren."
+      },
+      "cookies": {
+        "title": "Cookies | LionScape",
+        "description": "Cookiebeleid met optionele analytische cookies."
+      },
+      "not_found": {
+        "title": "Pagina niet gevonden | LionScape",
+        "description": "De pagina bestaat niet."
+      }
+    },
+    "shared": {
+      "cta_primary": "Plan 15-min kennismaking",
+      "cta_secondary": "Bekijk voorbeeld Jack Plooij",
+      "cta_scan": "Vraag gratis groeiscan",
+      "proof_line": "Website en social media voor Jack Plooij. Ook sites voor bedrijven zoals CANSERVICES.nl.",
+      "free_scan_title": "Gratis groeiscan",
+      "free_scan_body": "Je krijgt binnen 48 uur vijf concrete verbeterpunten voor je online zichtbaarheid. Geen verkooppraat, wel duidelijkheid.",
+      "form": {
+        "name": "Naam",
+        "email": "E-mail",
+        "phone": "Telefoon (optioneel)",
+        "message": "Wat wil je verbeteren?",
+        "submit": "Versturen",
+        "success": "Bedankt. Je ontvangt een bevestiging."
+      },
+      "honeypot": "Laat dit veld leeg",
+      "faq": [
+        {
+          "q": "Hoeveel trajecten neem je tegelijk aan?",
+          "a": "Maximaal drie zodat ik direct betrokken blijf."
+        },
+        {
+          "q": "Hoe snel kan ik live?",
+          "a": "Een eerste versie binnen drie weken als beeld en tekst klaarstaan."
+        },
+        {
+          "q": "Wie maakt de content?",
+          "a": "Ik schrijf en redigeer samen met jou zodat het klopt met je stem."
+        },
+        {
+          "q": "Hoe werkt de samenwerking?",
+          "a": "We starten met een korte call, daarna een werkplan en checkpoints per week."
+        }
+      ],
+      "footer": {
+        "line": "Selectieve projecten voor bekende Nederlanders en sterke merken.",
+        "contact": "Contact",
+        "email": "info@lionscape.nl",
+        "phone": "+31 6 0000 0000"
+      }
+    },
+    "home": {
+      "hero": {
+        "h1": "Websites en online zichtbaarheid voor bekende Nederlanders",
+        "sub": "Klaar om te worden gevonden met een site en socials die kloppen. Geen gedoe, wel persoonlijk gemaakt.",
+        "cta_primary": "Plan 15-min kennismaking",
+        "cta_secondary": "Bekijk voorbeeld Jack Plooij",
+        "cta_scan": "Vraag gratis groeiscan"
+      },
+      "trust": ["Jack Plooij", "CANSERVICES.nl", "RTL Autosport", "Teamverbanden"],
+      "cards_title": "Wat ik voor je regel",
+      "cards": [
+        {
+          "title": "Website die staat",
+          "text": "Een strakke site die laat zien wie je bent en direct uitnodigt tot contact."
+        },
+        {
+          "title": "Socials geregeld",
+          "text": "Structuur en tone of voice waardoor je zichtbaar blijft zonder losse flodders."
+        },
+        {
+          "title": "Alles consistent",
+          "text": "Van beeld tot bio en link in bio, elke uiting past bij je naam."
+        }
+      ],
+      "featured": {
+        "title": "Case Jack Plooij",
+        "text": "Nieuwe website, social templates en publicatiekalender. Korte lijnen en duidelijk taalgebruik.",
+        "cta": "Bekijk de case"
+      },
+      "secondary": {
+        "title": "Business proof: CANSERVICES.nl",
+        "text": "Heldere site, onderscheidende fotografie en duidelijke contactopties.",
+        "cta": "Bekijk business case"
+      },
+      "steps_title": "Zo werkt het",
+      "steps": [
+        "15 minuten kennismaken",
+        "Werkplan en bevestiging",
+        "Design en bouw",
+        "Publicatie en ondersteuning"
+      ],
+      "scan": {
+        "title": "Gratis groeiscan",
+        "text": "Ontvang vijf punten die je direct kunt verbeteren."
+      },
+      "faq": [
+        {
+          "q": "Werk je ook met teams?",
+          "a": "Ja, ik stem af met je assistent of bureau zodat alles op elkaar past."
+        },
+        {
+          "q": "Is er nazorg?",
+          "a": "Ja, ik blijf beschikbaar voor updates en social posts."
+        },
+        {
+          "q": "Hoeveel revisies?",
+          "a": "We plannen vaste feedbackmomenten per week, meestal drie rondes zijn genoeg."
+        }
+      ],
+      "final_cta": {
+        "title": "Klaar voor een site die bij je naam past?",
+        "text": "Plan een korte call. Ik neem maar een paar trajecten tegelijk aan.",
+        "cta": "Plan 15-min kennismaking"
+      }
+    },
+    "services": {
+      "intro": "Drie concrete manieren om je online zichtbaarheid te regelen zonder gedoe.",
+      "offers": [
+        {
+          "title": "Online uitstraling",
+          "who": "Voor publieke personen die hun naam sterker willen neerzetten.",
+          "deliver": "Website, social bio, link in bio, beeldselectie en basisplanning.",
+          "timeline": "2 tot 3 weken",
+          "cta": "Plan 15-min kennismaking"
+        },
+        {
+          "title": "Website die klopt",
+          "who": "Voor wie al zichtbaar is maar een heldere site mist.",
+          "deliver": "Design, bouw, contactflows, teksten en beeld in jouw toon.",
+          "timeline": "3 tot 4 weken",
+          "cta": "Vraag voorstel"
+        },
+        {
+          "title": "Zichtbaar blijven",
+          "who": "Voor wie continu herkenbaar wil posten zonder tijd te verliezen.",
+          "deliver": "Social templates, contentkalender, publicatie en monitoring.",
+          "timeline": "Maandelijkse samenwerking",
+          "cta": "Plan 15-min kennismaking"
+        }
+      ]
+    },
+    "cases": {
+      "intro": "Bewijs met echte opdrachten. Geen stock, wel resultaat.",
+      "list": [
+        {
+          "slug": "case-jack",
+          "title": "Jack Plooij",
+          "excerpt": "Website en socials die zijn stem laten zien.",
+          "image": "assets/img/cases/jackontracks-home.png"
+        },
+        {
+          "slug": "case-canservices",
+          "title": "CANSERVICES.nl",
+          "excerpt": "Zakelijke site met duidelijke contactroutes.",
+          "image": "assets/img/cases/canservices-home.png"
+        }
+      ]
+    },
+    "case_jack": {
+      "hero": "Case: Jack Plooij",
+      "ask": "Vraag: een website en socials die zijn stem en energie uitstralen.",
+      "built": "Gebouwd: snelle site, duidelijke knoppen, social templates en publicatieformat.",
+      "why": "Waarom het werkt: herkenbare foto s, directe teksten en vaste call to actions.",
+      "gallery": [
+        {"src": "assets/img/cases/jackontracks-home.png", "caption": "Homepage Jack Plooij"},
+        {"src": "assets/img/cases/jackontracks-inner.png", "caption": "Binnenpagina inzicht"}
+      ],
+      "cta": "Plan 15-min kennismaking"
+    },
+    "case_canservices": {
+      "hero": "Case: CANSERVICES.nl",
+      "ask": "Vraag: een zakelijke site die meteen duidelijk maakt wat het bedrijf doet.",
+      "built": "Gebouwd: moderne homepage, dienstenoverzicht en sterke call to action.",
+      "why": "Waarom het werkt: rust in het design, sterke foto s en duidelijke contactopties.",
+      "gallery": [
+        {"src": "assets/img/cases/canservices-home.png", "caption": "Homepage CANSERVICES.nl"}
+      ],
+      "cta": "Plan 15-min kennismaking"
+    },
+    "pricing": {
+      "intro": "Selectief samenwerken. Projecten starten vanaf 1500 euro.",
+      "tiers": [
+        {
+          "name": "Start",
+          "range": "Vanaf 1500 euro",
+          "items": [
+            "Website onepager",
+            "Basis tekst en beeld",
+            "Publicatie en overdracht"
+          ]
+        },
+        {
+          "name": "Essentieel",
+          "range": "2000 - 3500 euro",
+          "items": [
+            "Meerdere pagina s",
+            "Social templates",
+            "Contentplanning 1 maand"
+          ]
+        },
+        {
+          "name": "Doorlopend",
+          "range": "Vanaf 800 euro per maand",
+          "items": [
+            "Updates en optimalisaties",
+            "Contentcreatie en posting",
+            "Maandelijkse check"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Waarom geen vaste prijzen?",
+          "a": "Iedere naam en situatie is anders. Na de call krijg je een duidelijke indicatie."
+        },
+        {
+          "q": "Wat is inbegrepen?",
+          "a": "Design, bouw, basis content en begeleiding bij livegang."
+        },
+        {
+          "q": "Hoe snel start je?",
+          "a": "Binnen een week na akkoord, afhankelijk van beschikbaarheid."
+        }
+      ]
+    },
+    "about": {
+      "title": "Over LionScape",
+      "intro": "Ik werk direct met je samen, zonder lagen. Kwaliteit en snelheid gaan samen.",
+      "body": "Mijn projecten draaien om duidelijkheid. Geen buzzwords, wel een website en socials die laten zien wie je bent. Door beperkte capaciteit blijft de aandacht op jou.",
+      "proof": "Ervaring met Jack Plooij en bedrijven zoals CANSERVICES.nl."
+    },
+    "contact": {
+      "title": "Contact",
+      "intro": "Geen salesdruk. Eerst helder krijgen wat je nodig hebt.",
+      "note": "Liever zelf plannen? Stuur een mail voor een korte belafspraak.",
+      "cta": "Plan 15-min kennismaking"
+    },
+    "legal": {
+      "privacy": {
+        "title": "Privacy",
+        "body": "Formulieren worden veilig opgeslagen als JSON-regels in de map storage. Analytische cookies zijn optioneel en staan uit tenzij je ze inschakelt.",
+        "contact": "Voor vragen: info@lionscape.nl"
+      },
+      "cookies": {
+        "title": "Cookies",
+        "body": "Alleen functionele cookies voor formulieren en taalkeuze. Analytische cookies zijn optioneel en worden pas geplaatst na toestemming.",
+        "toggle": "Je kunt cookies altijd uitzetten via je browser."
+      }
+    },
+    "forms": {
+      "success_title": "Bedankt",
+      "success_body": "Je bericht is ontvangen. Ik reageer met een eerste voorstel.",
+      "error": "Controleer de velden en probeer opnieuw."
+    }
+  },
+  "en": {
+    "brand": "LionScape",
+    "location": "Bergen op Zoom, Netherlands",
+    "nav": {
+      "home": "Home",
+      "services": "Approach",
+      "cases": "Work",
+      "pricing": "Pricing",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "meta": {
+      "home": {
+        "title": "Websites and visibility for public figures | LionScape",
+        "description": "Website and social media for Jack Plooij. Selective projects for public figures and companies like CANSERVICES.nl."
+      },
+      "services": {
+        "title": "Approach: clear online presence | LionScape",
+        "description": "Three clear offers: online presence, site that fits, stay visible."
+      },
+      "cases": {
+        "title": "Work: Jack Plooij and CANSERVICES.nl | LionScape",
+        "description": "Proof with real examples: Jack Plooij and CANSERVICES.nl."
+      },
+      "case_jack": {
+        "title": "Case Jack Plooij | LionScape",
+        "description": "Website and socials for Jack Plooij with clear visibility."
+      },
+      "case_canservices": {
+        "title": "Case CANSERVICES.nl | LionScape",
+        "description": "Business case for CANSERVICES.nl with a clear site and presence."
+      },
+      "pricing": {
+        "title": "Pricing from EUR 1500 | LionScape",
+        "description": "Selective projects. After the intro call you get a clear indication."
+      },
+      "about": {
+        "title": "About LionScape | LionScape",
+        "description": "Small, quality-first. Websites and socials for public figures."
+      },
+      "contact": {
+        "title": "Contact | LionScape",
+        "description": "Book an intro call or request the free growth scan."
+      },
+      "privacy": {
+        "title": "Privacy | LionScape",
+        "description": "Privacy policy and form storage."
+      },
+      "cookies": {
+        "title": "Cookies | LionScape",
+        "description": "Cookie policy with optional analytics."
+      },
+      "not_found": {
+        "title": "Page not found | LionScape",
+        "description": "The page does not exist."
+      }
+    },
+    "shared": {
+      "cta_primary": "Book a 15-min intro",
+      "cta_secondary": "See the Jack Plooij example",
+      "cta_scan": "Request free growth scan",
+      "proof_line": "Website and social media for Jack Plooij. Also sites for companies like CANSERVICES.nl.",
+      "free_scan_title": "Free growth scan",
+      "free_scan_body": "Within 48 hours you receive five concrete ways to lift your visibility. No pressure, just clarity.",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone (optional)",
+        "message": "What do you want to improve?",
+        "submit": "Send",
+        "success": "Thank you. You will receive a confirmation."
+      },
+      "honeypot": "Leave this field empty",
+      "faq": [
+        {
+          "q": "How many projects at once?",
+          "a": "Maximum three so I stay involved personally."
+        },
+        {
+          "q": "How fast can we go live?",
+          "a": "A first version within three weeks when assets are ready."
+        },
+        {
+          "q": "Who writes the content?",
+          "a": "I draft and edit with you so it matches your voice."
+        },
+        {
+          "q": "How does the collaboration work?",
+          "a": "We start with a short call, then a plan and weekly checkpoints."
+        }
+      ],
+      "footer": {
+        "line": "Selective projects for public figures and strong brands.",
+        "contact": "Contact",
+        "email": "info@lionscape.nl",
+        "phone": "+31 6 0000 0000"
+      }
+    },
+    "home": {
+      "hero": {
+        "h1": "Websites and online visibility for public figures",
+        "sub": "Ready to be found with a site and socials that fit. No hassle, made personally.",
+        "cta_primary": "Book a 15-min intro",
+        "cta_secondary": "See the Jack Plooij example",
+        "cta_scan": "Request free growth scan"
+      },
+      "trust": ["Jack Plooij", "CANSERVICES.nl", "RTL Autosport", "Team partners"],
+      "cards_title": "What I handle for you",
+      "cards": [
+        {
+          "title": "Site that stands",
+          "text": "A crisp site that shows who you are and invites contact."
+        },
+        {
+          "title": "Socials handled",
+          "text": "Structure and tone so you stay visible without scattered posts."
+        },
+        {
+          "title": "Always consistent",
+          "text": "From imagery to bios and link in bio, every touchpoint matches."
+        }
+      ],
+      "featured": {
+        "title": "Case Jack Plooij",
+        "text": "New website, social templates and publishing cadence. Short lines and plain language.",
+        "cta": "View case"
+      },
+      "secondary": {
+        "title": "Business proof: CANSERVICES.nl",
+        "text": "Clear site, distinctive photography and direct contact routes.",
+        "cta": "View business case"
+      },
+      "steps_title": "How it works",
+      "steps": [
+        "15-minute intro",
+        "Work plan and confirmation",
+        "Design and build",
+        "Launch and support"
+      ],
+      "scan": {
+        "title": "Free growth scan",
+        "text": "Receive five points you can improve right away."
+      },
+      "faq": [
+        {
+          "q": "Do you work with teams?",
+          "a": "Yes, I coordinate with your assistant or agency so everything aligns."
+        },
+        {
+          "q": "Is there aftercare?",
+          "a": "Yes, I stay available for updates and posts."
+        },
+        {
+          "q": "How many revisions?",
+          "a": "We schedule feedback moments weekly, usually three rounds are enough."
+        }
+      ],
+      "final_cta": {
+        "title": "Ready for a site that fits your name?",
+        "text": "Book a short call. I only take a few projects at a time.",
+        "cta": "Book a 15-min intro"
+      }
+    },
+    "services": {
+      "intro": "Three concrete ways to handle your online presence without hassle.",
+      "offers": [
+        {
+          "title": "Online presence",
+          "who": "For public figures who want a stronger name online.",
+          "deliver": "Website, social bio, link in bio, image curation and baseline planning.",
+          "timeline": "2 to 3 weeks",
+          "cta": "Book a 15-min intro"
+        },
+        {
+          "title": "Site that fits",
+          "who": "For those already visible but missing a clear site.",
+          "deliver": "Design, build, contact flows, copy and visuals in your voice.",
+          "timeline": "3 to 4 weeks",
+          "cta": "Request outline"
+        },
+        {
+          "title": "Stay visible",
+          "who": "For steady posting without wasting time.",
+          "deliver": "Social templates, content calendar, publishing and light monitoring.",
+          "timeline": "Monthly collaboration",
+          "cta": "Book a 15-min intro"
+        }
+      ]
+    },
+    "cases": {
+      "intro": "Proof with real assignments. No stock, just results.",
+      "list": [
+        {
+          "slug": "case-jack",
+          "title": "Jack Plooij",
+          "excerpt": "Website and socials that carry his voice.",
+          "image": "assets/img/cases/jackontracks-home.png"
+        },
+        {
+          "slug": "case-canservices",
+          "title": "CANSERVICES.nl",
+          "excerpt": "Business site with clear contact routes.",
+          "image": "assets/img/cases/canservices-home.png"
+        }
+      ]
+    },
+    "case_jack": {
+      "hero": "Case: Jack Plooij",
+      "ask": "Ask: a website and socials that show his voice and energy.",
+      "built": "Built: fast site, direct buttons, social templates and publishing format.",
+      "why": "Why it works: recognizable photos, direct copy and fixed calls to action.",
+      "gallery": [
+        {"src": "assets/img/cases/jackontracks-home.png", "caption": "Jack Plooij homepage"},
+        {"src": "assets/img/cases/jackontracks-inner.png", "caption": "Inner section detail"}
+      ],
+      "cta": "Book a 15-min intro"
+    },
+    "case_canservices": {
+      "hero": "Case: CANSERVICES.nl",
+      "ask": "Ask: a business site that is clear at first glance.",
+      "built": "Built: modern homepage, services overview and strong calls to action.",
+      "why": "Why it works: calm design, strong photography and clear contact options.",
+      "gallery": [
+        {"src": "assets/img/cases/canservices-home.png", "caption": "CANSERVICES.nl homepage"}
+      ],
+      "cta": "Book a 15-min intro"
+    },
+    "pricing": {
+      "intro": "Selective collaborations. Projects start from EUR 1500.",
+      "tiers": [
+        {
+          "name": "Start",
+          "range": "From EUR 1500",
+          "items": [
+            "One-page site",
+            "Baseline copy and visuals",
+            "Launch and handover"
+          ]
+        },
+        {
+          "name": "Essential",
+          "range": "EUR 2000 - 3500",
+          "items": [
+            "Multiple pages",
+            "Social templates",
+            "One-month content planning"
+          ]
+        },
+        {
+          "name": "Ongoing",
+          "range": "From EUR 800 per month",
+          "items": [
+            "Updates and refinements",
+            "Content creation and posting",
+            "Monthly review"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why no fixed prices?",
+          "a": "Every name and context differs. After the call you receive a clear indication."
+        },
+        {
+          "q": "What is included?",
+          "a": "Design, build, baseline content and support for launch."
+        },
+        {
+          "q": "How soon can we start?",
+          "a": "Within a week after agreement, depending on availability."
+        }
+      ]
+    },
+    "about": {
+      "title": "About LionScape",
+      "intro": "I work with you directly. Quality and speed together.",
+      "body": "My projects are built on clarity. No buzzwords, just a site and socials that show who you are. Limited capacity keeps the focus on you.",
+      "proof": "Experience with Jack Plooij and companies like CANSERVICES.nl."
+    },
+    "contact": {
+      "title": "Contact",
+      "intro": "No sales pressure. First we clarify what you need.",
+      "note": "Prefer to schedule yourself? Email to set a short call.",
+      "cta": "Book a 15-min intro"
+    },
+    "legal": {
+      "privacy": {
+        "title": "Privacy",
+        "body": "Forms are stored safely as JSON lines in the storage folder. Analytics cookies are optional and stay off unless you enable them.",
+        "contact": "For questions: info@lionscape.nl"
+      },
+      "cookies": {
+        "title": "Cookies",
+        "body": "Only functional cookies for forms and language choice. Analytics cookies are optional and set only after consent.",
+        "toggle": "You can disable cookies anytime in your browser."
+      }
+    },
+    "forms": {
+      "success_title": "Thank you",
+      "success_body": "Your message has been received. I will reply with a first outline.",
+      "error": "Check the fields and try again."
+    }
+  }
+}

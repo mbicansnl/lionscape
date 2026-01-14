@@ -1,0 +1,147 @@
+<?php
+$shared = content_for($content, $lang, 'shared', []);
+$home = content_for($content, $lang, 'home', []);
+?>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow" data-i18n="shared.proof_line"><?php echo htmlspecialchars($shared['proof_line'] ?? ''); ?></p>
+      <h1 data-i18n="home.hero.h1"><?php echo htmlspecialchars($home['hero']['h1'] ?? ''); ?></h1>
+      <p class="lead" data-i18n="home.hero.sub"><?php echo htmlspecialchars($home['hero']['sub'] ?? ''); ?></p>
+      <div class="cta-group">
+        <a class="button primary" href="/contact" data-i18n="home.hero.cta_primary"><?php echo htmlspecialchars($home['hero']['cta_primary'] ?? ''); ?></a>
+        <a class="button ghost" href="/case-jack" data-i18n="home.hero.cta_secondary"><?php echo htmlspecialchars($home['hero']['cta_secondary'] ?? ''); ?></a>
+        <a class="button text" href="#scan" data-i18n="home.hero.cta_scan"><?php echo htmlspecialchars($home['hero']['cta_scan'] ?? ''); ?></a>
+      </div>
+      <div class="trust-strip" aria-label="Vertrouwde namen">
+        <?php foreach (($home['trust'] ?? []) as $name): ?>
+          <span><?php echo htmlspecialchars($name); ?></span>
+        <?php endforeach; ?>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <figure>
+        <img src="/assets/img/cases/jackontracks-home.png" alt="Jack Plooij website" width="720" height="480" loading="lazy">
+        <figcaption>Jack Plooij</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="cards">
+  <div class="container">
+    <h2 data-i18n="home.cards_title"><?php echo htmlspecialchars($home['cards_title'] ?? ''); ?></h2>
+    <div class="grid-3">
+      <?php foreach (($home['cards'] ?? []) as $card): ?>
+        <article class="card">
+          <h3><?php echo htmlspecialchars($card['title']); ?></h3>
+          <p><?php echo htmlspecialchars($card['text']); ?></p>
+        </article>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<section class="case-highlight">
+  <div class="container highlight-grid">
+    <div>
+      <p class="eyebrow" data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></p>
+      <h2><?php echo htmlspecialchars($home['featured']['text'] ?? ''); ?></h2>
+      <a class="button primary" href="/case-jack" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></a>
+    </div>
+    <figure>
+      <img src="/assets/img/cases/jackontracks-home.png" alt="Jack Plooij case" width="640" height="400" loading="lazy">
+      <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="case-secondary">
+  <div class="container highlight-grid">
+    <figure>
+      <img src="/assets/img/cases/canservices-home.png" alt="CANSERVICES.nl case" width="640" height="400" loading="lazy">
+      <figcaption data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></figcaption>
+    </figure>
+    <div>
+      <p class="eyebrow" data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></p>
+      <h2><?php echo htmlspecialchars($home['secondary']['text'] ?? ''); ?></h2>
+      <a class="button ghost" href="/case-canservices" data-i18n="home.secondary.cta"><?php echo htmlspecialchars($home['secondary']['cta'] ?? ''); ?></a>
+    </div>
+  </div>
+</section>
+
+<section class="steps">
+  <div class="container">
+    <h2 data-i18n="home.steps_title"><?php echo htmlspecialchars($home['steps_title'] ?? ''); ?></h2>
+    <ol class="step-list">
+      <?php foreach (($home['steps'] ?? []) as $step): ?>
+        <li><?php echo htmlspecialchars($step); ?></li>
+      <?php endforeach; ?>
+    </ol>
+  </div>
+</section>
+
+<section id="scan" class="form-block">
+  <div class="container form-grid">
+    <div>
+      <h2 data-i18n="home.scan.title"><?php echo htmlspecialchars($home['scan']['title'] ?? ''); ?></h2>
+      <p data-i18n="home.scan.text"><?php echo htmlspecialchars($home['scan']['text'] ?? ''); ?></p>
+      <?php if (!empty($messages['success'])): ?>
+        <div class="notice success" role="status"><?php echo htmlspecialchars($messages['success']); ?></div>
+      <?php elseif (!empty($messages['error'])): ?>
+        <div class="notice error" role="alert"><?php echo htmlspecialchars($messages['error']); ?></div>
+      <?php endif; ?>
+    </div>
+    <form method="post" novalidate>
+      <input type="hidden" name="form_type" value="scan">
+      <label>
+        <span data-i18n="shared.form.name"><?php echo htmlspecialchars($shared['form']['name'] ?? ''); ?></span>
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        <span data-i18n="shared.form.email"><?php echo htmlspecialchars($shared['form']['email'] ?? ''); ?></span>
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        <span data-i18n="shared.form.phone"><?php echo htmlspecialchars($shared['form']['phone'] ?? ''); ?></span>
+        <input type="text" name="phone">
+      </label>
+      <label>
+        <span data-i18n="shared.form.message"><?php echo htmlspecialchars($shared['form']['message'] ?? ''); ?></span>
+        <textarea name="message" rows="4"></textarea>
+      </label>
+      <label class="hidden">
+        <span><?php echo htmlspecialchars($shared['honeypot'] ?? ''); ?></span>
+        <input type="text" name="note" tabindex="-1" autocomplete="off">
+      </label>
+      <button class="button primary" type="submit" data-i18n="shared.form.submit"><?php echo htmlspecialchars($shared['form']['submit'] ?? ''); ?></button>
+    </form>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="container">
+    <h2>FAQ</h2>
+    <div class="accordion">
+      <?php foreach (($home['faq'] ?? []) as $item): ?>
+        <details>
+          <summary><?php echo htmlspecialchars($item['q']); ?></summary>
+          <p><?php echo htmlspecialchars($item['a']); ?></p>
+        </details>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="container final-grid">
+    <div>
+      <h2 data-i18n="home.final_cta.title"><?php echo htmlspecialchars($home['final_cta']['title'] ?? ''); ?></h2>
+      <p data-i18n="home.final_cta.text"><?php echo htmlspecialchars($home['final_cta']['text'] ?? ''); ?></p>
+    </div>
+    <div class="cta-actions">
+      <a class="button primary" href="/contact" data-i18n="home.final_cta.cta"><?php echo htmlspecialchars($home['final_cta']['cta'] ?? ''); ?></a>
+      <a class="button ghost" href="/prijzen" data-i18n="nav.pricing"><?php echo htmlspecialchars(content_for($content, $lang, 'nav.pricing', 'Prijzen')); ?></a>
+    </div>
+  </div>
+</section>
