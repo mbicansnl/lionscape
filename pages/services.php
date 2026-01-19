@@ -8,6 +8,19 @@ $shared = content_for($content, $lang, 'shared', []);
     <p><?php echo htmlspecialchars($data['intro'] ?? ''); ?></p>
   </div>
 </section>
+<section class="approach">
+  <div class="container">
+    <h2 data-i18n="services.approach_title"><?php echo htmlspecialchars($data['approach_title'] ?? ''); ?></h2>
+    <div class="accordion">
+      <?php foreach (($data['approach'] ?? []) as $step): ?>
+        <details>
+          <summary><?php echo htmlspecialchars($step['title']); ?></summary>
+          <p><?php echo htmlspecialchars($step['body']); ?></p>
+        </details>
+      <?php endforeach; ?>
+    </div>
+  </div>
+</section>
 <section class="offers">
   <div class="container offer-grid">
     <?php foreach (($data['offers'] ?? []) as $offer): ?>
