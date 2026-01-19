@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-$content = json_decode((string)file_get_contents(__DIR__ . '/content.json'), true);
+$content = json_decode((string)file_get_contents(__DIR__ . '/data/content.json'), true);
 if (!$content) {
     http_response_code(500);
     echo 'Content kon niet geladen worden.';

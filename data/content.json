@@ -95,7 +95,11 @@
         "contact": "Contact",
         "email": "info@lionscape.nl",
         "phone": "+31 6 0000 0000"
-      }
+      },
+      "faq_title": "FAQ",
+      "menu_label": "Menu",
+      "sitemap_label": "Sitemap",
+      "cta_view_case": "Bekijk"
     },
     "home": {
       "hero": {
@@ -200,13 +204,15 @@
           "slug": "case-jack",
           "title": "Jack Plooij",
           "excerpt": "Website en socials die zijn stem laten zien.",
-          "image": "assets/img/cases/jackontracks-home.png"
+          "image": "assets/img/cases/jackontracks-home.svg",
+          "image_alt": "Jack Plooij website"
         },
         {
           "slug": "case-canservices",
           "title": "CANSERVICES.nl",
           "excerpt": "Zakelijke site met duidelijke contactroutes.",
-          "image": "assets/img/cases/canservices-home.png"
+          "image": "assets/img/cases/canservices-home.svg",
+          "image_alt": "CANSERVICES.nl website"
         }
       ]
     },
@@ -217,11 +223,11 @@
       "why": "Waarom het werkt: herkenbare foto s, directe teksten en vaste call to actions.",
       "gallery": [
         {
-          "src": "assets/img/cases/jackontracks-home.png",
+          "src": "assets/img/cases/jackontracks-home.svg",
           "caption": "Homepage Jack Plooij"
         },
         {
-          "src": "assets/img/cases/jackontracks-inner.png",
+          "src": "assets/img/cases/jackontracks-inner.svg",
           "caption": "Binnenpagina inzicht"
         }
       ],
@@ -234,7 +240,7 @@
       "why": "Waarom het werkt: rust in het design, sterke foto s en duidelijke contactopties.",
       "gallery": [
         {
-          "src": "assets/img/cases/canservices-home.png",
+          "src": "assets/img/cases/canservices-home.svg",
           "caption": "Homepage CANSERVICES.nl"
         }
       ],
@@ -412,7 +418,11 @@
         "contact": "Contact",
         "email": "info@lionscape.nl",
         "phone": "+31 6 0000 0000"
-      }
+      },
+      "faq_title": "FAQ",
+      "menu_label": "Menu",
+      "sitemap_label": "Sitemap",
+      "cta_view_case": "View case"
     },
     "home": {
       "hero": {
@@ -517,13 +527,15 @@
           "slug": "case-jack",
           "title": "Jack Plooij",
           "excerpt": "Website and socials that carry his voice...",
-          "image": "assets/img/jackontracks-logo.png"
+          "image": "assets/img/cases/jackontracks-home.svg",
+          "image_alt": "Jack Plooij website"
         },
         {
           "slug": "case-canservices",
           "title": "CANSERVICES.nl",
           "excerpt": "Business site with clear contact routes.",
-          "image": "assets/img/cases/canservices-home.png"
+          "image": "assets/img/cases/canservices-home.svg",
+          "image_alt": "CANSERVICES.nl website"
         }
       ]
     },
@@ -534,11 +546,11 @@
       "why": "Why it works: recognizable photos, direct copy and fixed calls to action.",
       "gallery": [
         {
-          "src": "assets/img/cases/jackontracks-home.png",
+          "src": "assets/img/cases/jackontracks-home.svg",
           "caption": "Jack Plooij homepage"
         },
         {
-          "src": "assets/img/cases/jackontracks-inner.png",
+          "src": "assets/img/cases/jackontracks-inner.svg",
           "caption": "Inner section detail"
         }
       ],
@@ -551,7 +563,7 @@
       "why": "Why it works: calm design, strong photography and clear contact options.",
       "gallery": [
         {
-          "src": "assets/img/cases/canservices-home.png",
+          "src": "assets/img/cases/canservices-home.svg",
           "caption": "CANSERVICES.nl homepage"
         }
       ],

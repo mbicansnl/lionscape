@@ -1,5 +1,6 @@
 <?php
 $data = content_for($content, $lang, 'cases', []);
+$shared = content_for($content, $lang, 'shared', []);
 ?>
 <section class="page-hero">
   <div class="container">
@@ -12,11 +13,11 @@ $data = content_for($content, $lang, 'cases', []);
     <?php foreach (($data['list'] ?? []) as $case): ?>
       <article class="card">
         <figure>
-          <img src="/<?php echo htmlspecialchars($case['image']); ?>" alt="<?php echo htmlspecialchars($case['title']); ?>" width="540" height="320" loading="lazy">
+          <img src="/<?php echo htmlspecialchars($case['image']); ?>" alt="<?php echo htmlspecialchars($case['image_alt'] ?? $case['title']); ?>" width="540" height="320" loading="lazy">
         </figure>
         <h2><?php echo htmlspecialchars($case['title']); ?></h2>
         <p><?php echo htmlspecialchars($case['excerpt']); ?></p>
-        <a class="button primary" href="/<?php echo htmlspecialchars($case['slug']); ?>">Bekijk</a>
+        <a class="button primary" href="/<?php echo htmlspecialchars($case['slug']); ?>" data-i18n="shared.cta_view_case"><?php echo htmlspecialchars($shared['cta_view_case'] ?? 'Bekijk'); ?></a>
       </article>
     <?php endforeach; ?>
   </div>

@@ -1,6 +1,6 @@
 # LionScape bilingual site
 
-Complete bilingual (NL default, EN) PHP 8.2 website for a one-person business serving public figures. Text lives in `content.json` under `nl` and `en` keys. Routing is handled by `index.php` with PHP templates.
+Complete bilingual (NL default, EN) PHP 8.2 website for a one-person business serving public figures. Text lives in `data/content.json` under `nl` and `en` keys. Routing is handled by `index.php` with PHP templates.
 
 ## Run locally
 1. `php -S localhost:8000` from the project root.
@@ -31,7 +31,7 @@ Complete bilingual (NL default, EN) PHP 8.2 website for a one-person business se
   The script saves PNGs to `assets/img/cases/` relative to the repo root.
 
 ## SEO and sitemap
-- Meta titles/descriptions come from `content.json` per page.
+- Meta titles/descriptions come from `data/content.json` per page.
 - Canonical URLs use clean paths; EN uses `?lang=en`.
 - JSON-LD is injected for BreadcrumbList, LocalBusiness, WebSite, and Article on case pages.
 - `sitemap.php` outputs `sitemap.xml`; `robots.txt` references it.
