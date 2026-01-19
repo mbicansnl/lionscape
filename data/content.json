@@ -221,6 +221,29 @@
       "ask": "Vraag: een website en socials die zijn stem en energie uitstralen.",
       "built": "Gebouwd: snelle site, duidelijke knoppen, social templates en publicatieformat.",
       "why": "Waarom het werkt: herkenbare foto s, directe teksten en vaste call to actions.",
+      "features_title": "Features:",
+      "features": [
+        {
+          "label": "downloadable interactive calendar",
+          "url": "https://jackontracks.com/f1"
+        },
+        {
+          "label": "interactive schedule",
+          "url": "https://jackontracks.com/pandora"
+        },
+        {
+          "label": "interactive gallery",
+          "url": "https://jackontracks.com/f1"
+        },
+        {
+          "label": "interactive slider",
+          "url": "https://jackontracks.com"
+        },
+        {
+          "label": "expandable text modules",
+          "url": "https://jackontracks.com/spreker"
+        }
+      ],
       "gallery": [
         {
           "src": "assets/img/cases/jackontracks-home.png",
@@ -544,6 +567,29 @@
       "ask": "Ask: a website and socials that show his voice and energy.",
       "built": "Built: fast site, direct buttons, social templates and publishing format.",
       "why": "Why it works: recognizable photos, direct copy and fixed calls to action.",
+      "features_title": "Features:",
+      "features": [
+        {
+          "label": "downloadable interactive calendar",
+          "url": "https://jackontracks.com/f1"
+        },
+        {
+          "label": "interactive schedule",
+          "url": "https://jackontracks.com/pandora"
+        },
+        {
+          "label": "interactive gallery",
+          "url": "https://jackontracks.com/f1"
+        },
+        {
+          "label": "interactive slider",
+          "url": "https://jackontracks.com"
+        },
+        {
+          "label": "expandable text modules",
+          "url": "https://jackontracks.com/spreker"
+        }
+      ],
       "gallery": [
         {
           "src": "assets/img/cases/jackontracks-home.png",

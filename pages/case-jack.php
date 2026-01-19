@@ -12,6 +12,18 @@ $data = content_for($content, $lang, 'case_jack', []);
     <div>
       <h2><?php echo htmlspecialchars($data['built'] ?? ''); ?></h2>
       <p><?php echo htmlspecialchars($data['why'] ?? ''); ?></p>
+      <?php if (!empty($data['features'])): ?>
+        <h3><?php echo htmlspecialchars($data['features_title'] ?? ''); ?></h3>
+        <ul>
+          <?php foreach ($data['features'] as $feature): ?>
+            <li>
+              <a href="<?php echo htmlspecialchars($feature['url'] ?? ''); ?>">
+                <?php echo htmlspecialchars($feature['label'] ?? ''); ?>
+              </a>
+            </li>
+          <?php endforeach; ?>
+        </ul>
+      <?php endif; ?>
       <a class="button primary" href="/contact" data-i18n="case_jack.cta"><?php echo htmlspecialchars($data['cta'] ?? ''); ?></a>
     </div>
     <div class="gallery">
