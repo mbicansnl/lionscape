@@ -173,6 +173,41 @@
     },
     "services": {
       "intro": "Drie concrete manieren om je online zichtbaarheid te regelen zonder gedoe.",
+      "approach_title": "Aanpak",
+      "approach": [
+        {
+          "title": "Intake",
+          "body": "Er wordt een kennismakingsgesprek ingepland om doelen, doelgroep, randvoorwaarden en gewenste functionaliteit vast te stellen. Op basis daarvan wordt een eerste prijsindicatie opgesteld en een compact concept uitgewerkt. Binnen 2 werkdagen wordt een voorstel aangeleverd met de kernpunten, globale planning en duidelijke vervolgstappen."
+        },
+        {
+          "title": "Bijstellen",
+          "body": "Na de eerste opzet wordt het concept stap voor stap besproken. Keuzes rondom structuur, navigatie, content, functies en stijl worden aangescherpt, zodat het resultaat aansluit op de specifieke behoefte. Waar nodig worden prioriteiten en scope geconcretiseerd om verrassingen tijdens de uitvoering te voorkomen."
+        },
+        {
+          "title": "Productie",
+          "body": "Na akkoord wordt het concept in productie genomen. De website wordt gerealiseerd volgens de gemaakte afspraken over ontwerp en functionaliteit. Tijdens deze fase wordt periodiek voortgang gedeeld en wordt feedback op vaste momenten verwerkt."
+        },
+        {
+          "title": "Pitch",
+          "body": "Zodra een volledige versie gereed is, volgt een presentatie en review. Alle onderdelen worden doorgelopen: structuur, pagina’s, content, prestaties en werking van de features. Het doel is om de laatste verbeterpunten en eventuele optimalisaties scherp vast te leggen."
+        },
+        {
+          "title": "Laatste bijstelling",
+          "body": "Alle punten uit de pitch worden gecontroleerd en doorgevoerd. Deze fase richt zich op afwerking en kwaliteit: teksten, afbeeldingen, formulieren, links, consistentie in uitstraling en het oplossen van eventuele onvolkomenheden."
+        },
+        {
+          "title": "Final pitch",
+          "body": "Er volgt een laatste reviewronde waarin alle onderdelen in samenhang worden gecontroleerd: features, belangrijke informatie, teksten, call-to-actions en contactpunten. Na akkoord kan de livegang worden voorbereid."
+        },
+        {
+          "title": "Live",
+          "body": "De website wordt live gezet. Daarbij worden technische onderdelen gecontroleerd, zoals domein- en hostinginstellingen, SSL, redirects en basisprestaties. Ook vindt een eindcontrole plaats op correcte werking op desktop en mobiel."
+        },
+        {
+          "title": "SEO",
+          "body": "Na livegang wordt de website geïndexeerd door zoekmachines. Vervolgens kan SEO waar nodig worden bijgesteld, onder andere via titels, meta-beschrijvingen, structuur, interne links en (waar relevant) gerichte content-verbeteringen. Het doel is om vindbaarheid stapsgewijs te optimaliseren op relevante zoektermen."
+        }
+      ],
       "offers": [
         {
           "title": "Online uitstraling",
@@ -520,6 +555,41 @@
     },
     "services": {
       "intro": "Three concrete ways to handle your online presence without hassle.",
+      "approach_title": "Approach",
+      "approach": [
+        {
+          "title": "Intake",
+          "body": "We schedule a short intake to define goals, audience, constraints, and desired functionality. Based on that, you receive an initial price indication and a compact concept. Within two business days you get a proposal with key points, a rough timeline, and clear next steps."
+        },
+        {
+          "title": "Refinement",
+          "body": "After the first outline, we go through the concept step by step. Decisions on structure, navigation, content, features, and style are sharpened so the result fits your needs. Priorities and scope are clarified to prevent surprises during delivery."
+        },
+        {
+          "title": "Production",
+          "body": "After approval, the concept moves into production. The website is built according to the agreements on design and functionality. Progress updates are shared regularly, and feedback is handled at set moments."
+        },
+        {
+          "title": "Pitch",
+          "body": "Once a full version is ready, we review it together. We walk through structure, pages, content, performance, and features. The goal is to capture any last improvements or optimizations."
+        },
+        {
+          "title": "Final adjustments",
+          "body": "All points from the pitch are checked and applied. This phase focuses on polish and quality: copy, images, forms, links, consistency in look and feel, and resolving any imperfections."
+        },
+        {
+          "title": "Final pitch",
+          "body": "A final review checks the full experience: features, key information, copy, calls to action, and contact points. After approval, we can prepare the launch."
+        },
+        {
+          "title": "Launch",
+          "body": "The website goes live. Technical items are checked, including domain and hosting settings, SSL, redirects, and baseline performance. A final check ensures correct behavior on desktop and mobile."
+        },
+        {
+          "title": "SEO",
+          "body": "After launch, the site is indexed by search engines. SEO can then be tuned where needed, such as titles, meta descriptions, structure, internal links, and targeted content improvements. The goal is to steadily improve visibility for relevant search terms."
+        }
+      ],
       "offers": [
         {
           "title": "Online presence",
