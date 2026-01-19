@@ -7,6 +7,11 @@ $data = content_for($content, $lang, 'case_jack', []);
     <p><?php echo htmlspecialchars($data['ask'] ?? ''); ?></p>
   </div>
 </section>
+section class="case-body">
+  <div class="container grid-2">
+    <div>
+      <h2><?php echo htmlspecialchars($data['built'] ?? ''); ?></h2>
+      <p><?php echo htmlspecialchars($data['why'] ?? ''); ?></p>
       <h3>Features:</h3>
       <ul>
         <li><a href="https://jackontracks.com/f1">downloadable interactive calendar</a></li>
