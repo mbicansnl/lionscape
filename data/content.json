@@ -223,7 +223,7 @@
       "why": "Waarom het werkt: herkenbare foto s, directe teksten en vaste call to actions.",
       "gallery": [
         {
-          "src": "assets/img/cases/jackontracks-home.svg",
+          "src": "assets/img/cases/jackontracks-home.png",
           "caption": "Homepage Jack Plooij"
         },
         {
@@ -527,7 +527,7 @@
           "slug": "case-jack",
           "title": "Jack Plooij",
           "excerpt": "Website and socials that carry his voice...",
-          "image": "assets/img/cases/jackontracks-home.svg",
+          "image": "assets/img/cases/jackontracks-home.png",
           "image_alt": "Jack Plooij website"
         },
         {
@@ -546,7 +546,7 @@
       "why": "Why it works: recognizable photos, direct copy and fixed calls to action.",
       "gallery": [
         {
-          "src": "assets/img/cases/jackontracks-home.svg",
+          "src": "assets/img/cases/jackontracks-home.png",
           "caption": "Jack Plooij homepage"
         },
         {
