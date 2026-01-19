@@ -105,7 +105,12 @@
         "cta_secondary": "Bekijk voorbeeld Jack Plooij",
         "cta_scan": "Vraag gratis groeiscan"
       },
-      "trust": ["Jack Plooij", "CANSERVICES.nl", "RTL Autosport", "Teamverbanden"],
+      "trust": [
+        "Jack Plooij",
+        "CANSERVICES.nl",
+        "RTL Autosport",
+        "Teamverbanden"
+      ],
       "cards_title": "Wat ik voor je regel",
       "cards": [
         {
@@ -211,8 +216,14 @@
       "built": "Gebouwd: snelle site, duidelijke knoppen, social templates en publicatieformat.",
       "why": "Waarom het werkt: herkenbare foto s, directe teksten en vaste call to actions.",
       "gallery": [
-        {"src": "assets/img/cases/jackontracks-home.png", "caption": "Homepage Jack Plooij"},
-        {"src": "assets/img/cases/jackontracks-inner.png", "caption": "Binnenpagina inzicht"}
+        {
+          "src": "assets/img/cases/jackontracks-home.png",
+          "caption": "Homepage Jack Plooij"
+        },
+        {
+          "src": "assets/img/cases/jackontracks-inner.png",
+          "caption": "Binnenpagina inzicht"
+        }
       ],
       "cta": "Plan 15-min kennismaking"
     },
@@ -222,7 +233,10 @@
       "built": "Gebouwd: moderne homepage, dienstenoverzicht en sterke call to action.",
       "why": "Waarom het werkt: rust in het design, sterke foto s en duidelijke contactopties.",
       "gallery": [
-        {"src": "assets/img/cases/canservices-home.png", "caption": "Homepage CANSERVICES.nl"}
+        {
+          "src": "assets/img/cases/canservices-home.png",
+          "caption": "Homepage CANSERVICES.nl"
+        }
       ],
       "cta": "Plan 15-min kennismaking"
     },
@@ -408,7 +422,12 @@
         "cta_secondary": "See the Jack Plooij example",
         "cta_scan": "Request free growth scan"
       },
-      "trust": ["Jack Plooij", "CANSERVICES.nl", "RTL Autosport", "Team partners"],
+      "trust": [
+        "Jack Plooij",
+        "CANSERVICES.nl",
+        "RTL Autosport",
+        "Team partners"
+      ],
       "cards_title": "What I handle for you",
       "cards": [
         {
@@ -498,7 +517,7 @@
           "slug": "case-jack",
           "title": "Jack Plooij",
           "excerpt": "Website and socials that carry his voice.",
-          "image": "assets/img/cases/jackontracks-home.png"
+          "image": "assets/img/cases/jackontracks-logo.png"
         },
         {
           "slug": "case-canservices",
@@ -514,8 +533,14 @@
       "built": "Built: fast site, direct buttons, social templates and publishing format.",
       "why": "Why it works: recognizable photos, direct copy and fixed calls to action.",
       "gallery": [
-        {"src": "assets/img/cases/jackontracks-home.png", "caption": "Jack Plooij homepage"},
-        {"src": "assets/img/cases/jackontracks-inner.png", "caption": "Inner section detail"}
+        {
+          "src": "assets/img/cases/jackontracks-home.png",
+          "caption": "Jack Plooij homepage"
+        },
+        {
+          "src": "assets/img/cases/jackontracks-inner.png",
+          "caption": "Inner section detail"
+        }
       ],
       "cta": "Book a 15-min intro"
     },
@@ -525,7 +550,10 @@
       "built": "Built: modern homepage, services overview and strong calls to action.",
       "why": "Why it works: calm design, strong photography and clear contact options.",
       "gallery": [
-        {"src": "assets/img/cases/canservices-home.png", "caption": "CANSERVICES.nl homepage"}
+        {
+          "src": "assets/img/cases/canservices-home.png",
+          "caption": "CANSERVICES.nl homepage"
+        }
       ],
       "cta": "Book a 15-min intro"
     },
