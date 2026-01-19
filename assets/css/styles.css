@@ -35,12 +35,15 @@ a:hover { text-decoration: underline; }
 .hero { padding: 3rem 0 2rem; }
 .hero h1 { font-size: clamp(2rem, 3vw, 3rem); margin: 0.4rem 0; }
 .lead { color: var(--muted); }
-.hero-visual img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border); }
+.hero-visual img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border); display: block; }
 .trust-strip { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; color: var(--muted); }
 .trust-strip span { background: var(--card); padding: 0.4rem 0.6rem; border-radius: 999px; border: 1px solid var(--border); transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease; }
 .trust-strip span:hover { transform: translateY(-2px); border-color: var(--accent); background: #173250; box-shadow: 0 0 14px rgba(123, 200, 255, 0.35); }
 .hero-visual figure, .case-highlight figure, .case-secondary figure { transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease; }
 .hero-visual figure:hover, .case-highlight figure:hover, .case-secondary figure:hover { transform: translateY(-4px); filter: brightness(1.05); box-shadow: 0 0 18px rgba(123, 200, 255, 0.35); }
+figure { margin: 0; }
+figcaption { margin-top: 0.75rem; color: var(--muted); font-size: 0.95rem; }
+.case-highlight img, .case-secondary img { display: block; }
 
 .cards { padding: 2.5rem 0; }
 .card { background: var(--card); padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border); box-shadow: var(--shadow); }
@@ -55,7 +58,9 @@ a:hover { text-decoration: underline; }
 .button.text { color: var(--accent); padding-left: 0; }
 .cta-group { display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; }
 
-.step-list { list-style: decimal-leading-zero; padding-left: 1.2rem; display: grid; gap: 0.6rem; color: var(--muted); }
+.step-list { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 0.6rem; counter-reset: step; }
+.step-list li { position: relative; padding: 0.65rem 1rem 0.65rem 2.6rem; background: var(--card); border-radius: 999px; border: 1px solid var(--border); box-shadow: var(--shadow); }
+.step-list li::before { counter-increment: step; content: counter(step, decimal-leading-zero); position: absolute; left: 0.9rem; top: 50%; transform: translateY(-50%); color: var(--accent); font-weight: 600; }
 .form-grid form { display: grid; gap: 1rem; background: var(--card); padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border); }
 label { display: grid; gap: 0.35rem; color: var(--muted); }
 input, textarea { width: 100%; padding: 0.75rem; border-radius: 8px; border: 1px solid var(--border); background: #0b1c2c; color: var(--text); }
