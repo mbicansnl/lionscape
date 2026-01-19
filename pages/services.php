@@ -23,7 +23,7 @@ $shared = content_for($content, $lang, 'shared', []);
 </section>
 <section class="faq">
   <div class="container">
-    <h2>FAQ</h2>
+    <h2 data-i18n="shared.faq_title"><?php echo htmlspecialchars($shared['faq_title'] ?? 'FAQ'); ?></h2>
     <div class="accordion">
       <?php foreach (content_for($content, $lang, 'shared.faq', []) as $item): ?>
         <details>

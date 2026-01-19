@@ -1,6 +1,9 @@
 <?php
 $shared = content_for($content, $lang, 'shared', []);
 $home = content_for($content, $lang, 'home', []);
+$cases = content_for($content, $lang, 'cases.list', []);
+$heroCase = $cases[0] ?? [];
+$secondaryCase = $cases[1] ?? [];
 ?>
 <section class="hero">
   <div class="container hero-grid">
@@ -21,8 +24,8 @@ $home = content_for($content, $lang, 'home', []);
     </div>
     <div class="hero-visual">
       <figure>
-        <img src="/assets/img/cases/jackontracks-home.png" alt="Jack Plooij website" width="720" height="480" loading="lazy">
-        <figcaption>Jack Plooij</figcaption>
+        <img src="/<?php echo htmlspecialchars($heroCase['image'] ?? ''); ?>" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? ($heroCase['title'] ?? '')); ?>" width="720" height="480" loading="lazy">
+        <figcaption><?php echo htmlspecialchars($heroCase['title'] ?? ''); ?></figcaption>
       </figure>
     </div>
   </div>
@@ -50,7 +53,7 @@ $home = content_for($content, $lang, 'home', []);
       <a class="button primary" href="/case-jack" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></a>
     </div>
     <figure>
-      <img src="/assets/img/cases/jackontracks-home.png" alt="Jack Plooij case" width="640" height="400" loading="lazy">
+      <img src="/<?php echo htmlspecialchars($heroCase['image'] ?? ''); ?>" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? ($heroCase['title'] ?? '')); ?>" width="640" height="400" loading="lazy">
       <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
     </figure>
   </div>
@@ -59,7 +62,7 @@ $home = content_for($content, $lang, 'home', []);
 <section class="case-secondary">
   <div class="container highlight-grid">
     <figure>
-      <img src="/assets/img/cases/canservices-home.png" alt="CANSERVICES.nl case" width="640" height="400" loading="lazy">
+      <img src="/<?php echo htmlspecialchars($secondaryCase['image'] ?? ''); ?>" alt="<?php echo htmlspecialchars($secondaryCase['image_alt'] ?? ($secondaryCase['title'] ?? '')); ?>" width="640" height="400" loading="lazy">
       <figcaption data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></figcaption>
     </figure>
     <div>
@@ -121,7 +124,7 @@ $home = content_for($content, $lang, 'home', []);
 
 <section class="faq">
   <div class="container">
-    <h2>FAQ</h2>
+    <h2 data-i18n="shared.faq_title"><?php echo htmlspecialchars($shared['faq_title'] ?? 'FAQ'); ?></h2>
     <div class="accordion">
       <?php foreach (($home['faq'] ?? []) as $item): ?>
         <details>

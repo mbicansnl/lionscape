@@ -1,11 +1,12 @@
 <?php
 $nav = content_for($content, $lang, 'nav', []);
 $shared = content_for($content, $lang, 'shared', []);
+$brand = content_for($content, $lang, 'brand', 'LionScape');
 ?>
 <header class="site-header">
   <div class="container header-inner">
-    <a class="logo" href="/">LionScape</a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <a class="logo" href="/"><?php echo htmlspecialchars($brand); ?></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav" data-i18n="shared.menu_label"><?php echo htmlspecialchars($shared['menu_label'] ?? 'Menu'); ?></button>
     <nav id="nav" class="nav" aria-label="Main">
       <ul class="nav-list">
         <li><a href="/" class="<?php echo is_active('home', $page) ? 'active' : ''; ?>" data-i18n="nav.home"><?php echo htmlspecialchars($nav['home'] ?? 'Home'); ?></a></li>
