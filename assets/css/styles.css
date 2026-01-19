@@ -37,7 +37,10 @@ a:hover { text-decoration: underline; }
 .lead { color: var(--muted); }
 .hero-visual img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border); }
 .trust-strip { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; color: var(--muted); }
-.trust-strip span { background: var(--card); padding: 0.4rem 0.6rem; border-radius: 999px; border: 1px solid var(--border); }
+.trust-strip span { background: var(--card); padding: 0.4rem 0.6rem; border-radius: 999px; border: 1px solid var(--border); transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease; }
+.trust-strip span:hover { transform: translateY(-2px); border-color: var(--accent); background: #173250; box-shadow: 0 0 14px rgba(123, 200, 255, 0.35); }
+.hero-visual figure, .case-highlight figure, .case-secondary figure { transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease; }
+.hero-visual figure:hover, .case-highlight figure:hover, .case-secondary figure:hover { transform: translateY(-4px); filter: brightness(1.05); box-shadow: 0 0 18px rgba(123, 200, 255, 0.35); }
 
 .cards { padding: 2.5rem 0; }
 .card { background: var(--card); padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border); box-shadow: var(--shadow); }
