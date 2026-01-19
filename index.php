@@ -59,7 +59,7 @@ if (isset($_GET['fragment'])) {
     <meta name="twitter:card" content="summary_large_image">
     <link rel="manifest" href="/pwa/manifest.webmanifest">
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="icon" href="/assets/icons/icon-192.png" sizes="192x192">
+    <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" href="/assets/icons/icon-192.png">
     <script>window.__content = <?php echo json_encode($content, JSON_UNESCAPED_UNICODE); ?>;</script>
     <?php foreach ($jsonLd as $schema): ?>
