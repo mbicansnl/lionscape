@@ -7,7 +7,6 @@ const STATIC_ASSETS = [
   '/assets/icons/icon-192.png',
   '/assets/icons/icon-512.png',
   '/assets/img/cases/jackontracks-home.png',
-  '/assets/img/cases/jackontracks-inner.png',
   '/assets/img/cases/canservices-home.png',
   '/pwa/offline.html'
 ];

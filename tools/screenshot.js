@@ -3,7 +3,6 @@ const path = require('path');
 
 const targets = [
   { url: 'https://www.jackontracks.nl', file: '../assets/img/cases/jackontracks-home.png', width: 1440, height: 900 },
-  { url: 'https://www.jackontracks.nl', file: '../assets/img/cases/jackontracks-inner.png', width: 1440, height: 900, scroll: 1200 },
   { url: 'https://www.canservices.nl', file: '../assets/img/cases/canservices-home.png', width: 1440, height: 900 }
 ];
 
