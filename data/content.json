@@ -225,23 +225,28 @@
       "features": [
         {
           "label": "downloadbare interactieve kalender",
-          "url": "https://jackontracks.com/f1"
+          "url": "https://jackontracks.com/f1",
+          "description": "Bezoekers kunnen zich abonneren op de F1-kalender (webcal), zodat raceweekenden automatisch in hun eigen agenda verschijnen. Wijzigingen worden direct doorgevoerd wanneer de planning verandert, waardoor ze altijd de meest actuele data en tijden hebben zonder telkens de website te moeten checken. Zo wordt de website een praktisch hulpmiddel dat ze het hele seizoen gebruiken."
         },
         {
           "label": "interactief schema",
-          "url": "https://jackontracks.com/pandora"
+          "url": "https://jackontracks.com/pandora",
+          "description": "In plaats van een statische tabel is het schema klikbaar en snel te overzien. Gebruikers kunnen direct naar een raceweekend springen, de belangrijkste sessies bekijken en eenvoudig door het seizoen navigeren zonder eindeloos te scrollen. Dat verlaagt de drempel en houdt bezoekers langer betrokken."
         },
         {
           "label": "interactieve galerij",
-          "url": "https://jackontracks.com/f1"
+          "url": "https://jackontracks.com/f1",
+          "description": "Afbeeldingen openen in een strakke viewer, zodat bezoekers kunnen bladeren zonder de pagina te verlaten. Het voelt snel en modern: klikken, bekijken, volgende/vorige, sluiten en weer verder lezen. Zo blijft de flow van het verhaal intact en krijgen de visuals toch alle aandacht."
         },
         {
-          "label": "interactieve slider",
-          "url": "https://jackontracks.com"
+          "label": "interactieve carousel slider",
+          "url": "https://jackontracks.com",
+          "description": "Een carousel kan kerncontent uitlichten (bijvoorbeeld: nieuwste items, featured stories, partners of highlights) op een compacte manier. Bezoekers klikken of swipen snel door meerdere items heen. Dat stuurt de aandacht en maakt de pagina dynamisch, zonder rommelig te worden."
         },
         {
-          "label": "uitklapbare tekstmodules",
-          "url": "https://jackontracks.com/spreker"
+          "label": "uitvouwbare tekstmodules",
+          "url": "https://jackontracks.com/spreker",
+          "description": "Langere uitleg staat achter uitvouwbare secties (lees meer / inklappen). Wie detail wil kan openen, wie snelheid wil houdt de pagina kort en overzichtelijk. Dit verbetert de leesbaarheid op mobiel en houdt de pagina clean, terwijl je toch diepgang aanbiedt."
         }
       ],
       "gallery": [
@@ -567,23 +572,28 @@
       "features": [
         {
           "label": "downloadable interactive calendar",
-          "url": "https://jackontracks.com/f1"
+          "url": "https://jackontracks.com/f1",
+          "description": "Visitors can subscribe to the F1 calendar (webcal) so race weekends appear automatically in their own calendar app. Updates are pushed when the schedule changes, so they always have the latest dates and times without having to check the site again. It turns the website into a practical tool they use all season."
         },
         {
           "label": "interactive schedule",
-          "url": "https://jackontracks.com/pandora"
+          "url": "https://jackontracks.com/pandora",
+          "description": "Instead of a static table, the schedule is clickable and easy to scan. Users can quickly jump to a race weekend, see key sessions, and move through the season without endless scrolling. It reduces friction and keeps people engaged longer because the information is always one click away."
         },
         {
           "label": "interactive gallery",
-          "url": "https://jackontracks.com/f1"
+          "url": "https://jackontracks.com/f1",
+          "description": "Images open in a clean viewer so visitors can browse without leaving the page. It feels fast and modern: click, view, next/previous, close, continue reading. This keeps the story flow intact while still giving the visuals the attention they deserve."
         },
         {
-          "label": "interactive slider",
-          "url": "https://jackontracks.com"
+          "label": "interactive carousel slider",
+          "url": "https://jackontracks.com",
+          "description": "A carousel highlights key content (for example: latest items, featured stories, partners, or highlights) in a compact space. Users can swipe/click through items quickly, which helps guide attention and makes the page feel dynamic without becoming cluttered."
         },
         {
           "label": "expandable text modules",
-          "url": "https://jackontracks.com/spreker"
+          "url": "https://jackontracks.com/spreker",
+          "description": "Longer explanations are stored behind expandable sections (read more / collapse). Visitors who want detail can open it, and visitors who want speed can keep the page short and readable. This improves mobile readability and keeps the page structure clean while still offering depth."
         }
       ],
       "gallery": [
