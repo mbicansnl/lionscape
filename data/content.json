@@ -136,7 +136,7 @@
         "cta": "Bekijk de case"
       },
       "secondary": {
-        "title": "Business proof: CANSERVICES.nl",
+        "title": "Zakelijk bewijs: CANSERVICES.nl",
         "text": "Heldere site, onderscheidende fotografie en duidelijke contactopties.",
         "cta": "Bekijk business case"
       },
@@ -221,26 +221,26 @@
       "ask": "Vraag: een website en socials die zijn stem en energie uitstralen.",
       "built": "Gebouwd: snelle site, duidelijke knoppen, social templates en publicatieformat.",
       "why": "Waarom het werkt: herkenbare foto s, directe teksten en vaste call to actions.",
-      "features_title": "Features:",
+      "features_title": "Functionaliteiten:",
       "features": [
         {
-          "label": "downloadable interactive calendar",
+          "label": "downloadbare interactieve kalender",
           "url": "https://jackontracks.com/f1"
         },
         {
-          "label": "interactive schedule",
+          "label": "interactief schema",
           "url": "https://jackontracks.com/pandora"
         },
         {
-          "label": "interactive gallery",
+          "label": "interactieve galerij",
           "url": "https://jackontracks.com/f1"
         },
         {
-          "label": "interactive slider",
+          "label": "interactieve slider",
           "url": "https://jackontracks.com"
         },
         {
-          "label": "expandable text modules",
+          "label": "uitklapbare tekstmodules",
           "url": "https://jackontracks.com/spreker"
         }
       ],
