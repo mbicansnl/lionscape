@@ -53,7 +53,7 @@ $secondaryCase = $cases[1] ?? [];
       <a class="button primary" href="/case-jack" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></a>
     </div>
     <figure>
-      <img src="/assets/img/jackontracks-logo.png" alt="Jack on Track logo" width="420" height="240" loading="lazy">
+      <img src="/assets/img/jackontracks-logo.png" alt="Jack on Track logo" width="320" height="320" loading="lazy">
       <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
     </figure>
   </div>
@@ -62,7 +62,7 @@ $secondaryCase = $cases[1] ?? [];
 <section class="case-secondary">
   <div class="container highlight-grid">
     <figure>
-      <img src="/assets/img/canservices.nl-logo.png" alt="Canservices logo" width="420" height="240" loading="lazy">
+      <img src="/assets/img/canservices.nl-logo.png" alt="Canservices logo" width="320" height="320" loading="lazy">
       <figcaption data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></figcaption>
     </figure>
     <div>
