@@ -47,23 +47,23 @@ $secondaryCase = $cases[1] ?? [];
 
 <section class="case-highlight">
   <div class="container">
-    <div class="case-card highlight-grid">
+    <a class="case-card highlight-grid" href="/case-jack">
       <div>
         <p class="eyebrow" data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></p>
         <h2><?php echo htmlspecialchars($home['featured']['text'] ?? ''); ?></h2>
-        <a class="button primary" href="/case-jack" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></a>
+        <span class="button primary" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></span>
       </div>
       <figure>
         <img src="/assets/img/jackontracks-logo.png" alt="Jack on Track logo" width="320" height="240" loading="lazy">
         <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
       </figure>
-    </div>
+    </a>
   </div>
 </section>
 
 <section class="case-secondary">
   <div class="container">
-    <div class="case-card highlight-grid">
+    <a class="case-card highlight-grid" href="/case-canservices">
       <figure>
         <img src="/assets/img/canservices.nl-logo.png" alt="Canservices logo" width="320" height="240" loading="lazy">
         <figcaption data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></figcaption>
@@ -71,9 +71,9 @@ $secondaryCase = $cases[1] ?? [];
       <div>
         <p class="eyebrow" data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></p>
         <h2><?php echo htmlspecialchars($home['secondary']['text'] ?? ''); ?></h2>
-        <a class="button ghost" href="/case-canservices" data-i18n="home.secondary.cta"><?php echo htmlspecialchars($home['secondary']['cta'] ?? ''); ?></a>
+        <span class="button ghost" data-i18n="home.secondary.cta"><?php echo htmlspecialchars($home['secondary']['cta'] ?? ''); ?></span>
       </div>
-    </div>
+    </a>
   </div>
 </section>
 
