@@ -8,7 +8,6 @@ $secondaryCase = $cases[1] ?? [];
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <img class="hero-logo" src="/LionScape-logo-full.png" alt="LionScape" width="320" height="90" loading="lazy">
       <p class="eyebrow" data-i18n="shared.proof_line"><?php echo htmlspecialchars($shared['proof_line'] ?? ''); ?></p>
       <h1 data-i18n="home.hero.h1">Breng jouw online zichtbaarheid naar een nieuw niveau</h1>
       <p class="lead" data-i18n="home.hero.sub"><?php echo htmlspecialchars($home['hero']['sub'] ?? ''); ?></p>
