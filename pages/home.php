@@ -46,29 +46,33 @@ $secondaryCase = $cases[1] ?? [];
 </section>
 
 <section class="case-highlight">
-  <div class="container highlight-grid">
-    <div>
-      <p class="eyebrow" data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></p>
-      <h2><?php echo htmlspecialchars($home['featured']['text'] ?? ''); ?></h2>
-      <a class="button primary" href="/case-jack" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></a>
+  <div class="container">
+    <div class="case-card highlight-grid">
+      <div>
+        <p class="eyebrow" data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></p>
+        <h2><?php echo htmlspecialchars($home['featured']['text'] ?? ''); ?></h2>
+        <a class="button primary" href="/case-jack" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></a>
+      </div>
+      <figure>
+        <img src="/img/assets/jackontracks-logo.png" alt="Jack on Track logo" width="320" height="320" loading="lazy">
+        <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
+      </figure>
     </div>
-    <figure>
-      <img src="/img/assets/jackontracks-logo.png" alt="Jack on Track logo" width="320" height="320" loading="lazy">
-      <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
-    </figure>
   </div>
 </section>
 
 <section class="case-secondary">
-  <div class="container highlight-grid">
-    <figure>
-      <img src="/assets/img/canservices.nl-logo.png" alt="Canservices logo" width="320" height="320" loading="lazy">
-      <figcaption data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></figcaption>
-    </figure>
-    <div>
-      <p class="eyebrow" data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></p>
-      <h2><?php echo htmlspecialchars($home['secondary']['text'] ?? ''); ?></h2>
-      <a class="button ghost" href="/case-canservices" data-i18n="home.secondary.cta"><?php echo htmlspecialchars($home['secondary']['cta'] ?? ''); ?></a>
+  <div class="container">
+    <div class="case-card highlight-grid">
+      <figure>
+        <img src="/assets/img/canservices.nl-logo.png" alt="Canservices logo" width="320" height="320" loading="lazy">
+        <figcaption data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></figcaption>
+      </figure>
+      <div>
+        <p class="eyebrow" data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></p>
+        <h2><?php echo htmlspecialchars($home['secondary']['text'] ?? ''); ?></h2>
+        <a class="button ghost" href="/case-canservices" data-i18n="home.secondary.cta"><?php echo htmlspecialchars($home['secondary']['cta'] ?? ''); ?></a>
+      </div>
     </div>
   </div>
 </section>
