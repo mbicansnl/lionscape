@@ -236,11 +236,8 @@
       "intro": "Bewijs met echte opdrachten. Geen stock, wel resultaat.",
       "list": [
         {
-          "slug": "case-jack",
-          "title": "Jack Plooij",
-          "excerpt": "Website en socials die zijn stem laten zien.",
           "image": "LionScape-logo-full.png",
-          "image_alt": "Jack Plooij website"
+          "image_alt": "LionScape logo"
         },
         {
           "slug": "case-canservices",
