@@ -25,7 +25,6 @@ $secondaryCase = $cases[1] ?? [];
     <div class="hero-visual">
       <figure>
         <img src="/LionScape-logo-full.png" width="720" height="480" loading="lazy">
-        <figcaption><?php echo htmlspecialchars($heroCase['title'] ?? ''); ?></figcaption>
       </figure>
     </div>
   </div>
