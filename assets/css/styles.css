@@ -21,7 +21,7 @@ a:hover { text-decoration: underline; }
 .site-header { position: sticky; top: 0; background: rgba(15,31,51,0.9); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); z-index: 10; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; padding: 1rem 0; }
 .logo { display: inline-flex; align-items: center; color: var(--text); }
-.logo img { height: 32px; width: auto; display: block; }
+.logo img { height: 42px; width: auto; display: block; }
 .nav { display: flex; align-items: center; gap: 1.5rem; }
 .nav-list { list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0; }
 .nav a { color: var(--text); padding: 0.3rem 0.4rem; border-radius: 6px; }
