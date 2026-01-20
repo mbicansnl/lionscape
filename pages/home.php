@@ -53,7 +53,7 @@ $secondaryCase = $cases[1] ?? [];
       <a class="button primary" href="/case-jack" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></a>
     </div>
     <figure>
-      <img src="/assets/img/jackontracks-logo.png" alt="Jack on Track logo" width="320" height="320" loading="lazy">
+      <img src="/LionScape-logo-full.png" alt="Jack on Track logo" width="320" height="320" loading="lazy">
       <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
     </figure>
   </div>
