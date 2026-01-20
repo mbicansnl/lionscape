@@ -234,8 +234,11 @@
       "intro": "Bewijs met echte opdrachten. Geen stock, wel resultaat.",
       "list": [
         {
-          "image": "LionScape-logo-full.png",
-          "image_alt": "LionScape logo"
+          "slug": "case-jackontracks",
+          "title": "Jack Plooij",
+          "excerpt": "Persoonlijke site, met duidelijk overzicht van activiteiten",
+          "image": "assets/img/canservices.nl-logo.png",
+          "image_alt": "jackontracks website"
         },
         {
           "slug": "case-canservices",
