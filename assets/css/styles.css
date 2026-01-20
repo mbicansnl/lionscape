@@ -59,10 +59,15 @@ figcaption { margin-top: 0.75rem; color: var(--muted); font-size: 0.95rem; }
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
   padding: 2rem;
+  display: block;
+  color: inherit;
+  text-decoration: none;
 }
+.case-card:hover { text-decoration: none; }
 
 .cards { padding: 2.5rem 0; }
-.card { background: var(--card); padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border); box-shadow: var(--shadow); }
+.card { background: var(--card); padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border); box-shadow: var(--shadow); display: block; color: inherit; text-decoration: none; }
+.card:hover { text-decoration: none; }
 .card h3, .card h2 { margin-top: 0; }
 .card figure { margin: 0 0 1rem; border-radius: var(--radius); border: 1px solid var(--border); background: #0b1726; overflow: hidden; aspect-ratio: 27 / 16; display: flex; align-items: center; justify-content: center; }
 .card figure img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
