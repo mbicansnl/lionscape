@@ -8,8 +8,9 @@ $secondaryCase = $cases[1] ?? [];
 <section class="hero">
   <div class="container hero-grid">
     <div>
+      <img class="hero-logo" src="/LionScape-logo-full.png" alt="LionScape" width="320" height="90" loading="lazy">
       <p class="eyebrow" data-i18n="shared.proof_line"><?php echo htmlspecialchars($shared['proof_line'] ?? ''); ?></p>
-      <h1 data-i18n="home.hero.h1"><?php echo htmlspecialchars($home['hero']['h1'] ?? ''); ?></h1>
+      <h1 data-i18n="home.hero.h1">Breng jouw online zichtbaarheid naar een nieuw niveau</h1>
       <p class="lead" data-i18n="home.hero.sub"><?php echo htmlspecialchars($home['hero']['sub'] ?? ''); ?></p>
       <div class="cta-group">
         <a class="button primary" href="/contact" data-i18n="home.hero.cta_primary"><?php echo htmlspecialchars($home['hero']['cta_primary'] ?? ''); ?></a>
@@ -53,7 +54,7 @@ $secondaryCase = $cases[1] ?? [];
       <a class="button primary" href="/case-jack" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></a>
     </div>
     <figure>
-      <img src="/<?php echo htmlspecialchars($heroCase['image'] ?? ''); ?>" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? ($heroCase['title'] ?? '')); ?>" width="640" height="400" loading="lazy">
+      <img src="/assets/img/jackontracks-logo.png" alt="Jack on Track logo" width="420" height="240" loading="lazy">
       <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
     </figure>
   </div>
@@ -62,7 +63,7 @@ $secondaryCase = $cases[1] ?? [];
 <section class="case-secondary">
   <div class="container highlight-grid">
     <figure>
-      <img src="/<?php echo htmlspecialchars($secondaryCase['image'] ?? ''); ?>" alt="<?php echo htmlspecialchars($secondaryCase['image_alt'] ?? ($secondaryCase['title'] ?? '')); ?>" width="640" height="400" loading="lazy">
+      <img src="/assets/img/canservices.nl-logo.png" alt="Canservices logo" width="420" height="240" loading="lazy">
       <figcaption data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></figcaption>
     </figure>
     <div>
