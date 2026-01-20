@@ -24,7 +24,7 @@ $secondaryCase = $cases[1] ?? [];
     </div>
     <div class="hero-visual">
       <figure>
-        <img src="/<?php echo htmlspecialchars($heroCase['image'] ?? ''); ?>" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? ($heroCase['title'] ?? '')); ?>" width="720" height="480" loading="lazy">
+        <img src="/lionscape-logo-full.png" width="720" height="480" loading="lazy">
         <figcaption><?php echo htmlspecialchars($heroCase['title'] ?? ''); ?></figcaption>
       </figure>
     </div>
@@ -53,7 +53,7 @@ $secondaryCase = $cases[1] ?? [];
       <a class="button primary" href="/case-jack" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></a>
     </div>
     <figure>
-      <img src="/LionScape-logo-full.png" alt="Jack on Track logo" width="320" height="320" loading="lazy">
+      <img src="/img/assets/jackontracks-logo.png" alt="Jack on Track logo" width="320" height="320" loading="lazy">
       <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
     </figure>
   </div>
