@@ -13,7 +13,6 @@ $shared = content_for($content, $lang, 'shared', []);
       <details class="pricing-pill">
         <summary>fixed price</summary>
         <div class="pricing-pill__content">
-          <h3>Fixed Price</h3>
           <p>
             Voor opdrachten werken we met fixed price: vooraf spreken we een vaste prijs en duidelijke scope af,
             zodat er geen verrassingen ontstaan en beide kanten precies weten waar ze aan toe zijn.
@@ -23,7 +22,6 @@ $shared = content_for($content, $lang, 'shared', []);
       <details class="pricing-pill">
         <summary>abbonnement</summary>
         <div class="pricing-pill__content">
-          <h3>abonnement</h3>
           <p>
             Voor onderhoud, updates en het bijhouden van socials werken we met abonnementen: vaste afspraken per maand
             voor doorlopende ondersteuning, zodat je website en online uitstraling actueel, veilig en consistent blijven.
