@@ -74,6 +74,8 @@ figcaption { margin-top: 0.75rem; color: var(--muted); font-size: 0.95rem; }
 .about-hero-image { margin: 0 0 2rem; border-radius: var(--radius); border: 1px solid var(--border); box-shadow: var(--shadow); overflow: hidden; background: #0b1726; aspect-ratio: 16 / 9; }
 .about-hero-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .case-highlight, .case-secondary, .steps, .faq, .final-cta, .about-body, .offers, .case-body, .page-hero, .form-block, .approach { padding: 2.5rem 0; }
+.page-hero .offers { padding: 1.5rem 0 0.75rem; }
+.page-hero .offer-grid { margin-top: 0.5rem; }
 .eyebrow { text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-size: 0.85rem; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem; padding: 0.8rem 1.3rem; border-radius: 10px; border: 1px solid transparent; font-weight: 600; }
 .button.primary { background: linear-gradient(120deg, #3fa9f5, #7bc8ff); color: #0b1726; }
