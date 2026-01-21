@@ -26,11 +26,6 @@ $title = $data['title'] ?? content_for($content, $lang, 'nav.about', 'Over');
           <p class="muted"><?php echo htmlspecialchars($data['proof'] ?? ''); ?></p>
         <?php endif; ?>
       </div>
-      <div class="card">
-        <h2 data-i18n="shared.free_scan_title"><?php echo htmlspecialchars($shared['free_scan_title'] ?? ''); ?></h2>
-        <p data-i18n="shared.free_scan_body"><?php echo htmlspecialchars($shared['free_scan_body'] ?? ''); ?></p>
-        <a class="button primary" href="/contact" data-i18n="shared.cta_primary"><?php echo htmlspecialchars($shared['cta_primary'] ?? ''); ?></a>
-      </div>
     </div>
   </div>
 </section>
