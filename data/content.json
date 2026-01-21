@@ -74,7 +74,7 @@
       "faq": [
         {
           "q": "Hoeveel trajecten neem je tegelijk aan?",
-          "a": "Maximaal drie zodat ik direct betrokken blijf."
+          "a": "Wij hanteren maximaal 3 trajecten over een contractuele periode."
         },
         {
           "q": "Hoe snel kan ik live?",
@@ -82,7 +82,7 @@
         },
         {
           "q": "Wie maakt de content?",
-          "a": "Ik schrijf en redigeer samen met jou zodat het klopt met je stem."
+          "a": "Dit wordt van te voren besproekn waar de voorkeur ligt, dit gaat meestal hand in hand, om te kijken wat jij wil en dan komt de uitvoering bij ons."
         },
         {
           "q": "Hoe werkt de samenwerking?",
@@ -108,10 +108,7 @@
         "cta_secondary": "Bekijk voorbeeld Jack Plooij",
         "cta_scan": "Vraag gratis groeiscan"
       },
-      "trust": [
-        "Jack Plooij",
-        "CANSERVICES.nl"
-      ],
+      "trust": ["Jack Plooij", "CANSERVICES.nl"],
       "cards_title": "Wat wij voor u kunnen betekenen:",
       "cards": [
         {
@@ -172,35 +169,35 @@
       "approach": [
         {
           "title": "Intake",
-          "body": "Er wordt een kennismakingsgesprek ingepland om doelen, doelgroep, randvoorwaarden en gewenste functionaliteit helder vast te stellen. We bespreken voorbeelden van websites die je aanspreken, gewenste tone of voice, praktische content (teksten, fotos, logos) en eventuele technische eisen zoals formulieren, meertaligheid of koppelingen.\n\nOp basis daarvan maken we een eerste prijsindicatie en werken we een compact concept uit met duidelijke aannames. Binnen 2 werkdagen ontvang je een voorstel met kernpunten, globale planning, deliverables en concrete vervolgstappen, zodat je snel weet waar je aan toe bent."
+          "body": "Er wordt een kennismakingsgesprek ingepland om doelen, doelgroep, randvoorwaarden en gewenste functionaliteit vast te stellen. Op basis daarvan wordt een eerste prijsindicatie opgesteld en een compact concept uitgewerkt. Binnen 2 werkdagen wordt een voorstel aangeleverd met de kernpunten, globale planning en duidelijke vervolgstappen."
         },
         {
           "title": "Bijstellen",
-          "body": "Na de eerste opzet wordt het concept stap voor stap besproken en aangescherpt. We lopen structuur en navigatie door, bepalen welke paginas prioriteit hebben en verfijnen de contentopbouw per pagina (koppen, blokken, call-to-actions).\n\nOok maken we keuzes rond stijl en look & feel, zoals kleurenpalet, typografie en beeldgebruik, zodat alles consistent aanvoelt. Waar nodig concretiseren we scope, afhankelijkheden en prioriteiten, zodat de uitvoering voorspelbaar blijft en verrassingen tijdens de bouw worden voorkomen."
+          "body": "Na de eerste opzet wordt het concept stap voor stap besproken. Keuzes rondom structuur, navigatie, content, functies en stijl worden aangescherpt, zodat het resultaat aansluit op de specifieke behoefte. Waar nodig worden prioriteiten en scope geconcretiseerd om verrassingen tijdens de uitvoering te voorkomen."
         },
         {
           "title": "Productie",
-          "body": "Na akkoord gaat het concept in productie. De website wordt gerealiseerd volgens de gemaakte afspraken over ontwerp, contentmodules en functionaliteit. We bouwen stapsgewijs op, zodat onderdelen vroeg zichtbaar zijn en bijsturen eenvoudig blijft.\n\nTijdens deze fase delen we periodiek voortgang en leggen we vaste feedbackmomenten vast, zodat besluitvorming vlot blijft. Technische basispunten zoals performance, responsive gedrag, basis SEO-structuur en veiligheid worden direct meegenomen in de bouw."
+          "body": "Na akkoord wordt het concept in productie genomen. De website wordt gerealiseerd volgens de gemaakte afspraken over ontwerp en functionaliteit. Tijdens deze fase wordt periodiek voortgang gedeeld en wordt feedback op vaste momenten verwerkt."
         },
         {
           "title": "Pitch",
-          "body": "Zodra een volledige versie gereed is, volgt een presentatie en review. We lopen de website end-to-end door: navigatie, paginas, content, werking van features, formulieren en eventuele integraties.\n\nOok kijken we naar snelheid, mobiele weergave en consistentie in uitstraling. Het doel is om de laatste verbeterpunten en optimalisaties scherp vast te leggen, inclusief wat er nog moet worden aangeleverd of beslist, zodat de afronding strak en overzichtelijk kan verlopen."
+          "body": "Zodra een volledige versie gereed is, volgt een presentatie en review. Alle onderdelen worden doorgelopen: structuur, pagina’s, content, prestaties en werking van de features. Het doel is om de laatste verbeterpunten en eventuele optimalisaties scherp vast te leggen."
         },
         {
           "title": "Laatste bijstelling",
-          "body": "Alle punten uit de pitch worden gecontroleerd, verwerkt en opnieuw nagelopen. Deze fase draait om afwerking en kwaliteit: teksten en spelling, afbeeldingen en snijvlakken, formulieren, links, knoppen en consistent gebruik van stijlelementen.\n\nOok checken we details zoals uitlijning, witruimte, leesbaarheid en gedrag op verschillende schermformaten. Eventuele onvolkomenheden worden opgelost zodat de website professioneel en betrouwbaar aanvoelt."
+          "body": "Alle punten uit de pitch worden gecontroleerd en doorgevoerd. Deze fase richt zich op afwerking en kwaliteit: teksten, afbeeldingen, formulieren, links, consistentie in uitstraling en het oplossen van eventuele onvolkomenheden."
         },
         {
           "title": "Final pitch",
-          "body": "Er volgt een laatste reviewronde waarin alles in samenhang wordt gecontroleerd: features, belangrijke informatie, teksten, call-to-actions en contactpunten. We toetsen of de bezoeker in een paar seconden begrijpt wat je aanbiedt en wat de volgende stap is.\n\nDaarnaast controleren we de belangrijkste paginas op consistentie en volledigheid. Na akkoord leggen we de livegang vast en spreken we af wie wat doet rond hosting, domein, content en beheer."
+          "body": "Er volgt een laatste reviewronde waarin alle onderdelen in samenhang worden gecontroleerd: features, belangrijke informatie, teksten, call-to-actions en contactpunten. Na akkoord kan de livegang worden voorbereid."
         },
         {
           "title": "Live",
-          "body": "De website wordt live gezet en technisch netjes opgeleverd. We controleren domein- en hostinginstellingen, SSL, redirects, basis caching en performance.\n\nOok doen we een eindcontrole op correcte werking op desktop en mobiel, inclusief formulieren en belangrijke interacties. Indien gewenst zetten we meetpunten klaar (bijv. analytics of tracking) en zorgen we dat beheeraccounts en documentatie beschikbaar zijn. Daarna is de website klaar voor gebruik en doorontwikkeling."
+          "body": "De website wordt live gezet. Daarbij worden technische onderdelen gecontroleerd, zoals domein- en hostinginstellingen, SSL, redirects en basisprestaties. Ook vindt een eindcontrole plaats op correcte werking op desktop en mobiel."
         },
         {
           "title": "SEO",
-          "body": "Na livegang wordt de website geindexeerd door zoekmachines en controleren we of de basis technisch klopt (sitemaps, indexeerbaarheid, canonicals waar relevant).\n\nVervolgens kan SEO waar nodig worden bijgesteld via paginatitels, meta-beschrijvingen, kopstructuur, interne links en contentverbeteringen. We kijken ook naar zoekintentie: welke vragen stelt je doelgroep, en sluiten de paginas daarop aan.\n\nHet doel is om vindbaarheid stapsgewijs te verbeteren op relevante zoektermen, zonder de helderheid en conversie van de website uit het oog te verliezen."
+          "body": "Na livegang wordt de website geïndexeerd door zoekmachines. Vervolgens kan SEO waar nodig worden bijgesteld, onder andere via titels, meta-beschrijvingen, structuur, interne links en (waar relevant) gerichte content-verbeteringen. Het doel is om vindbaarheid stapsgewijs te optimaliseren op relevante zoektermen."
         }
       ],
       "offers": [
