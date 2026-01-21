@@ -348,9 +348,36 @@
     },
     "about": {
       "title": "Over LionScape",
-      "intro": "Ik werk direct met je samen, zonder lagen. Kwaliteit en snelheid gaan samen.",
-      "body": "Mijn projecten draaien om duidelijkheid. Geen buzzwords, wel een website en socials die laten zien wie je bent. Door beperkte capaciteit blijft de aandacht op jou.",
-      "proof": "Ervaring met Jack Plooij en bedrijven zoals CANSERVICES.nl."
+      "sections": [
+        {
+          "title": "Hoe LionScape is ontstaan",
+          "body": "LionScape is ontstaan na een opdracht die veel in beweging heeft gezet: het ontwikkelen van de website voor Jack Plooij. Die samenwerking maakte duidelijk hoeveel verschil een sterke, consistente online presentatie kan maken. Vanuit die ervaring is LionScape opgericht: een nieuw bedrijf dat ondernemers helpt om hun merk online strak, herkenbaar en professioneel neer te zetten, zonder losse eindjes."
+        },
+        {
+          "title": "Wat we doen",
+          "body": "Wij bouwen complete websites van A tot Z. Niet alleen de techniek, maar ook de basis van je uitstraling: een helder kleurenpalet, typografie, beeldstijl en een layout die op alle schermen goed werkt. We zorgen voor een logische opbouw van pagina's, duidelijke navigatie en een presentatie die vertrouwen uitstraalt. Alles wordt op elkaar afgestemd zodat je online aanwezigheid overal hetzelfde voelt: website, socials en eventuele campagne-uitingen."
+        },
+        {
+          "title": "Een consistente look op alle kanalen",
+          "body": "Veel ondernemers schakelen tussen losse partijen voor design, techniek en content, met als resultaat een rommelig geheel. LionScape pakt dit anders aan. We unificeren de look en maken keuzes die overal terugkomen: kleuren, stijl, tone of voice en visuele elementen. Zo herkennen klanten je direct, ongeacht waar ze je tegenkomen."
+        },
+        {
+          "title": "Moderne techniek en een website die mee groeit",
+          "body": "LionScape werkt met moderne technieken en levert websites die snel, veilig en eenvoudig te beheren zijn. Een website is geen eenmalig project, maar een platform dat mee moet groeien. Daarom verzorgen we ook onderhoud en doorontwikkeling: updates, verbeteringen, nieuwe pagina's, optimalisaties en het oplossen van issues voordat ze problemen worden. Zo blijft je site actueel, stabiel en in lijn met je bedrijf."
+        },
+        {
+          "title": "Ondersteuning bij socials",
+          "body": "Naast websites ondersteunen we ook bij socials. Niet alleen met \"iets posten\", maar met het neerzetten van een herkenbare stijl: templates, banners, highlights en een consistente uitstraling die past bij je merk. We helpen met praktische keuzes: wat zet je waar, welke content werkt goed, en hoe laat je je socials en website elkaar versterken. Het doel is dat bezoekers meteen zien wie je bent, waar je voor staat en hoe ze contact opnemen of klant worden."
+        },
+        {
+          "title": "De oprichter",
+          "body": "De oprichter van LionScape heeft na vier jaar Commerciele Economie bewust gekozen voor ondernemerschap. Met een sterke focus op marketing, conversie en merkbeleving, en met oog voor de techniek die daarvoor nodig is. LionScape is gestart vanuit de overtuiging dat ondernemers geholpen zijn met een heldere aanpak, een consistente uitstraling en een website die echt af is."
+        },
+        {
+          "title": "Waar we voor staan",
+          "body": "LionScape staat voor een totaalplaatje: een website die werkt, een uitstraling die past, en een aanpak die duidelijk is. Een partij voor design, techniek, onderhoud en ondersteuning, zodat alles bij elkaar blijft passen en je zelf tijd overhoudt voor ondernemen."
+        }
+      ]
     },
     "contact": {
       "title": "Contact",
