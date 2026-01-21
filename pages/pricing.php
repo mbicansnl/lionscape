@@ -11,16 +11,16 @@ $shared = content_for($content, $lang, 'shared', []);
     <h2>Structuren</h2>
     <div class="pricing-structures">
       <details class="pricing-pill">
-        <summary>fixed price</summary>
+        <summary><h3>Fixed Price</summary>
         <div class="pricing-pill__content">
           <p>
-            Voor opdrachten werken we met fixed price: vooraf spreken we een vaste prijs en duidelijke scope af,
-            zodat er geen verrassingen ontstaan en beide kanten precies weten waar ze aan toe zijn.
+            Voor opdrachten werken we met fixed price: vooraf spreken we een vaste prijs en worden er verschillende parameters afgestemd,
+            zodat er geen verrassingen ontstaan en beide kanten goed geinformeerd zijn over ekaars verwachtingen.
           </p>
         </div>
       </details>
       <details class="pricing-pill">
-        <summary>abbonnement</summary>
+        <summary><h3>Abbonnement</summary>
         <div class="pricing-pill__content">
           <p>
             Voor onderhoud, updates en het bijhouden van socials werken we met abonnementen: vaste afspraken per maand
