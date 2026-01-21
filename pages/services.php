@@ -8,19 +8,6 @@ $shared = content_for($content, $lang, 'shared', []);
     <p><?php echo htmlspecialchars($data['intro'] ?? ''); ?></p>
   </div>
 </section>
-<section class="approach">
-  <div class="container">
-    <h2 data-i18n="services.approach_title"><?php echo htmlspecialchars($data['approach_title'] ?? ''); ?></h2>
-    <div class="text-list">
-      <?php foreach (($data['approach'] ?? []) as $step): ?>
-        <div class="text-list-item">
-          <h3><?php echo htmlspecialchars($step['title']); ?></h3>
-          <p><?php echo htmlspecialchars($step['body']); ?></p>
-        </div>
-      <?php endforeach; ?>
-    </div>
-  </div>
-</section>
 <section class="offers">
   <div class="container offer-grid">
     <?php foreach (($data['offers'] ?? []) as $offer): ?>
@@ -32,6 +19,19 @@ $shared = content_for($content, $lang, 'shared', []);
         <a class="button primary" href="/contact"><?php echo htmlspecialchars($offer['cta']); ?></a>
       </article>
     <?php endforeach; ?>
+  </div>
+</section>
+<section class="approach">
+  <div class="container">
+    <h2 data-i18n="services.approach_title"><?php echo htmlspecialchars($data['approach_title'] ?? ''); ?></h2>
+    <div class="text-list">
+      <?php foreach (($data['approach'] ?? []) as $step): ?>
+        <div class="text-list-item">
+          <h3><?php echo htmlspecialchars($step['title']); ?></h3>
+          <p><?php echo htmlspecialchars($step['body']); ?></p>
+        </div>
+      <?php endforeach; ?>
+    </div>
   </div>
 </section>
 <section class="faq">
