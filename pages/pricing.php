@@ -8,6 +8,29 @@ $shared = content_for($content, $lang, 'shared', []);
 </section>
 <section class="pricing-body">
   <div class="container">
+    <h2>Structuren</h2>
+    <div class="pricing-structures">
+      <details class="pricing-pill">
+        <summary>fixed price</summary>
+        <div class="pricing-pill__content">
+          <h3>Fixed Price</h3>
+          <p>
+            Voor opdrachten werken we met fixed price: vooraf spreken we een vaste prijs en duidelijke scope af,
+            zodat er geen verrassingen ontstaan en beide kanten precies weten waar ze aan toe zijn.
+          </p>
+        </div>
+      </details>
+      <details class="pricing-pill">
+        <summary>abbonnement</summary>
+        <div class="pricing-pill__content">
+          <h3>abonnement</h3>
+          <p>
+            Voor onderhoud, updates en het bijhouden van socials werken we met abonnementen: vaste afspraken per maand
+            voor doorlopende ondersteuning, zodat je website en online uitstraling actueel, veilig en consistent blijven.
+          </p>
+        </div>
+      </details>
+    </div>
     <h2>Fixed price: duidelijkheid vooraf</h2>
     <p>
       Bij LionScape werken we met fixed price. Dat betekent dat we vooraf een vaste prijs afspreken voor een
