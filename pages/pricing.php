@@ -1,41 +1,77 @@
 <?php
-$data = content_for($content, $lang, 'pricing', []);
 $shared = content_for($content, $lang, 'shared', []);
 ?>
 <section class="page-hero">
   <div class="container">
-    <h1 data-i18n="nav.pricing"><?php echo htmlspecialchars(content_for($content, $lang, 'nav.pricing', 'Prijzen')); ?></h1>
-    <p><?php echo htmlspecialchars($data['intro'] ?? ''); ?></p>
+    <h1>Prijzen</h1>
   </div>
 </section>
-<section class="cards">
-  <div class="container grid-3">
-    <?php foreach (($data['tiers'] ?? []) as $tier): ?>
-      <article class="card">
-        <h2><?php echo htmlspecialchars($tier['name']); ?></h2>
-        <p class="muted">
-          <?php echo htmlspecialchars($tier['range']); ?>
-        </p>
-        <ul>
-          <?php foreach ($tier['items'] as $item): ?>
-            <li><?php echo htmlspecialchars($item); ?></li>
-          <?php endforeach; ?>
-        </ul>
-      </article>
-    <?php endforeach; ?>
-  </div>
-</section>
-<section class="faq">
+<section class="pricing-body">
   <div class="container">
-    <h2 data-i18n="shared.faq_title"><?php echo htmlspecialchars($shared['faq_title'] ?? 'FAQ'); ?></h2>
-    <div class="accordion">
-      <?php foreach (($data['faq'] ?? []) as $item): ?>
-        <details>
-          <summary><?php echo htmlspecialchars($item['q']); ?></summary>
-          <p><?php echo htmlspecialchars($item['a']); ?></p>
-        </details>
-      <?php endforeach; ?>
-    </div>
+    <h2>Fixed price: duidelijkheid vooraf</h2>
+    <p>
+      Bij LionScape werken we met fixed price. Dat betekent dat we vooraf een vaste prijs afspreken voor een
+      duidelijke opdracht. Geen verrassingen achteraf en geen discussies over uren. Jij weet precies wat het
+      kost en wat je ervoor krijgt, en wij weten precies wat we moeten opleveren.
+    </p>
+
+    <h2>Waarom we hiervoor kiezen</h2>
+    <p>
+      In veel trajecten ontstaat gedoe door werken op uurbasis. Een klant wil vooral een goed eindresultaat,
+      maar krijgt uiteindelijk een rekening die vooral over tijd gaat. Dat voelt niet altijd eerlijk, zeker als
+      iets meer tijd kost dan verwacht.
+    </p>
+    <p>
+      Fixed price haalt die spanning weg. Jij wordt niet "gestraft" als iets complexer blijkt, en wij hoeven niet
+      te haasten om binnen een aantal uren te blijven. Daardoor kunnen we focussen op wat telt: kwaliteit, een
+      consistente uitstraling en een website die echt af is.
+    </p>
+
+    <h2>Heldere scope is de basis</h2>
+    <p>
+      Een vaste prijs werkt alleen als we vooraf goed afspreken wat er binnen de opdracht valt. Daarom starten we
+      met een korte intake en maken we de scope concreet: welke pagina's, welke onderdelen, welke contentblokken,
+      welke functies en eventuele integraties. Op basis daarvan ontvang je een voorstel met een vaste prijs en
+      duidelijke opleverpunten.
+    </p>
+    <p>
+      Dit geeft rust. Jij hoeft niet te twijfelen of een vraag extra kosten betekent, en wij kunnen doorbouwen
+      zonder dat er voortdurend opnieuw onderhandeld hoeft te worden.
+    </p>
+
+    <h2>Wat meestal inbegrepen is</h2>
+    <p>
+      Afhankelijk van het pakket en de scope kan een fixed price traject bijvoorbeeld bestaan uit:
+    </p>
+    <ul>
+      <li>Design en unificatie van de look &amp; feel (kleurenpalet, typografie, basisstijl)</li>
+      <li>Realisatie van de website (desktop en mobiel)</li>
+      <li>Opbouw van pagina's en herbruikbare contentmodules</li>
+      <li>Basis SEO (technische basis, metadata, indexeerbaarheid)</li>
+      <li>Performance en veiligheid (snelle laadtijden, technische checks)</li>
+      <li>Optioneel: ondersteuning bij socials (templates en consistente uitstraling)</li>
+    </ul>
+
+    <h2>Wijzigingen: flexibel, maar wel netjes geregeld</h2>
+    <p>
+      Tijdens een traject komen er vaak nieuwe ideeen. Dat is normaal. Als een wijziging binnen de afgesproken
+      scope past, nemen we die mee. Als het buiten de scope valt, maken we het concreet en spreken we een
+      aanvullende fixed price af voor dat extra onderdeel. Zo houd jij de controle over het budget en blijft het
+      voor ons haalbaar om kwaliteit te blijven leveren.
+    </p>
+
+    <h2>Onderhoud en doorontwikkeling</h2>
+    <p>
+      Een website is nooit echt "klaar". Er komen updates, verbeteringen, nieuwe pagina's en kleine optimalisaties.
+      Daarom bieden we ook onderhoud en doorontwikkeling. Dat kan met vaste afspraken, bijvoorbeeld per maand of
+      per wijzigingspakket, zodat je weet waar je aan toe bent en je website gezond blijft.
+    </p>
+
+    <h2>Samenwerken zonder ruis</h2>
+    <p>
+      Het doel van fixed price is simpel: helderheid en een prettige samenwerking. Jij koopt een resultaat, geen
+      uren. En wij leveren dat resultaat met focus op consistentie, snelheid en een professionele uitstraling.
+    </p>
   </div>
 </section>
 <section class="final-cta">
