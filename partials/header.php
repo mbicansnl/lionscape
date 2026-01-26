@@ -4,12 +4,13 @@ $shared = content_for($content, $lang, 'shared', []);
 $brand = content_for($content, $lang, 'brand', 'LionScape');
 ?>
 <header class="site-header">
+  <a class="skip-link" href="#main" data-i18n="shared.skip_link"><?php echo htmlspecialchars($shared['skip_link'] ?? ''); ?></a>
   <div class="container header-inner">
     <a class="logo" href="/" aria-label="<?php echo htmlspecialchars($brand); ?>">
       <img src="/LionScape-logo-transparent-header.png" alt="<?php echo htmlspecialchars($brand); ?>">
     </a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="nav" data-i18n="shared.menu_label"><?php echo htmlspecialchars($shared['menu_label'] ?? 'Menu'); ?></button>
-    <nav id="nav" class="nav" aria-label="Main">
+    <nav id="nav" class="nav" aria-label="<?php echo htmlspecialchars($shared['nav_label'] ?? ''); ?>">
       <ul class="nav-list">
         <li><a href="/" class="<?php echo is_active('home', $page) ? 'active' : ''; ?>" data-i18n="nav.home"><?php echo htmlspecialchars($nav['home'] ?? 'Home'); ?></a></li>
         <li><a href="/aanpak" class="<?php echo is_active('services', $page) ? 'active' : ''; ?>" data-i18n="nav.services"><?php echo htmlspecialchars($nav['services'] ?? 'Aanpak'); ?></a></li>

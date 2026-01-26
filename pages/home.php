@@ -9,14 +9,14 @@ $secondaryCase = $cases[1] ?? [];
   <div class="container hero-grid">
     <div>
       <p class="eyebrow" data-i18n="shared.proof_line"><?php echo htmlspecialchars($shared['proof_line'] ?? ''); ?></p>
-      <h1 data-i18n="home.hero.h1">Breng jouw online zichtbaarheid naar een nieuw niveau</h1>
+      <h1 data-i18n="home.hero.h1"><?php echo htmlspecialchars($home['hero']['h1'] ?? ''); ?></h1>
       <p class="lead" data-i18n="home.hero.sub"><?php echo htmlspecialchars($home['hero']['sub'] ?? ''); ?></p>
       <div class="cta-group">
         <a class="button primary" href="/contact" data-i18n="home.hero.cta_primary"><?php echo htmlspecialchars($home['hero']['cta_primary'] ?? ''); ?></a>
         <a class="button ghost" href="/case-jack" data-i18n="home.hero.cta_secondary"><?php echo htmlspecialchars($home['hero']['cta_secondary'] ?? ''); ?></a>
         <a class="button text" href="#scan" data-i18n="home.hero.cta_scan"><?php echo htmlspecialchars($home['hero']['cta_scan'] ?? ''); ?></a>
       </div>
-      <div class="trust-strip" aria-label="Vertrouwde namen">
+      <div class="trust-strip" aria-label="<?php echo htmlspecialchars($shared['trust_label'] ?? ''); ?>">
         <?php foreach (($home['trust'] ?? []) as $name): ?>
           <span><?php echo htmlspecialchars($name); ?></span>
         <?php endforeach; ?>
@@ -53,7 +53,7 @@ $secondaryCase = $cases[1] ?? [];
         <span class="button primary" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></span>
       </div>
       <figure>
-        <img src="/assets/img/jackontracks-logo.png" alt="Jack on Track logo" width="320" height="240" loading="lazy">
+        <img src="/assets/img/jackontracks-logo.png" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? $heroCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
         <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
       </figure>
     </a>
@@ -64,7 +64,7 @@ $secondaryCase = $cases[1] ?? [];
   <div class="container">
     <a class="case-card highlight-grid" href="/case-canservices">
       <figure>
-        <img src="/assets/img/canservices.nl-logo.png" alt="Canservices logo" width="320" height="240" loading="lazy">
+        <img src="/assets/img/canservices.nl-logo.png" alt="<?php echo htmlspecialchars($secondaryCase['image_alt'] ?? $secondaryCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
         <figcaption data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></figcaption>
       </figure>
       <div>

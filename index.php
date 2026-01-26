@@ -67,7 +67,6 @@ if (isset($_GET['fragment'])) {
     <?php endforeach; ?>
 </head>
 <body class="theme">
-<a class="skip-link" href="#main">Skip to content</a>
 <div id="page">
 <?php echo $headerHtml; ?>
 <main id="main" data-page="<?php echo htmlspecialchars($page); ?>">

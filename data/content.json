@@ -98,17 +98,25 @@
       "faq_title": "FAQ",
       "menu_label": "Menu",
       "sitemap_label": "Sitemap",
-      "cta_view_case": "Bekijk"
+      "cta_view_case": "Bekijk",
+      "proof_line": "Website en socials voor Jack Plooij. Ook sites voor bedrijven zoals CANSERVICES.nl.",
+      "skip_link": "Skip to content",
+      "nav_label": "Main",
+      "trust_label": "Vertrouwde namen",
+      "last_update_label": "Last update"
     },
     "home": {
       "hero": {
-        "h1": "Websites en online zichtbaarheid voor bekende Nederlanders",
+        "h1": "Breng jouw online zichtbaarheid naar een nieuw niveau",
         "sub": "Klaar om te worden gevonden met een site en socials die kloppen. Geen gedoe, wel persoonlijk gemaakt.",
         "cta_primary": "Plan 15-min kennismaking",
         "cta_secondary": "Bekijk voorbeeld Jack Plooij",
         "cta_scan": "Vraag gratis groeiscan"
       },
-      "trust": ["Jack Plooij", "CANSERVICES.nl"],
+      "trust": [
+        "Jack Plooij",
+        "CANSERVICES.nl"
+      ],
       "cards_title": "Wat wij voor u kunnen betekenen:",
       "cards": [
         {
@@ -341,6 +349,72 @@
           "q": "Hoe snel start je?",
           "a": "Binnen een week na akkoord, afhankelijk van beschikbaarheid."
         }
+      ],
+      "page_title": "Prijzen",
+      "structures_title": "Structuren",
+      "structures": [
+        {
+          "title": "Fixed Price",
+          "body": "Voor opdrachten werken we met fixed price: vooraf spreken we een vaste prijs en worden er verschillende parameters afgestemd, zodat er geen verrassingen ontstaan en beide kanten goed geinformeerd zijn over ekaars verwachtingen."
+        },
+        {
+          "title": "Abbonnement",
+          "body": "Voor onderhoud, updates en het bijhouden van socials werken we met abonnementen: vaste afspraken per maand voor doorlopende ondersteuning, zodat je website en online uitstraling actueel, veilig en consistent blijven."
+        }
+      ],
+      "sections": [
+        {
+          "title": "Fixed price: duidelijkheid vooraf",
+          "body": [
+            "Bij LionScape werken we met fixed price. Dat betekent dat we vooraf een vaste prijs afspreken voor een duidelijke opdracht. Geen verrassingen achteraf en geen discussies over uren. Jij weet precies wat het kost en wat je ervoor krijgt, en wij weten precies wat we moeten opleveren."
+          ]
+        },
+        {
+          "title": "Waarom we hiervoor kiezen",
+          "body": [
+            "In veel trajecten ontstaat gedoe door werken op uurbasis. Een klant wil vooral een goed eindresultaat, maar krijgt uiteindelijk een rekening die vooral over tijd gaat. Dat voelt niet altijd eerlijk, zeker als iets meer tijd kost dan verwacht.",
+            "Fixed price haalt die spanning weg. Jij wordt niet \"gestraft\" als iets complexer blijkt, en wij hoeven niet te haasten om binnen een aantal uren te blijven. Daardoor kunnen we focussen op wat telt: kwaliteit, een consistente uitstraling en een website die echt af is."
+          ]
+        },
+        {
+          "title": "Heldere scope is de basis",
+          "body": [
+            "Een vaste prijs werkt alleen als we vooraf goed afspreken wat er binnen de opdracht valt. Daarom starten we met een korte intake en maken we de scope concreet: welke pagina's, welke onderdelen, welke contentblokken, welke functies en eventuele integraties. Op basis daarvan ontvang je een voorstel met een vaste prijs en duidelijke opleverpunten.",
+            "Dit geeft rust. Jij hoeft niet te twijfelen of een vraag extra kosten betekent, en wij kunnen doorbouwen zonder dat er voortdurend opnieuw onderhandeld hoeft te worden."
+          ]
+        },
+        {
+          "title": "Wat meestal inbegrepen is",
+          "body": [
+            "Afhankelijk van het pakket en de scope kan een fixed price traject bijvoorbeeld bestaan uit:"
+          ],
+          "list": [
+            "Design en unificatie van de look & feel (kleurenpalet, typografie, basisstijl)",
+            "Realisatie van de website (desktop en mobiel)",
+            "Opbouw van pagina's en herbruikbare contentmodules",
+            "Basis SEO (technische basis, metadata, indexeerbaarheid)",
+            "Performance en veiligheid (snelle laadtijden, technische checks)",
+            "Optioneel: ondersteuning bij socials (templates en consistente uitstraling)"
+          ]
+        },
+        {
+          "title": "Wijzigingen: flexibel, maar wel netjes geregeld",
+          "body": [
+            "Tijdens een traject komen er vaak nieuwe ideeen. Dat is normaal. Als een wijziging binnen de afgesproken scope past, nemen we die mee. Als het buiten de scope valt, maken we het concreet en spreken we een aanvullende fixed price af voor dat extra onderdeel. Zo houd jij de controle over het budget en blijft het voor ons haalbaar om kwaliteit te blijven leveren."
+          ]
+        },
+        {
+          "title": "Onderhoud en doorontwikkeling",
+          "body": [
+            "Een website is nooit echt \"klaar\". Er komen updates, verbeteringen, nieuwe pagina's en kleine optimalisaties. Daarom bieden we ook onderhoud en doorontwikkeling. Dat kan met vaste afspraken, bijvoorbeeld per maand of per wijzigingspakket, zodat je weet waar je aan toe bent en je website gezond blijft."
+          ]
+        },
+        {
+          "title": "Samenwerken zonder ruis",
+          "body": [
+            "Het doel van fixed price is simpel: helderheid en een prettige samenwerking. Jij koopt een resultaat, geen uren. En wij leveren dat resultaat met focus op consistentie, snelheid en een professionele uitstraling."
+          ]
+        }
       ]
     },
     "about": {
@@ -500,11 +574,15 @@
       "faq_title": "FAQ",
       "menu_label": "Menu",
       "sitemap_label": "Sitemap",
-      "cta_view_case": "View case"
+      "cta_view_case": "View case",
+      "skip_link": "Skip to content",
+      "nav_label": "Main",
+      "trust_label": "Trusted names",
+      "last_update_label": "Last update"
     },
     "home": {
       "hero": {
-        "h1": "Websites and online visibility for public figures",
+        "h1": "Take your online visibility to a new level",
         "sub": "Ready to be found with a site and socials that fit. No hassle, made personally.",
         "cta_primary": "Book a 15-min intro",
         "cta_secondary": "See the Jack Plooij example",
@@ -749,6 +827,72 @@
         {
           "q": "How soon can we start?",
           "a": "Within a week after agreement, depending on availability."
+        }
+      ],
+      "page_title": "Pricing",
+      "structures_title": "Structures",
+      "structures": [
+        {
+          "title": "Fixed Price",
+          "body": "For projects we work with fixed price: we agree on a set price upfront and align on the parameters so there are no surprises and both sides are clear on expectations."
+        },
+        {
+          "title": "Subscription",
+          "body": "For maintenance, updates, and social posting we use subscriptions: fixed monthly agreements for ongoing support so your site and online presence stay current, secure, and consistent."
+        }
+      ],
+      "sections": [
+        {
+          "title": "Fixed price: clarity upfront",
+          "body": [
+            "At LionScape we work with fixed price. That means we agree on a set price upfront for a clear assignment. No surprises afterward and no debates about hours. You know exactly what it costs and what you get, and we know exactly what to deliver."
+          ]
+        },
+        {
+          "title": "Why we choose this",
+          "body": [
+            "In many projects, hourly billing creates friction. A client wants a strong end result but ends up with a bill that mainly reflects time. That does not always feel fair, especially when something takes longer than expected.",
+            "Fixed price removes that tension. You are not \"penalized\" if something turns out to be more complex, and we do not have to rush to stay within a set number of hours. That lets us focus on what matters: quality, a consistent presence, and a site that is truly finished."
+          ]
+        },
+        {
+          "title": "Clear scope is the foundation",
+          "body": [
+            "A fixed price only works if we agree upfront on what is included. That is why we start with a short intake and make the scope concrete: which pages, which components, which content blocks, which features and any integrations. Based on that you receive a proposal with a fixed price and clear delivery points.",
+            "This brings calm. You do not have to wonder whether a question means extra costs, and we can keep building without constant renegotiation."
+          ]
+        },
+        {
+          "title": "What is usually included",
+          "body": [
+            "Depending on the package and scope, a fixed price project can include:"
+          ],
+          "list": [
+            "Design and unification of the look & feel (color palette, typography, base style)",
+            "Website delivery (desktop and mobile)",
+            "Page build-out and reusable content modules",
+            "Basic SEO (technical foundation, metadata, indexability)",
+            "Performance and security (fast load times, technical checks)",
+            "Optional: social support (templates and consistent presence)"
+          ]
+        },
+        {
+          "title": "Changes: flexible but clearly managed",
+          "body": [
+            "During a project there are often new ideas. That is normal. If a change fits within the agreed scope, we include it. If it falls outside the scope, we make it concrete and agree on an additional fixed price for that extra part. This keeps you in control of the budget and keeps quality achievable for us."
+          ]
+        },
+        {
+          "title": "Maintenance and ongoing development",
+          "body": [
+            "A website is never truly \"finished\". There are updates, improvements, new pages, and small optimizations. That is why we also offer maintenance and ongoing development. This can be arranged with fixed agreements, for example per month or per change package, so you know what to expect and your website stays healthy."
+          ]
+        },
+        {
+          "title": "Working together without noise",
+          "body": [
+            "The goal of fixed price is simple: clarity and a pleasant collaboration. You buy a result, not hours. And we deliver that result with focus on consistency, speed, and a professional presence."
+          ]
         }
       ]
     },
