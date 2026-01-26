@@ -99,7 +99,6 @@
       "menu_label": "Menu",
       "sitemap_label": "Sitemap",
       "cta_view_case": "Bekijk",
-      "proof_line": "Website en socials voor Jack Plooij. Ook sites voor bedrijven zoals CANSERVICES.nl.",
       "skip_link": "Skip to content",
       "nav_label": "Main",
       "trust_label": "Vertrouwde namen",
@@ -113,10 +112,7 @@
         "cta_secondary": "Bekijk voorbeeld Jack Plooij",
         "cta_scan": "Vraag gratis groeiscan"
       },
-      "trust": [
-        "Jack Plooij",
-        "CANSERVICES.nl"
-      ],
+      "trust": ["Jack Plooij", "CANSERVICES.nl"],
       "cards_title": "Wat wij voor u kunnen betekenen:",
       "cards": [
         {
@@ -588,12 +584,7 @@
         "cta_secondary": "See the Jack Plooij example",
         "cta_scan": "Request free growth scan"
       },
-      "trust": [
-        "Jack Plooij",
-        "CANSERVICES.nl",
-        "RTL Autosport",
-        "Team partners"
-      ],
+      "trust": ["Jack Plooij", "CANSERVICES.nl"],
       "cards_title": "What I handle for you",
       "cards": [
         {
