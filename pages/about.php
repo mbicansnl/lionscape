@@ -2,16 +2,17 @@
 $data = content_for($content, $lang, 'about', []);
 $shared = content_for($content, $lang, 'shared', []);
 $title = $data['title'] ?? content_for($content, $lang, 'nav.about', 'Over');
+$logoAlt = $data['logo_alt'] ?? 'LionScape logo';
 ?>
 <section class="page-hero">
   <div class="container">
-    <h1><?php echo htmlspecialchars($title); ?></h1>
+    <h1 data-i18n="about.title"><?php echo htmlspecialchars($title); ?></h1>
   </div>
 </section>
 <section class="about-body">
   <div class="container">
     <figure class="about-hero-image">
-      <img src="/LionScape-logo-full.png" alt="LionScape logo" loading="lazy">
+      <img src="/LionScape-logo-full.png" alt="<?php echo htmlspecialchars($logoAlt); ?>" loading="lazy">
     </figure>
     <div class="grid-2">
       <div class="about-sections">
