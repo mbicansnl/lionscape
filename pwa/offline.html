@@ -12,9 +12,35 @@
 </head>
 <body>
   <div class="box">
-    <h1>Offline</h1>
-    <p>Je bent offline. De belangrijkste pagina s staan lokaal klaar. Probeer later opnieuw voor de nieuwste versie.</p>
-    <a href="/">Terug naar home</a>
+    <h1 data-i18n="offline.heading">Offline</h1>
+    <p data-i18n="offline.body">Je bent offline. De belangrijkste pagina s staan lokaal klaar. Probeer later opnieuw voor de nieuwste versie.</p>
+    <a href="/" data-i18n="offline.back_link">Terug naar home</a>
   </div>
+  <script>
+    const translations = {
+      nl: {
+        title: 'Offline | LionScape',
+        heading: 'Offline',
+        body: 'Je bent offline. De belangrijkste pagina s staan lokaal klaar. Probeer later opnieuw voor de nieuwste versie.',
+        back_link: 'Terug naar home'
+      },
+      en: {
+        title: 'Offline | LionScape',
+        heading: 'Offline',
+        body: 'You are offline. The key pages are cached locally. Try again later for the newest version.',
+        back_link: 'Back to home'
+      }
+    };
+
+    const params = new URLSearchParams(window.location.search);
+    const stored = window.localStorage?.getItem('lang');
+    const lang = params.get('lang') || stored || 'nl';
+    const copy = translations[lang] || translations.nl;
+    document.documentElement.lang = lang;
+    document.title = copy.title;
+    document.querySelector('[data-i18n=\"offline.heading\"]').textContent = copy.heading;
+    document.querySelector('[data-i18n=\"offline.body\"]').textContent = copy.body;
+    document.querySelector('[data-i18n=\"offline.back_link\"]').textContent = copy.back_link;
+  </script>
 </body>
 </html>
