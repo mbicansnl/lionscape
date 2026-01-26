@@ -415,6 +415,7 @@
     },
     "about": {
       "title": "Over LionScape",
+      "logo_alt": "LionScape logo",
       "sections": [
         {
           "title": "Hoe LionScape is ontstaan",
@@ -889,9 +890,40 @@
     },
     "about": {
       "title": "About LionScape",
+      "logo_alt": "LionScape logo",
       "intro": "I work with you directly. Quality and speed together.",
       "body": "My projects are built on clarity. No buzzwords, just a site and socials that show who you are. Limited capacity keeps the focus on you.",
-      "proof": "Experience with Jack Plooij and companies like CANSERVICES.nl."
+      "proof": "Experience with Jack Plooij and companies like CANSERVICES.nl.",
+      "sections": [
+        {
+          "title": "How LionScape started",
+          "body": "LionScape began after a project that set a lot in motion: building the website for Jack Plooij. That collaboration showed how much difference a strong, consistent online presence can make. From that experience, LionScape was founded: a new company that helps entrepreneurs present their brand online in a sharp, recognizable, professional way without loose ends."
+        },
+        {
+          "title": "What we do",
+          "body": "We build complete websites from A to Z. Not just the tech, but the foundation of your presence: a clear color palette, typography, visual style, and a layout that works on every screen. We create a logical page structure, clear navigation, and a presentation that inspires trust. Everything is aligned so your online presence feels the same everywhere: website, socials, and any campaign assets."
+        },
+        {
+          "title": "A consistent look across every channel",
+          "body": "Many entrepreneurs switch between separate parties for design, development, and content, which leads to a messy whole. LionScape takes a different approach. We unify the look and make choices that return everywhere: color, style, tone of voice, and visual elements. That way customers recognize you immediately, no matter where they meet you."
+        },
+        {
+          "title": "Modern tech and a site that grows with you",
+          "body": "LionScape uses modern technology and delivers websites that are fast, secure, and easy to manage. A website is not a one-off project but a platform that needs to grow with you. That is why we also provide maintenance and ongoing development: updates, improvements, new pages, optimizations, and resolving issues before they become problems. This keeps your site current, stable, and aligned with your business."
+        },
+        {
+          "title": "Support for socials",
+          "body": "Alongside websites we also help with socials. Not just \"posting something\", but building a recognizable style: templates, banners, highlights, and a consistent presence that fits your brand. We help with practical choices: what goes where, what content works well, and how your socials and website reinforce each other. The goal is that visitors immediately see who you are, what you stand for, and how to get in touch or become a customer."
+        },
+        {
+          "title": "The founder",
+          "body": "The founder of LionScape chose entrepreneurship after four years of Commercial Economics. With a strong focus on marketing, conversion, and brand experience, and with an eye for the tech needed to support that. LionScape started from the conviction that entrepreneurs benefit from a clear approach, a consistent presence, and a website that is truly finished."
+        },
+        {
+          "title": "What we stand for",
+          "body": "LionScape stands for the complete picture: a website that works, a look that fits, and an approach that is clear. One partner for design, development, maintenance, and support, so everything stays aligned and you keep time to run your business."
+        }
+      ]
     },
     "contact": {
       "title": "Contact",
