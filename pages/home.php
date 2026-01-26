@@ -44,8 +44,8 @@ $secondaryCase = $cases[1] ?? [];
   </div>
 </section>
 
-<section class="case-highlight">
-  <div class="container">
+<section class="case-highlights">
+  <div class="container case-grid">
     <a class="case-card highlight-grid" href="/case-jack">
       <div>
         <p class="eyebrow" data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></p>
@@ -57,11 +57,6 @@ $secondaryCase = $cases[1] ?? [];
         <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
       </figure>
     </a>
-  </div>
-</section>
-
-<section class="case-secondary">
-  <div class="container">
     <a class="case-card highlight-grid" href="/case-canservices">
       <figure>
         <img src="/assets/img/canservices.nl-logo.png" alt="<?php echo htmlspecialchars($secondaryCase['image_alt'] ?? $secondaryCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
