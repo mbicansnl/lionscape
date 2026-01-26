@@ -65,7 +65,7 @@ $secondaryCase = $cases[1] ?? [];
       <div>
         <p class="eyebrow" data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></p>
         <h2><?php echo htmlspecialchars($home['secondary']['text'] ?? ''); ?></h2>
-        <span class="button ghost" data-i18n="home.secondary.cta"><?php echo htmlspecialchars($home['secondary']['cta'] ?? ''); ?></span>
+        <span class="button primary" data-i18n="home.secondary.cta"><?php echo htmlspecialchars($home['secondary']['cta'] ?? ''); ?></span>
       </div>
     </a>
   </div>
