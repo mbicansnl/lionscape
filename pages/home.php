@@ -13,7 +13,7 @@ $secondaryCase = $cases[1] ?? [];
       <p class="lead" data-i18n="home.hero.sub"><?php echo htmlspecialchars($home['hero']['sub'] ?? ''); ?></p>
       <div class="cta-group">
         <a class="button primary" href="/contact" data-i18n="home.hero.cta_primary"><?php echo htmlspecialchars($home['hero']['cta_primary'] ?? ''); ?></a>
-        <a class="button ghost" href="/case-jack" data-i18n="home.hero.cta_secondary"><?php echo htmlspecialchars($home['hero']['cta_secondary'] ?? ''); ?></a>
+        <a class="button primary" href="/case-jack" data-i18n="home.hero.cta_secondary"><?php echo htmlspecialchars($home['hero']['cta_secondary'] ?? ''); ?></a>
         <a class="button text" href="#scan" data-i18n="home.hero.cta_scan"><?php echo htmlspecialchars($home['hero']['cta_scan'] ?? ''); ?></a>
       </div>
       <div class="trust-strip" aria-label="<?php echo htmlspecialchars($shared['trust_label'] ?? ''); ?>">
