@@ -4,10 +4,7 @@ $shared = content_for($content, $lang, 'shared', []);
 ?>
 <section class="page-hero">
   <div class="container">
-    <h1>Webdesign, SEO en Social Media Diensten</h1>
-     <section class="offers">
-        <div class="offer-grid">
-    </section>
+    <h1 data-i18n="services.h1"><?php echo htmlspecialchars($data['h1'] ?? ''); ?></h1>
     <p><?php echo htmlspecialchars($data['intro'] ?? ''); ?></p>
   </div>
 </section>

@@ -181,6 +181,16 @@ function canonical_url(string $page, string $lang): string
     return $baseUrl . '/' . $basePath;
 }
 
+function language_url(string $page, string $lang): string
+{
+    $url = canonical_url($page, 'nl');
+    if ($lang === 'nl') {
+        return $url;
+    }
+    $separator = str_contains($url, '?') ? '&' : '?';
+    return $url . $separator . 'lang=' . urlencode($lang);
+}
+
 function json_ld(array $content, string $lang, string $page): array
 {
     $organization = [
