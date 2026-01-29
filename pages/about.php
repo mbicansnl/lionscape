@@ -1,12 +1,12 @@
 <?php
 $data = content_for($content, $lang, 'about', []);
 $shared = content_for($content, $lang, 'shared', []);
-$title = $data['title'] ?? content_for($content, $lang, 'nav.about', 'Over');
+$title = 'Over LionScape';
 $logoAlt = $data['logo_alt'] ?? 'LionScape logo';
 ?>
 <section class="page-hero">
   <div class="container">
-    <h1 data-i18n="about.title"><?php echo htmlspecialchars($title); ?></h1>
+    <h1><?php echo htmlspecialchars($title); ?></h1>
   </div>
 </section>
 <section class="about-body">
