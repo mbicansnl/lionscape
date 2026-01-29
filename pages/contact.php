@@ -4,7 +4,7 @@ $shared = content_for($content, $lang, 'shared', []);
 ?>
 <section class="page-hero">
   <div class="container">
-    <h1 data-i18n="nav.contact"><?php echo htmlspecialchars(content_for($content, $lang, 'nav.contact', 'Contact')); ?></h1>
+    <h1>Contact met LionScape</h1>
     <p><?php echo htmlspecialchars($data['intro'] ?? ''); ?></p>
     <p class="muted"><?php echo htmlspecialchars($data['note'] ?? ''); ?></p>
   </div>

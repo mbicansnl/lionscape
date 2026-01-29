@@ -12,12 +12,12 @@
     },
     "meta": {
       "home": {
-        "title": "Welkom bij LionScape.",
-        "description": "Bekijk hier ons aanbod in services, op maat gemaakt voor uw behoeften"
+        "title": "Webdesign, SEO & Social Media voor Ondernemers | LionScape",
+        "description": "LionScape helpt ondernemers groeien met webdesign, SEO en social media. Meer online zichtbaarheid, hogere conversie en meetbaar resultaat."
       },
       "services": {
-        "title": "Aanpak: online uitstraling zonder gedoe | LionScape",
-        "description": "Drie concrete pakketten: online uitstraling, website die klopt, zichtbaar blijven."
+        "title": "Webdesign, SEO & Social Media Diensten voor Ondernemers | LionScape",
+        "description": "Professionele webdesign-, SEO- en social media diensten voor ondernemers. Heldere aanpak, vaste prijzen en focus op resultaat."
       },
       "cases": {
         "title": "Voorbeelden: Jack Plooij en CANSERVICES.nl | LionScape",
@@ -36,12 +36,12 @@
         "description": "Selectieve trajecten. Na de kennismaking krijg je een duidelijke indicatie."
       },
       "about": {
-        "title": "Over LionScape | LionScape",
-        "description": "Kleinschalig, kwaliteit eerst. Websites en socials voor bekende Nederlanders."
+        "title": "Over LionScape | Digitaal Bureau voor Online Groei",
+        "description": "LionScape is een digitaal bureau dat ondernemers helpt groeien met websites, SEO en social media. Transparant, praktisch en resultaatgericht."
       },
       "contact": {
-        "title": "Contact | LionScape",
-        "description": "Plan een kennismaking of vraag de gratis groeiscan aan."
+        "title": "Contact | Webdesign & SEO voor Ondernemers | LionScape",
+        "description": "Neem contact op met LionScape voor webdesign, SEO of social media. Direct schakelen, duidelijke afspraken en snelle opvolging."
       },
       "privacy": {
         "title": "Privacy | LionScape",
@@ -106,7 +106,7 @@
     },
     "home": {
       "hero": {
-        "h1": "Breng jouw online zichtbaarheid naar een nieuw niveau",
+        "h1": "Webdesign, SEO en Social Media voor Ondernemers",
         "sub": "Klaar om te worden gevonden met een site en socials die kloppen. Geen gedoe, wel persoonlijk gemaakt.",
         "cta_primary": "Plan 15-min kennismaking",
         "cta_secondary": "Bekijk voorbeeld Jack Plooij",

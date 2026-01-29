@@ -4,7 +4,7 @@ $shared = content_for($content, $lang, 'shared', []);
 ?>
 <section class="page-hero">
   <div class="container">
-    <h1 data-i18n="nav.services"><?php echo htmlspecialchars(content_for($content, $lang, 'nav.services', 'Aanpak')); ?></h1>
+    <h1>Webdesign, SEO en Social Media Diensten</h1>
      <section class="offers">
         <div class="offer-grid">
     </section>

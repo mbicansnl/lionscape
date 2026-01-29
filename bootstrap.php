@@ -156,6 +156,7 @@ function absolute_url(string $path = ''): string
 
 function canonical_url(string $page, string $lang): string
 {
+    $baseUrl = 'https://lionscape.nl';
     $basePath = '';
     $map = [
         'home' => '',
@@ -174,75 +175,49 @@ function canonical_url(string $page, string $lang): string
     } else {
         $basePath = $page;
     }
-    $url = absolute_url($basePath);
-    return $lang === 'nl' ? $url : $url . '?lang=' . $lang;
+    if ($basePath === '') {
+        return $baseUrl;
+    }
+    return $baseUrl . '/' . $basePath;
 }
 
 function json_ld(array $content, string $lang, string $page): array
 {
-    $brand = content_for($content, $lang, 'brand', 'LionScape');
-    $location = content_for($content, $lang, 'location', 'Nederland');
-    $url = canonical_url($page, $lang);
-    $breadcrumbs = [
-        '@context' => 'https://schema.org',
-        '@type' => 'BreadcrumbList',
-        'itemListElement' => [
-            [
-                '@type' => 'ListItem',
-                'position' => 1,
-                'name' => 'Home',
-                'item' => absolute_url()
-            ],
-            [
-                '@type' => 'ListItem',
-                'position' => 2,
-                'name' => ucfirst(str_replace('-', ' ', $page)),
-                'item' => $url
-            ]
-        ]
-    ];
-
     $organization = [
         '@context' => 'https://schema.org',
         '@type' => 'LocalBusiness',
-        'name' => $brand,
-        'url' => $url,
+        'name' => 'LionScape',
+        'url' => 'https://lionscape.nl',
+        'logo' => 'https://lionscape.nl/LionScape-logo-transparent-header.png',
+        'description' => 'Digitale diensten voor ondernemers: webdesign, SEO en social media.',
         'address' => [
             '@type' => 'PostalAddress',
-            'addressLocality' => $location
+            'addressCountry' => 'NL'
         ],
         'sameAs' => [
-            'https://www.jackontracks.nl',
-            'https://www.canservices.nl'
+            'https://www.linkedin.com/company/lionscape'
         ]
     ];
 
-    $website = [
+    $service = [
         '@context' => 'https://schema.org',
-        '@type' => 'WebSite',
-        'name' => $brand,
-        'url' => absolute_url(),
-        'potentialAction' => [
-            '@type' => 'SearchAction',
-            'target' => absolute_url('?q={search_term_string}'),
-            'query-input' => 'required name=search_term_string'
+        '@type' => 'Service',
+        'provider' => [
+            '@type' => 'Organization',
+            'name' => 'LionScape'
+        ],
+        'serviceType' => [
+            'Webdesign',
+            'SEO',
+            'Social Media Management'
+        ],
+        'areaServed' => [
+            '@type' => 'Country',
+            'name' => 'Netherlands'
         ]
     ];
 
-    $article = [];
-    if ($page === 'case-jack' || $page === 'case-canservices') {
-        $meta = meta_for($content, $lang, $page);
-        $article = [
-            '@context' => 'https://schema.org',
-            '@type' => 'Article',
-            'headline' => $meta['title'] ?? $brand,
-            'description' => $meta['description'] ?? '',
-            'author' => $brand,
-            'mainEntityOfPage' => $url
-        ];
-    }
-
-    return array_values(array_filter([$breadcrumbs, $organization, $website, $article]));
+    return [$organization, $service];
 }
 
 function render_template(string $file, array $vars = []): string
