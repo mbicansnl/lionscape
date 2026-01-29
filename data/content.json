@@ -168,6 +168,7 @@
       }
     },
     "services": {
+      "h1": "Webdesign, SEO en Social Media Diensten",
       "intro": "Drie concrete manieren om je online zichtbaarheid te regelen zonder gedoe.",
       "approach_title": "Plan van Aanpak",
       "approach": [
@@ -448,6 +449,7 @@
       ]
     },
     "contact": {
+      "h1": "Contact met LionScape",
       "title": "Contact",
       "intro": "Geen salesdruk. Eerst helder krijgen wat je nodig hebt.",
       "note": "Liever zelf plannen? Stuur een mail voor een korte belafspraak.",
@@ -484,12 +486,12 @@
     },
     "meta": {
       "home": {
-        "title": "Websites and visibility for public figures | LionScape",
-        "description": "Website and social media for Jack Plooij. Selective projects for public figures and companies like CANSERVICES.nl."
+        "title": "Webdesign, SEO & Social Media for Entrepreneurs | LionScape",
+        "description": "LionScape helps entrepreneurs grow with webdesign, SEO and social media. More online visibility, higher conversion and measurable results."
       },
       "services": {
-        "title": "Approach: clear online presence | LionScape",
-        "description": "Three clear offers: online presence, site that fits, stay visible."
+        "title": "Webdesign, SEO & Social Media Services for Entrepreneurs | LionScape",
+        "description": "Professional webdesign, SEO and social media services for entrepreneurs. Clear approach, fixed pricing and focus on results."
       },
       "cases": {
         "title": "Work: Jack Plooij and CANSERVICES.nl | LionScape",
@@ -508,12 +510,12 @@
         "description": "Selective projects. After the intro call you get a clear indication."
       },
       "about": {
-        "title": "About LionScape | LionScape",
-        "description": "Small, quality-first. Websites and socials for public figures."
+        "title": "About LionScape | Digital Agency for Online Growth",
+        "description": "LionScape is a digital agency that helps entrepreneurs grow with websites, SEO and social media. Transparent, practical and results-driven."
       },
       "contact": {
-        "title": "Contact | LionScape",
-        "description": "Book an intro call or request the free growth scan."
+        "title": "Contact | Webdesign & SEO for Entrepreneurs | LionScape",
+        "description": "Contact LionScape for webdesign, SEO or social media. Direct communication, clear agreements and fast follow-up."
       },
       "privacy": {
         "title": "Privacy | LionScape",
@@ -578,7 +580,7 @@
     },
     "home": {
       "hero": {
-        "h1": "Take your online visibility to a new level",
+        "h1": "Webdesign, SEO and Social Media for Entrepreneurs",
         "sub": "Ready to be found with a site and socials that fit. No hassle, made personally.",
         "cta_primary": "Book a 15-min intro",
         "cta_secondary": "See the Jack Plooij example",
@@ -642,6 +644,7 @@
       }
     },
     "services": {
+      "h1": "Webdesign, SEO and Social Media Services",
       "intro": "Three concrete ways to handle your online presence without hassle.",
       "approach_title": "Approach",
       "approach": [
@@ -925,6 +928,7 @@
       ]
     },
     "contact": {
+      "h1": "Contact LionScape",
       "title": "Contact",
       "intro": "No sales pressure. First we clarify what you need.",
       "note": "Prefer to schedule yourself? Email to set a short call.",

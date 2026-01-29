@@ -51,6 +51,8 @@ if (isset($_GET['fragment'])) {
     <title><?php echo htmlspecialchars($title); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($description); ?>">
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical); ?>">
+    <link rel="alternate" hreflang="nl" href="<?php echo htmlspecialchars(language_url($page, 'nl')); ?>">
+    <link rel="alternate" hreflang="en" href="<?php echo htmlspecialchars(language_url($page, 'en')); ?>">
     <meta property="og:title" content="<?php echo htmlspecialchars($title); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($description); ?>">
     <meta property="og:type" content="website">
