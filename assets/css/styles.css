@@ -93,10 +93,18 @@ figcaption { margin-top: 0.75rem; color: var(--muted); font-size: 0.95rem; }
   box-shadow: var(--shadow);
   padding: 2rem;
   display: grid;
+  gap: 2rem;
   color: inherit;
   text-decoration: none;
 }
-.case-card.highlight-grid { grid-template-columns: 1fr; align-items: stretch; }
+.case-card.highlight-grid { grid-template-columns: 1fr; align-items: center; }
+.case-card.highlight-grid > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  text-align: left;
+}
 .case-card figure {
   display: flex;
   flex-direction: column;
