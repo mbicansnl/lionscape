@@ -82,11 +82,37 @@ function attachInteractions() {
   const menuButton = qs('.menu-toggle');
   const nav = qs('.nav');
   if (menuButton && nav) {
-    menuButton.onclick = () => {
-      const open = nav.classList.toggle('open');
+    const setMenuState = open => {
+      const currentNav = qs('.nav');
+      const currentButton = qs('.menu-toggle');
+      if (!currentNav || !currentButton) return;
+      currentNav.classList.toggle('open', open);
       document.body.classList.toggle('menu-open', open);
-      menuButton.setAttribute('aria-expanded', String(open));
+      currentButton.setAttribute('aria-expanded', String(open));
     };
+
+    menuButton.onclick = () => {
+      const open = !nav.classList.contains('open');
+      setMenuState(open);
+    };
+
+    qsa('a', nav).forEach(link => {
+      link.addEventListener('click', () => setMenuState(false));
+    });
+
+    if (!document.body.dataset.menuBound) {
+      document.body.dataset.menuBound = 'true';
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') {
+          setMenuState(false);
+        }
+      });
+      window.addEventListener('resize', () => {
+        if (window.innerWidth >= 768) {
+          setMenuState(false);
+        }
+      });
+    }
   }
 
   qsa('[data-language-toggle] a').forEach(link => {
