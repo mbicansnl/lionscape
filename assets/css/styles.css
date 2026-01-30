@@ -233,13 +233,20 @@ input:focus, textarea:focus { outline: 2px solid var(--accent); }
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    align-items: center;
+    align-items: stretch;
+    padding-top: 2.25rem;
   }
 
   .case-card > div {
     order: 1;
     flex: 1 1 auto;
     min-width: 0;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 0.5rem;
   }
 
   .case-card figure {
@@ -248,7 +255,8 @@ input:focus, textarea:focus { outline: 2px solid var(--accent); }
     width: clamp(180px, 24vw, 240px);
     align-items: center;
     justify-content: center;
-    height: auto;
+    height: clamp(150px, 20vw, 180px);
+    margin-top: 0.5rem;
   }
 
   .case-card img {
@@ -256,6 +264,24 @@ input:focus, textarea:focus { outline: 2px solid var(--accent); }
     height: auto;
     max-height: none;
     object-fit: contain;
+  }
+
+  .case-card h2,
+  .case-card h3 {
+    font-size: clamp(1.25rem, 1.6vw, 1.6rem);
+    line-height: 1.15;
+    margin: 0 0 0.65rem;
+  }
+
+  .case-card p {
+    font-size: 0.95rem;
+    line-height: 1.45;
+    margin: 0 0 0.85rem;
+  }
+
+  .case-card .button {
+    margin-top: auto;
+    align-self: flex-start;
   }
 }
 
@@ -312,4 +338,30 @@ body.menu-open { overflow: hidden; }
   .nav a { padding: 0.35rem 0.6rem; min-height: auto; }
   .lang-toggle a { min-height: auto; }
   .form-grid form .button { justify-self: start; }
+}
+
+@media (min-width: 768px) {
+  .case-highlights .case-card {
+    padding-top: 2.25rem !important;
+  }
+
+  .case-highlights .case-card figure {
+    margin-top: 0.625rem !important;
+  }
+
+  .case-highlights .case-card > div {
+    justify-content: flex-start !important;
+    padding-top: 0.5rem !important;
+  }
+
+  .case-highlights .case-card h2,
+  .case-highlights .case-card h3 {
+    font-size: 1.55rem !important;
+    line-height: 1.15 !important;
+  }
+
+  .case-highlights .case-card p {
+    font-size: 0.9375rem !important;
+    line-height: 1.55 !important;
+  }
 }
