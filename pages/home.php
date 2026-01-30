@@ -24,7 +24,7 @@ $secondaryCase = $cases[1] ?? [];
     </div>
     <div class="hero-visual">
       <figure>
-        <img src="/LionScape-logo-full.png" width="720" height="480" loading="lazy">
+        <img src="/LionScape-logo-full.png" alt="LionScape logo" width="1080" height="1080" loading="lazy">
       </figure>
     </div>
   </div>
@@ -95,21 +95,21 @@ $secondaryCase = $cases[1] ?? [];
     </div>
     <form method="post" novalidate>
       <input type="hidden" name="form_type" value="scan">
-      <label>
+      <label for="scan-name">
         <span data-i18n="shared.form.name"><?php echo htmlspecialchars($shared['form']['name'] ?? ''); ?></span>
-        <input type="text" name="name" required>
+        <input id="scan-name" type="text" name="name" autocomplete="name" required>
       </label>
-      <label>
+      <label for="scan-email">
         <span data-i18n="shared.form.email"><?php echo htmlspecialchars($shared['form']['email'] ?? ''); ?></span>
-        <input type="email" name="email" required>
+        <input id="scan-email" type="email" name="email" autocomplete="email" inputmode="email" required>
       </label>
-      <label>
+      <label for="scan-phone">
         <span data-i18n="shared.form.phone"><?php echo htmlspecialchars($shared['form']['phone'] ?? ''); ?></span>
-        <input type="text" name="phone">
+        <input id="scan-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel">
       </label>
-      <label>
+      <label for="scan-message">
         <span data-i18n="shared.form.message"><?php echo htmlspecialchars($shared['form']['message'] ?? ''); ?></span>
-        <textarea name="message" rows="4"></textarea>
+        <textarea id="scan-message" name="message" rows="4"></textarea>
       </label>
       <label class="hidden">
         <span><?php echo htmlspecialchars($shared['honeypot'] ?? ''); ?></span>

@@ -12,7 +12,7 @@ $logoAlt = $data['logo_alt'] ?? 'LionScape logo';
 <section class="about-body">
   <div class="container">
     <figure class="about-hero-image">
-      <img src="/LionScape-logo-full.png" alt="<?php echo htmlspecialchars($logoAlt); ?>" loading="lazy">
+      <img src="/LionScape-logo-full.png" alt="<?php echo htmlspecialchars($logoAlt); ?>" width="1080" height="1080" loading="lazy">
     </figure>
     <div class="grid-2">
       <div class="about-sections">

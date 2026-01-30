@@ -22,21 +22,21 @@ $shared = content_for($content, $lang, 'shared', []);
     </div>
     <form method="post" novalidate>
       <input type="hidden" name="form_type" value="contact">
-      <label>
+      <label for="contact-name">
         <span data-i18n="shared.form.name"><?php echo htmlspecialchars($shared['form']['name'] ?? ''); ?></span>
-        <input type="text" name="name" required>
+        <input id="contact-name" type="text" name="name" autocomplete="name" required>
       </label>
-      <label>
+      <label for="contact-email">
         <span data-i18n="shared.form.email"><?php echo htmlspecialchars($shared['form']['email'] ?? ''); ?></span>
-        <input type="email" name="email" required>
+        <input id="contact-email" type="email" name="email" autocomplete="email" inputmode="email" required>
       </label>
-      <label>
+      <label for="contact-phone">
         <span data-i18n="shared.form.phone"><?php echo htmlspecialchars($shared['form']['phone'] ?? ''); ?></span>
-        <input type="text" name="phone">
+        <input id="contact-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel">
       </label>
-      <label>
+      <label for="contact-message">
         <span data-i18n="shared.form.message"><?php echo htmlspecialchars($shared['form']['message'] ?? ''); ?></span>
-        <textarea name="message" rows="4"></textarea>
+        <textarea id="contact-message" name="message" rows="4"></textarea>
       </label>
       <label class="hidden">
         <span><?php echo htmlspecialchars($shared['honeypot'] ?? ''); ?></span>
