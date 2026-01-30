@@ -228,6 +228,37 @@ input:focus, textarea:focus { outline: 2px solid var(--accent); }
   border-radius: var(--radius);
 }
 
+@media (min-width: 768px) {
+  .case-card {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .case-card > div {
+    order: 1;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .case-card figure {
+    order: 0;
+    flex: 0 0 auto;
+    width: clamp(180px, 24vw, 240px);
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .case-card img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
+}
+
 .site-footer { border-top: 1px solid var(--border); padding: 2rem 0; background: #0b1726; }
 .footer-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 .footer-links { display: flex; gap: 1rem; flex-wrap: wrap; }
