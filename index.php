@@ -60,7 +60,7 @@ if (isset($_GET['fragment'])) {
     <meta property="og:image" content="<?php echo absolute_url('assets/img/cases/jackontracks-home.png'); ?>">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="manifest" href="/pwa/manifest.webmanifest">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css?v=2">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" href="/assets/icons/icon-192.png">
     <script>window.__content = <?php echo json_encode($content, JSON_UNESCAPED_UNICODE); ?>;</script>
