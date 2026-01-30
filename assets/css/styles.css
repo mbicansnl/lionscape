@@ -234,7 +234,6 @@ input:focus, textarea:focus { outline: 2px solid var(--accent); }
     flex-direction: row;
     gap: 2rem;
     align-items: stretch;
-    padding-top: 2.25rem;
   }
 
   .case-card > div {
@@ -245,8 +244,7 @@ input:focus, textarea:focus { outline: 2px solid var(--accent); }
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 0.5rem;
+    justify-content: center;
   }
 
   .case-card figure {
@@ -256,7 +254,6 @@ input:focus, textarea:focus { outline: 2px solid var(--accent); }
     align-items: center;
     justify-content: center;
     height: clamp(150px, 20vw, 180px);
-    margin-top: 0.5rem;
   }
 
   .case-card img {
@@ -267,15 +264,23 @@ input:focus, textarea:focus { outline: 2px solid var(--accent); }
   }
 
   .case-card h2 {
-    font-size: clamp(1.25rem, 1.6vw, 1.6rem);
-    line-height: 1.15;
-    margin: 0 0 0.65rem;
+    font-size: clamp(1.4rem, 1.8vw, 1.75rem);
+    line-height: 1.2;
+    margin: 0 0 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .case-card p {
-    font-size: 0.95rem;
-    line-height: 1.45;
-    margin: 0 0 0.85rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0 0 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .case-card .button {
