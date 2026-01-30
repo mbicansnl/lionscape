@@ -598,7 +598,7 @@ textarea:focus {
   .case-card {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1.75rem;
     align-items: stretch;
     padding-top: 2.25rem;
   }
@@ -611,18 +611,18 @@ textarea:focus {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 0.5rem;
+    justify-content: space-between;
+    padding-top: 0;
   }
 
   .case-card figure {
     order: 0;
     flex: 0 0 auto;
     width: clamp(180px, 24vw, 240px);
-    align-items: center;
-    justify-content: center;
-    height: clamp(150px, 20vw, 180px);
-    margin-top: 0.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+    margin-top: 0;
   }
 
   .case-card img {
@@ -630,6 +630,7 @@ textarea:focus {
     height: auto;
     max-height: none;
     object-fit: contain;
+    display: block;
   }
 
   .case-card h2,
@@ -646,7 +647,7 @@ textarea:focus {
   }
 
   .case-card .button {
-    margin-top: auto;
+    margin-top: 0;
     align-self: flex-start;
   }
 }
