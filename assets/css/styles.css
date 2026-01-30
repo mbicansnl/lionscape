@@ -266,7 +266,8 @@ input:focus, textarea:focus { outline: 2px solid var(--accent); }
     object-fit: contain;
   }
 
-  .case-card h2 {
+  .case-card h2,
+  .case-card h3 {
     font-size: clamp(1.25rem, 1.6vw, 1.6rem);
     line-height: 1.15;
     margin: 0 0 0.65rem;
@@ -353,7 +354,8 @@ body.menu-open { overflow: hidden; }
     padding-top: 0.5rem !important;
   }
 
-  .case-highlights .case-card h2 {
+  .case-highlights .case-card h2,
+  .case-highlights .case-card h3 {
     font-size: 1.55rem !important;
     line-height: 1.15 !important;
   }

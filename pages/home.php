@@ -49,7 +49,7 @@ $secondaryCase = $cases[1] ?? [];
     <a class="case-card highlight-grid" href="/case-jack">
       <div>
         <p class="eyebrow" data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></p>
-        <h2><?php echo htmlspecialchars($home['featured']['text'] ?? ''); ?></h2>
+        <h3><?php echo htmlspecialchars($home['featured']['text'] ?? ''); ?></h3>
         <span class="button primary" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></span>
       </div>
       <figure>
@@ -64,7 +64,7 @@ $secondaryCase = $cases[1] ?? [];
       </figure>
       <div>
         <p class="eyebrow" data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></p>
-        <h2><?php echo htmlspecialchars($home['secondary']['text'] ?? ''); ?></h2>
+        <h3><?php echo htmlspecialchars($home['secondary']['text'] ?? ''); ?></h3>
         <span class="button primary" data-i18n="home.secondary.cta"><?php echo htmlspecialchars($home['secondary']['cta'] ?? ''); ?></span>
       </div>
     </a>
