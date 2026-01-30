@@ -600,6 +600,7 @@ textarea:focus {
     flex-direction: row;
     gap: 2rem;
     align-items: stretch;
+    padding-top: 2.25rem;
   }
 
   .case-card > div {
@@ -610,7 +611,8 @@ textarea:focus {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-top: 0.5rem;
   }
 
   .case-card figure {
@@ -620,6 +622,7 @@ textarea:focus {
     align-items: center;
     justify-content: center;
     height: clamp(150px, 20vw, 180px);
+    margin-top: 0.5rem;
   }
 
   .case-card img {
@@ -630,23 +633,15 @@ textarea:focus {
   }
 
   .case-card h2 {
-    font-size: clamp(1.4rem, 1.8vw, 1.75rem);
-    line-height: 1.2;
-    margin: 0 0 0.75rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    font-size: clamp(1.25rem, 1.6vw, 1.6rem);
+    line-height: 1.15;
+    margin: 0 0 0.65rem;
   }
 
   .case-card p {
-    font-size: 1rem;
-    line-height: 1.5;
-    margin: 0 0 1rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    margin: 0 0 0.85rem;
   }
 
   .case-card .button {
@@ -796,5 +791,30 @@ body.menu-open {
   }
   .form-grid form .button {
     justify-self: start;
+  }
+}
+
+@media (min-width: 768px) {
+  .case-highlights .case-card {
+    padding-top: 2.25rem !important;
+  }
+
+  .case-highlights .case-card figure {
+    margin-top: 0.625rem !important;
+  }
+
+  .case-highlights .case-card > div {
+    justify-content: flex-start !important;
+    padding-top: 0.5rem !important;
+  }
+
+  .case-highlights .case-card h2 {
+    font-size: 1.55rem !important;
+    line-height: 1.15 !important;
+  }
+
+  .case-highlights .case-card p {
+    font-size: 0.9375rem !important;
+    line-height: 1.55 !important;
   }
 }
