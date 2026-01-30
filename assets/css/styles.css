@@ -552,6 +552,15 @@ textarea:focus {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   margin-bottom: 2rem;
 }
+.pricing-structures.pricing-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+.pricing-structures.pricing-grid > .pricing-card {
+  min-width: 0;
+  width: 100%;
+}
 .pricing-body .container {
   width: min(var(--max-width), 97vw);
 }
@@ -592,6 +601,18 @@ textarea:focus {
 }
 .pricing-pill[open] {
   border-radius: var(--radius);
+}
+
+@media (min-width: 768px) {
+  .pricing-structures.pricing-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .pricing-structures.pricing-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (min-width: 768px) {

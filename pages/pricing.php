@@ -10,9 +10,9 @@ $pricing = content_for($content, $lang, 'pricing', []);
 <section class="pricing-body">
   <div class="container">
     <h2 data-i18n="pricing.structures_title"><?php echo htmlspecialchars($pricing['structures_title'] ?? ''); ?></h2>
-    <div class="pricing-structures">
+    <div class="pricing-structures pricing-grid">
       <?php foreach (($pricing['structures'] ?? []) as $structure): ?>
-        <details class="pricing-pill">
+        <details class="pricing-pill pricing-card">
           <summary><h3><?php echo htmlspecialchars($structure['title'] ?? ''); ?></h3></summary>
           <div class="pricing-pill__content">
             <p><?php echo htmlspecialchars($structure['body'] ?? ''); ?></p>
