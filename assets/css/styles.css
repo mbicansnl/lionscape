@@ -842,3 +842,41 @@ body.menu-open {
     line-height: 1.55 !important;
   }
 }
+
+/* Pricing grid defaults: mobile stacked */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+/* Tablet (optional): 2 columns */
+@media (min-width: 768px) {
+  .pricing-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Desktop: ALWAYS 3 columns */
+@media (min-width: 1024px) {
+  .pricing-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Ensure cards can shrink within the grid and do not force wrapping */
+.pricing-card {
+  min-width: 0;
+  width: 100%;
+}
+
+/* If any existing CSS sets a fixed width/min-width on these cards, override it here */
+@media (min-width: 1024px) {
+  .pricing-card {
+    max-width: none;
+  }
+  .pricing-grid .pricing-card {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+}
