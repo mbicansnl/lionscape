@@ -96,13 +96,6 @@ function attachInteractions() {
     };
   });
 
-  qsa('.pricing-structures details').forEach((details, index, list) => {
-    details.addEventListener('toggle', () => {
-      const nextDetails = list[index + 1];
-      if (!nextDetails) return;
-      nextDetails.open = details.open;
-    });
-  });
 }
 
 if ('serviceWorker' in navigator) {
