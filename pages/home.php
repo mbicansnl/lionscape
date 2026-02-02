@@ -49,7 +49,9 @@ $secondaryCase = $cases[1] ?? [];
   <div class="container case-grid">
     <a class="case-card highlight-grid" href="/case-jack">
       <figure>
-        <img src="/assets/img/jackontracks-logo.png" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? $heroCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
+        <div class="case-logo-pill">
+          <img src="/assets/img/jackontracks-logo.png" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? $heroCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
+        </div>
         <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
       </figure>
       <div>
@@ -60,7 +62,9 @@ $secondaryCase = $cases[1] ?? [];
     </a>
     <a class="case-card highlight-grid" href="/case-canservices">
       <figure>
-        <img src="/assets/img/canservices.nl-logo.png" alt="<?php echo htmlspecialchars($secondaryCase['image_alt'] ?? $secondaryCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
+        <div class="case-logo-pill">
+          <img src="/assets/img/canservices.nl-logo.png" alt="<?php echo htmlspecialchars($secondaryCase['image_alt'] ?? $secondaryCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
+        </div>
         <figcaption data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></figcaption>
       </figure>
       <div>
