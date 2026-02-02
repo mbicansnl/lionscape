@@ -60,7 +60,7 @@ $secondaryCase = $cases[1] ?? [];
         <span class="button primary" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></span>
       </div>
     </a>
-    <a class="case-card highlight-grid" href="/case-canservices">
+    <a class="case-card highlight-grid case-canservices" href="/case-canservices">
       <figure>
         <div class="case-logo-pill">
           <img src="/assets/img/canservices.nl-logo.png" alt="<?php echo htmlspecialchars($secondaryCase['image_alt'] ?? $secondaryCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
