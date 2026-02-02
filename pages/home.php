@@ -13,6 +13,7 @@ $secondaryCase = $cases[1] ?? [];
       </figure>
     </div>
     <div>
+      <img class="hero-logo" src="/LionScape-logo-transparent-header.png" alt="LionScape logo" width="320" height="120" loading="lazy">
       <p class="eyebrow" data-i18n="shared.proof_line"><?php echo htmlspecialchars($shared['proof_line'] ?? ''); ?></p>
       <h1 data-i18n="home.hero.h1"><?php echo htmlspecialchars($home['hero']['h1'] ?? ''); ?></h1>
       <p class="lead" data-i18n="home.hero.sub"><?php echo htmlspecialchars($home['hero']['sub'] ?? ''); ?></p>
@@ -46,20 +47,24 @@ $secondaryCase = $cases[1] ?? [];
 
 <section class="case-highlights">
   <div class="container case-grid">
-    <a class="case-card highlight-grid" href="/case-jack">
+    <a class="case-card highlight-grid case-jack" href="/case-jack">
+      <figure>
+        <div class="case-logo-pill">
+          <img src="/assets/img/jackontracks-logo.png" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? $heroCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
+        </div>
+        <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
+      </figure>
       <div>
         <p class="eyebrow" data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></p>
         <h2><?php echo htmlspecialchars($home['featured']['text'] ?? ''); ?></h2>
         <span class="button primary" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></span>
       </div>
-      <figure>
-        <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
-              <img src="/assets/img/jackontracks-logo.png" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? $heroCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
-      </figure>
     </a>
     <a class="case-card highlight-grid" href="/case-canservices">
       <figure>
-        <img src="/assets/img/canservices.nl-logo.png" alt="<?php echo htmlspecialchars($secondaryCase['image_alt'] ?? $secondaryCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
+        <div class="case-logo-pill">
+          <img src="/assets/img/canservices.nl-logo.png" alt="<?php echo htmlspecialchars($secondaryCase['image_alt'] ?? $secondaryCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
+        </div>
         <figcaption data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></figcaption>
       </figure>
       <div>
