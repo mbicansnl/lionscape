@@ -7,7 +7,13 @@ $secondaryCase = $cases[1] ?? [];
 ?>
 <section class="hero">
   <div class="container hero-grid">
+    <div class="hero-visual">
+      <figure>
+        <img src="/LionScape-logo-full.png" alt="LionScape preview" width="720" height="480" loading="lazy">
+      </figure>
+    </div>
     <div>
+      <img class="hero-logo" src="/LionScape-logo-transparent-header.png" alt="LionScape logo" width="320" height="120" loading="lazy">
       <p class="eyebrow" data-i18n="shared.proof_line"><?php echo htmlspecialchars($shared['proof_line'] ?? ''); ?></p>
       <h1 data-i18n="home.hero.h1"><?php echo htmlspecialchars($home['hero']['h1'] ?? ''); ?></h1>
       <p class="lead" data-i18n="home.hero.sub"><?php echo htmlspecialchars($home['hero']['sub'] ?? ''); ?></p>
@@ -21,11 +27,6 @@ $secondaryCase = $cases[1] ?? [];
           <span><?php echo htmlspecialchars($name); ?></span>
         <?php endforeach; ?>
       </div>
-    </div>
-    <div class="hero-visual">
-      <figure>
-        <img src="/LionScape-logo-full.png" width="720" height="480" loading="lazy">
-      </figure>
     </div>
   </div>
 </section>
