@@ -880,3 +880,69 @@ body.menu-open {
     min-width: 0 !important;
   }
 }
+
+/* MOBILE-ONLY OVERRIDES — DESKTOP MUST NOT CHANGE */
+@media (max-width: 767px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .header-inner {
+    flex-wrap: wrap;
+  }
+
+  .logo img {
+    height: 36px;
+  }
+
+  .menu-toggle {
+    margin-left: auto;
+  }
+
+  .nav {
+    padding: 4.5rem 1.5rem 2rem;
+  }
+
+  .nav a {
+    width: 100%;
+  }
+
+  .cta-group,
+  .cta-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cta-group .button,
+  .cta-actions .button {
+    width: 100%;
+  }
+
+  .trust-strip {
+    gap: 0.5rem;
+  }
+
+  .case-card,
+  .card,
+  .pricing-pill,
+  .pricing-pill:hover,
+  .pricing-pill[open] {
+    box-shadow: none;
+  }
+
+  .pricing-pill summary {
+    padding: 0.75rem 1rem;
+  }
+
+  .footer-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+}

@@ -24,7 +24,7 @@ $data = content_for($content, $lang, 'case_jack', []);
     <div class="gallery">
       <?php foreach (($data['gallery'] ?? []) as $item): ?>
         <figure>
-          <img src="/<?php echo htmlspecialchars($item['src']); ?>" alt="<?php echo htmlspecialchars($item['caption']); ?>" width="720" height="420" loading="lazy">
+          <img src="/<?php echo htmlspecialchars($item['src']); ?>" alt="<?php echo htmlspecialchars($item['caption']); ?>" width="720" height="420" loading="lazy" decoding="async">
           <figcaption><?php echo htmlspecialchars($item['caption']); ?></figcaption>
         </figure>
       <?php endforeach; ?>
