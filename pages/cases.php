@@ -13,7 +13,7 @@ $shared = content_for($content, $lang, 'shared', []);
     <?php foreach (($data['list'] ?? []) as $case): ?>
       <a class="card" href="/<?php echo htmlspecialchars($case['slug']); ?>">
         <figure>
-          <img src="/<?php echo htmlspecialchars($case['image']); ?>" alt="<?php echo htmlspecialchars($case['image_alt'] ?? $case['title']); ?>" width="540" height="320" loading="lazy">
+          <img src="/<?php echo htmlspecialchars($case['image']); ?>" alt="<?php echo htmlspecialchars($case['image_alt'] ?? $case['title']); ?>" width="540" height="320" loading="lazy" decoding="async">
         </figure>
         <h2><?php echo htmlspecialchars($case['title']); ?></h2>
         <p><?php echo htmlspecialchars($case['excerpt']); ?></p>

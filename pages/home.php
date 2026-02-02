@@ -24,7 +24,7 @@ $secondaryCase = $cases[1] ?? [];
     </div>
     <div class="hero-visual">
       <figure>
-        <img src="/LionScape-logo-full.png" alt="LionScape logo" width="1080" height="1080" loading="lazy">
+        <img src="/LionScape-logo-full.png" alt="LionScape logo" width="1080" height="1080" loading="lazy" decoding="async">
       </figure>
     </div>
   </div>
@@ -53,13 +53,13 @@ $secondaryCase = $cases[1] ?? [];
         <span class="button primary" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></span>
       </div>
       <figure>
-        <img src="/assets/img/jackontracks-logo.png" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? $heroCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
+        <img src="/assets/img/jackontracks-logo.png" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? $heroCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy" decoding="async">
         <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
       </figure>
     </a>
     <a class="case-card highlight-grid" href="/case-canservices">
       <figure>
-        <img src="/assets/img/canservices.nl-logo.png" alt="<?php echo htmlspecialchars($secondaryCase['image_alt'] ?? $secondaryCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
+        <img src="/assets/img/canservices.nl-logo.png" alt="<?php echo htmlspecialchars($secondaryCase['image_alt'] ?? $secondaryCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy" decoding="async">
         <figcaption data-i18n="home.secondary.title"><?php echo htmlspecialchars($home['secondary']['title'] ?? ''); ?></figcaption>
       </figure>
       <div>
