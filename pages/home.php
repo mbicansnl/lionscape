@@ -48,15 +48,15 @@ $secondaryCase = $cases[1] ?? [];
 <section class="case-highlights">
   <div class="container case-grid">
     <a class="case-card highlight-grid" href="/case-jack">
+      <figure>
+        <img src="/assets/img/jackontracks-logo.png" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? $heroCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
+        <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
+      </figure>
       <div>
         <p class="eyebrow" data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></p>
         <h2><?php echo htmlspecialchars($home['featured']['text'] ?? ''); ?></h2>
         <span class="button primary" data-i18n="home.featured.cta"><?php echo htmlspecialchars($home['featured']['cta'] ?? ''); ?></span>
       </div>
-      <figure>
-        <img src="/assets/img/jackontracks-logo.png" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? $heroCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
-        <figcaption data-i18n="home.featured.title"><?php echo htmlspecialchars($home['featured']['title'] ?? ''); ?></figcaption>
-      </figure>
     </a>
     <a class="case-card highlight-grid" href="/case-canservices">
       <figure>
