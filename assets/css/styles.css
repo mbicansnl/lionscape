@@ -215,7 +215,7 @@ input:focus, textarea:focus { outline: 2px solid var(--accent); }
 .skip-link:focus { left: 1rem; top: 1rem; }
 
 @media (max-width: 840px) {
-  .nav { position: fixed; inset: 0; background: rgba(10,18,30,0.95); flex-direction: column; padding: 5rem 2rem; translate: 100% 0; transition: translate 0.3s ease; }
+  .nav { position: fixed; inset: 0; background: rgba(15,31,51,0.9); flex-direction: column; padding: 5rem 2rem; translate: 100% 0; transition: translate 0.3s ease; }
   .nav.open { translate: 0 0; }
   .nav-list { flex-direction: column; align-items: flex-start; }
   .menu-toggle { display: inline-flex; }
