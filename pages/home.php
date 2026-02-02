@@ -47,7 +47,7 @@ $secondaryCase = $cases[1] ?? [];
 
 <section class="case-highlights">
   <div class="container case-grid">
-    <a class="case-card highlight-grid" href="/case-jack">
+    <a class="case-card highlight-grid case-jack" href="/case-jack">
       <figure>
         <div class="case-logo-pill">
           <img src="/assets/img/jackontracks-logo.png" alt="<?php echo htmlspecialchars($heroCase['image_alt'] ?? $heroCase['title'] ?? ''); ?>" width="320" height="240" loading="lazy">
