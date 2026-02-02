@@ -13,7 +13,6 @@ $secondaryCase = $cases[1] ?? [];
       </figure>
     </div>
     <div>
-      <img class="hero-logo" src="/LionScape-logo-transparent-header.png" alt="LionScape logo" width="320" height="120" loading="lazy">
       <p class="eyebrow" data-i18n="shared.proof_line"><?php echo htmlspecialchars($shared['proof_line'] ?? ''); ?></p>
       <h1 data-i18n="home.hero.h1"><?php echo htmlspecialchars($home['hero']['h1'] ?? ''); ?></h1>
       <p class="lead" data-i18n="home.hero.sub"><?php echo htmlspecialchars($home['hero']['sub'] ?? ''); ?></p>
