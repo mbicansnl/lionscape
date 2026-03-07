@@ -55,7 +55,8 @@ function current_page(): string
         'over' => 'about',
         'contact' => 'contact',
         'privacy' => 'privacy',
-        'cookies' => 'cookies'
+        'cookies' => 'cookies',
+        'terms' => 'terms'
     ];
     if (isset($map[$uri])) {
         return $map[$uri];
@@ -78,6 +79,15 @@ function template_for(string $page): string
 
 function meta_for(array $content, string $lang, string $page): array
 {
+    if ($page === 'terms') {
+        return [
+            'title' => $lang === 'en' ? 'Terms and Conditions | LionScape' : 'Algemene Voorwaarden | LionScape',
+            'description' => $lang === 'en'
+                ? 'Terms and conditions that apply to all LionScape services.'
+                : 'Voorwaarden die van toepassing zijn op alle diensten van LionScape.'
+        ];
+    }
+
     $key = str_replace('-', '_', $page);
     $meta = content_for($content, $lang, 'meta.' . $key, []);
     if (!is_array($meta)) {
@@ -168,7 +178,8 @@ function canonical_url(string $page, string $lang): string
         'about' => 'over',
         'contact' => 'contact',
         'privacy' => 'privacy',
-        'cookies' => 'cookies'
+        'cookies' => 'cookies',
+        'terms' => 'terms'
     ];
     if (isset($map[$page])) {
         $basePath = $map[$page];
