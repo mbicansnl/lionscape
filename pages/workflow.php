@@ -1,0 +1,3 @@
+<?php $steps = content_for($content, $lang, 'home.steps', []); ?>
+<section class="page-hero"><div class="container"><p class="eyebrow">Werkwijze</p><h1>Van idee naar werkend digitaal systeem.</h1><p class="lead">We houden het proces overzichtelijk: eerst begrijpen, dan plannen, bouwen, testen en doorontwikkelen.</p><a class="button primary" href="/contact">Plan gratis strategiegesprek</a></div></section>
+<section class="steps"><div class="container"><ol class="process-list"><?php foreach ($steps as $step): ?><li><h3><?php echo htmlspecialchars($step['title']); ?></h3><p><?php echo htmlspecialchars($step['body']); ?></p></li><?php endforeach; ?></ol></div></section>

@@ -20,30 +20,7 @@ $shared = content_for($content, $lang, 'shared', []);
       <h2 data-i18n="contact.title"><?php echo htmlspecialchars($data['title'] ?? ''); ?></h2>
       <p data-i18n="contact.intro"><?php echo htmlspecialchars($data['intro'] ?? ''); ?></p>
     </div>
-    <form method="post" novalidate>
-      <input type="hidden" name="form_type" value="contact">
-      <label for="contact-name">
-        <span data-i18n="shared.form.name"><?php echo htmlspecialchars($shared['form']['name'] ?? ''); ?></span>
-        <input id="contact-name" type="text" name="name" autocomplete="name" required>
-      </label>
-      <label for="contact-email">
-        <span data-i18n="shared.form.email"><?php echo htmlspecialchars($shared['form']['email'] ?? ''); ?></span>
-        <input id="contact-email" type="email" name="email" autocomplete="email" inputmode="email" required>
-      </label>
-      <label for="contact-phone">
-        <span data-i18n="shared.form.phone"><?php echo htmlspecialchars($shared['form']['phone'] ?? ''); ?></span>
-        <input id="contact-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel">
-      </label>
-      <label for="contact-message">
-        <span data-i18n="shared.form.message"><?php echo htmlspecialchars($shared['form']['message'] ?? ''); ?></span>
-        <textarea id="contact-message" name="message" rows="4"></textarea>
-      </label>
-      <label class="hidden">
-        <span><?php echo htmlspecialchars($shared['honeypot'] ?? ''); ?></span>
-        <input type="text" name="note" tabindex="-1" autocomplete="off">
-      </label>
-      <button class="button primary" type="submit" data-i18n="shared.form.submit"><?php echo htmlspecialchars($shared['form']['submit'] ?? ''); ?></button>
-    </form>
+    <?php include __DIR__ . '/partials/lead-form.php'; ?>
   </div>
 </section>
 <section class="final-cta">

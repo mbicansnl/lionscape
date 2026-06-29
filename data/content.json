@@ -4,20 +4,23 @@
     "location": "Bergen op Zoom, Nederland",
     "nav": {
       "home": "Home",
-      "services": "Aanpak",
-      "cases": "Voorbeelden",
+      "services": "Diensten",
+      "websites": "Websites",
+      "apps": "Apps & systemen",
+      "ai_agents": "AI-agents",
+      "cases": "Cases",
+      "workflow": "Werkwijze",
       "pricing": "Prijzen",
-      "about": "Over",
       "contact": "Contact"
     },
     "meta": {
       "home": {
-        "title": "Webdesign, SEO & Social Media voor Ondernemers | LionScape",
-        "description": "LionScape helpt ondernemers groeien met webdesign, SEO en social media. Meer online zichtbaarheid, hogere conversie en meetbaar resultaat."
+        "title": "Websites, apps en AI-agents voor ondernemers | Lionscape",
+        "description": "Lionscape bouwt websites, maatwerk applicaties en AI-agents voor ondernemers die slimmer willen werken, meer leads willen en processen willen automatiseren."
       },
       "services": {
-        "title": "Webdesign, SEO & Social Media Diensten voor Ondernemers | LionScape",
-        "description": "Professionele webdesign-, SEO- en social media diensten voor ondernemers. Heldere aanpak, vaste prijzen en focus op resultaat."
+        "title": "Diensten: websites, apps en AI-automatisering | Lionscape",
+        "description": "Bekijk hoe Lionscape helpt met professionele websites, maatwerk applicaties, klantportalen, dashboards, MVP’s en AI automatisering voor bedrijven."
       },
       "cases": {
         "title": "Voorbeelden: Jack Plooij en CANSERVICES.nl | LionScape",
@@ -32,16 +35,16 @@
         "description": "Zakelijke case voor CANSERVICES.nl met heldere site en uitstraling."
       },
       "pricing": {
-        "title": "Prijzen vanaf 1500 euro | LionScape",
-        "description": "Selectieve trajecten. Na de kennismaking krijg je een duidelijke indicatie."
+        "title": "Prijzen voor websites, apps en AI-agents | Lionscape",
+        "description": "Bekijk richtprijzen voor websites, maatwerk applicaties, MVP’s, AI-agents, automatiseringen en doorontwikkeling bij Lionscape."
       },
       "about": {
         "title": "Over LionScape | Digitaal Bureau voor Online Groei",
         "description": "LionScape is een digitaal bureau dat ondernemers helpt groeien met websites, SEO en social media. Transparant, praktisch en resultaatgericht."
       },
       "contact": {
-        "title": "Contact | Webdesign & SEO voor Ondernemers | LionScape",
-        "description": "Neem contact op met LionScape voor webdesign, SEO of social media. Direct schakelen, duidelijke afspraken en snelle opvolging."
+        "title": "Contact over website, app of AI-agent | Lionscape",
+        "description": "Plan een gratis strategiegesprek met Lionscape en bespreek je website, app-idee, klantportaal, dashboard of AI automatisering."
       },
       "privacy": {
         "title": "Privacy | LionScape",
@@ -54,21 +57,40 @@
       "not_found": {
         "title": "Pagina niet gevonden | LionScape",
         "description": "De pagina bestaat niet."
+      },
+      "websites": {
+        "title": "Website laten maken voor ondernemers | Lionscape",
+        "description": "Professionele website laten maken die vertrouwen wekt, leads oplevert en SEO-basis goed neerzet. Voor ondernemers en bedrijven."
+      },
+      "apps": {
+        "title": "Maatwerk applicatie, klantportaal of dashboard laten maken | Lionscape",
+        "description": "Laat een maatwerk applicatie, dashboard, klantportaal, boekingssysteem, interne tool of MVP bouwen door Lionscape."
+      },
+      "ai_agents": {
+        "title": "AI-agent laten maken en bedrijfsprocessen automatiseren | Lionscape",
+        "description": "AI automatisering voor bedrijven: chatbots, lead-opvolging, e-mailagents, rapportages, interne kennisbank-agents en toolkoppelingen."
+      },
+      "workflow": {
+        "title": "Werkwijze voor websites, apps en AI-agents | Lionscape",
+        "description": "Van strategiegesprek naar slim plan, design, build, testen, lanceren en doorontwikkeling. Zo werkt Lionscape als digitale bouwpartner."
       }
     },
     "shared": {
-      "cta_primary": "Plan 15-min kennismaking",
-      "cta_secondary": "Bekijk voorbeeld Jack Plooij",
-      "cta_scan": "Vraag gratis groeiscan",
-      "free_scan_title": "Gratis groeiscan",
-      "free_scan_body": "Je krijgt binnen 48 uur vijf concrete verbeterpunten voor je online zichtbaarheid. Geen verkooppraat, wel duidelijkheid.",
+      "cta_primary": "Plan gratis strategiegesprek",
+      "cta_secondary": "Ontdek wat we kunnen bouwen",
+      "cta_scan": "Doe de AI-kansen scan",
+      "free_scan_title": "Kies je gratis scan",
+      "free_scan_body": "Ontvang concreet advies voor je website, app-idee of AI-automatisering. Praktisch, eerlijk en direct bruikbaar.",
       "form": {
         "name": "Naam",
         "email": "E-mail",
         "phone": "Telefoon (optioneel)",
         "message": "Wat wil je verbeteren?",
-        "submit": "Versturen",
-        "success": "Bedankt. Je ontvangt een bevestiging."
+        "submit": "Plan gratis gesprek",
+        "success": "Bedankt. We nemen snel contact met je op.",
+        "company": "Bedrijf",
+        "help_type": "Waar wil je hulp bij?",
+        "idea": "Beschrijf kort je idee of probleem"
       },
       "honeypot": "Laat dit veld leeg",
       "faq": [
@@ -102,130 +124,184 @@
       "skip_link": "Skip to content",
       "nav_label": "Main",
       "trust_label": "Vertrouwde namen",
-      "last_update_label": "Last update"
+      "last_update_label": "Last update",
+      "proof_line": "Websites, applicaties en automatisering vanuit één partner"
     },
     "home": {
       "hero": {
-        "h1": "Webdesign, SEO en Social Media voor Ondernemers",
-        "sub": "Klaar om te worden gevonden met een site en socials die kloppen. Geen gedoe, wel persoonlijk gemaakt.",
-        "cta_primary": "Plan 15-min kennismaking",
-        "cta_secondary": "Bekijk voorbeeld Jack Plooij",
-        "cta_scan": "Vraag gratis groeiscan"
+        "h1": "Websites, apps en AI-agents die je bedrijf slimmer laten werken.",
+        "sub": "Van een professionele website tot een maatwerk applicatie of AI-agent die werk automatiseert. Lionscape helpt ondernemers digitale systemen bouwen die klanten opleveren, tijd besparen en processen simpeler maken.",
+        "cta_primary": "Plan een gratis strategiegesprek",
+        "cta_secondary": "Ontdek wat we kunnen bouwen"
       },
-      "trust": ["Jack Plooij", "CANSERVICES.nl"],
-      "cards_title": "Wat wij voor u kunnen betekenen:",
-      "cards": [
+      "trust": [
+        "Websites",
+        "Maatwerk applicaties",
+        "AI-agents",
+        "Automatisering"
+      ],
+      "routes_title": "Waar wil je vandaag mee starten?",
+      "routes": [
         {
-          "title": "Website die staat",
-          "text": "Een strakke site die laat zien wie je bent en direct uitnodigt tot contact."
+          "title": "Ik wil een professionele website",
+          "text": "Voor ondernemers die online sterker willen overkomen en meer aanvragen willen krijgen.",
+          "cta": "Laat mijn website checken",
+          "href": "#scan"
         },
         {
-          "title": "Socials geregeld",
-          "text": "Structuur en tone of voice waardoor je zichtbaar blijft zonder losse flodders."
+          "title": "Ik wil een app of intern systeem",
+          "text": "Voor bedrijven die een dashboard, klantportaal, boekingssysteem, workflowtool of MVP willen bouwen.",
+          "cta": "Bespreek mijn app-idee",
+          "href": "/apps-systemen"
         },
         {
-          "title": "Alles consistent",
-          "text": "Van beeld tot bio en link in bio, elke uiting past bij je naam."
+          "title": "Ik wil werk automatiseren met AI",
+          "text": "Voor ondernemers die tijd verliezen aan terugkerende taken zoals e-mails, leads opvolgen, data verwerken, planning of support.",
+          "cta": "Doe de AI-kansen scan",
+          "href": "#scan"
         }
       ],
-      "featured": {
-        "text": "Website, social templates en race-kalender met duidelijke lijnen.",
-        "cta": "Bekijk de case"
+      "problem_title": "Je bedrijf groeit, maar je digitale systemen groeien niet mee.",
+      "problems": [
+        "Je website levert te weinig aanvragen op",
+        "Je gebruikt te veel losse tools",
+        "Je doet veel handmatig werk",
+        "Je hebt een idee voor een app, maar geen technische partner",
+        "Je wilt AI gebruiken, maar weet niet waar te beginnen"
+      ],
+      "solution_title": "Wij bouwen het systeem dat je nodig hebt.",
+      "solutions": [
+        {
+          "title": "Websites",
+          "text": "Professionele websites die duidelijk positioneren, vertrouwen opbouwen en bezoekers naar aanvraag of gesprek sturen.",
+          "cta": "Laat mijn website checken",
+          "href": "/websites"
+        },
+        {
+          "title": "Applicaties",
+          "text": "Dashboards, klantportalen, boekingssystemen, interne tools en MVP’s die passen bij jouw manier van werken.",
+          "cta": "Check mijn app-idee",
+          "href": "/apps-systemen"
+        },
+        {
+          "title": "AI-agents & automatisering",
+          "text": "AI-agents en workflows die terugkerende taken overnemen en tools slimmer aan elkaar koppelen.",
+          "cta": "Doe de AI-kansen scan",
+          "href": "/ai-agents"
+        }
+      ],
+      "examples_title": "Voorbeelden van wat Lionscape kan bouwen",
+      "examples": {
+        "Websites": [
+          "Bedrijfswebsites",
+          "Landingspagina’s",
+          "Portfolio’s",
+          "Conversiegerichte websites",
+          "SEO-basis"
+        ],
+        "Applicaties": [
+          "Klantportalen",
+          "Dashboards",
+          "Boekingssystemen",
+          "Interne tools",
+          "MVP’s",
+          "CRM-achtige systemen"
+        ],
+        "AI-agents": [
+          "AI-chatbots",
+          "Lead-opvolging",
+          "Automatische e-mailflows",
+          "Data-analyse",
+          "Interne kennisbank-agent",
+          "Automatische rapportages",
+          "Koppelingen tussen tools"
+        ]
       },
-      "secondary": {
-        "text": "Heldere site, onderscheidende fotografie en duidelijke contactopties.",
-        "cta": "Bekijk business case"
-      },
-      "steps_title": "Zo werkt het",
+      "steps_title": "Zo werken we",
       "steps": [
-        "15 minuten kennismaken",
-        "Werkplan en bevestiging",
-        "Design en bouw",
-        "Publicatie en ondersteuning"
-      ],
-      "scan": {
-        "title": "Gratis groeiscan",
-        "text": "Ontvang vijf punten die je direct kunt verbeteren."
-      },
-      "faq": [
         {
-          "q": "Werk je ook met teams?",
-          "a": "Ja, ik stem af met je assistent of bureau zodat alles op elkaar past."
+          "title": "Strategiegesprek",
+          "body": "We bespreken je bedrijf, probleem en doel."
         },
         {
-          "q": "Is er nazorg?",
-          "a": "Ja, ik blijf beschikbaar voor updates en social posts."
+          "title": "Slim plan",
+          "body": "We bepalen welke oplossing nodig is: website, app, AI-agent of combinatie."
         },
         {
-          "q": "Hoeveel revisies?",
-          "a": "We plannen vaste feedbackmomenten per week, meestal drie rondes zijn genoeg."
+          "title": "Design & build",
+          "body": "We ontwerpen en bouwen een werkende oplossing."
+        },
+        {
+          "title": "Testen & lanceren",
+          "body": "We testen, verbeteren en zetten live."
+        },
+        {
+          "title": "Doorontwikkeling",
+          "body": "We blijven optimaliseren waar nodig."
         }
       ],
+      "cases_title": "Cases",
+      "future_case": "Ruimte voor toekomstige app- en AI-agent cases: dashboards, klantportalen, automatiseringen en interne AI-tools.",
+      "scan": {
+        "title": "Kies je gratis scan",
+        "text": "Niet zeker wat je nodig hebt? Vul het formulier in. We kijken mee en sturen je naar de slimste volgende stap."
+      },
       "final_cta": {
-        "title": "Klaar voor een site die bij je naam past?",
-        "text": "Plan een korte call. Ik neem maar een paar trajecten tegelijk aan.",
-        "cta": "Plan 15-min kennismaking"
+        "title": "Wil je weten wat Lionscape voor jouw bedrijf kan bouwen?",
+        "text": "Plan een gratis strategiegesprek. Dan vertalen we je idee of probleem naar een concrete digitale oplossing.",
+        "cta": "Plan gratis strategiegesprek"
       }
     },
     "services": {
-      "h1": "Webdesign, SEO en Social Media Diensten",
-      "intro": "Drie concrete manieren om je online zichtbaarheid te regelen zonder gedoe.",
-      "approach_title": "Plan van Aanpak",
-      "approach": [
-        {
-          "title": "Intake",
-          "body": "Er wordt een kennismakingsgesprek ingepland om doelen, doelgroep, randvoorwaarden en gewenste functionaliteit vast te stellen. Op basis daarvan wordt een eerste prijsindicatie opgesteld en een compact concept uitgewerkt. Binnen 2 werkdagen wordt een voorstel aangeleverd met de kernpunten, globale planning en duidelijke vervolgstappen."
-        },
-        {
-          "title": "Bijstellen",
-          "body": "Na de eerste opzet wordt het concept stap voor stap besproken. Keuzes rondom structuur, navigatie, content, functies en stijl worden aangescherpt, zodat het resultaat aansluit op de specifieke behoefte. Waar nodig worden prioriteiten en scope geconcretiseerd om verrassingen tijdens de uitvoering te voorkomen."
-        },
-        {
-          "title": "Productie",
-          "body": "Na akkoord wordt het concept in productie genomen. De website wordt gerealiseerd volgens de gemaakte afspraken over ontwerp en functionaliteit. Tijdens deze fase wordt periodiek voortgang gedeeld en wordt feedback op vaste momenten verwerkt."
-        },
-        {
-          "title": "Pitch",
-          "body": "Zodra een volledige versie gereed is, volgt een presentatie en review. Alle onderdelen worden doorgelopen: structuur, pagina’s, content, prestaties en werking van de features. Het doel is om de laatste verbeterpunten en eventuele optimalisaties scherp vast te leggen."
-        },
-        {
-          "title": "Laatste bijstelling",
-          "body": "Alle punten uit de pitch worden gecontroleerd en doorgevoerd. Deze fase richt zich op afwerking en kwaliteit: teksten, afbeeldingen, formulieren, links, consistentie in uitstraling en het oplossen van eventuele onvolkomenheden."
-        },
-        {
-          "title": "Final pitch",
-          "body": "Er volgt een laatste reviewronde waarin alle onderdelen in samenhang worden gecontroleerd: features, belangrijke informatie, teksten, call-to-actions en contactpunten. Na akkoord kan de livegang worden voorbereid."
-        },
-        {
-          "title": "Live",
-          "body": "De website wordt live gezet. Daarbij worden technische onderdelen gecontroleerd, zoals domein- en hostinginstellingen, SSL, redirects en basisprestaties. Ook vindt een eindcontrole plaats op correcte werking op desktop en mobiel."
-        },
-        {
-          "title": "SEO",
-          "body": "Na livegang wordt de website geïndexeerd door zoekmachines. Vervolgens kan SEO waar nodig worden bijgesteld, onder andere via titels, meta-beschrijvingen, structuur, interne links en (waar relevant) gerichte content-verbeteringen. Het doel is om vindbaarheid stapsgewijs te optimaliseren op relevante zoektermen."
-        }
-      ],
+      "h1": "Diensten",
+      "intro": "Lionscape bouwt websites, apps en AI-agents voor ondernemers die slimmer willen werken. Kies de route die past bij jouw vraag.",
       "offers": [
         {
-          "title": "Online uitstraling",
-          "who": "Voor publieke personen die hun naam sterker willen neerzetten.",
-          "deliver": "Website, social bio, link in bio, beeldselectie en basisplanning.",
-          "timeline": "2 tot 3 weken",
-          "cta": "Plan 15-min kennismaking"
+          "title": "Websites",
+          "who": "Voor ondernemers die professioneel willen overkomen en meer aanvragen willen krijgen.",
+          "deliver": "Strategie, design, bouw, SEO-basis, conversieblokken en contactflows.",
+          "timeline": "Meestal 2 tot 6 weken",
+          "cta": "Laat mijn website checken",
+          "href": "/websites"
         },
         {
-          "title": "Website die klopt",
-          "who": "Voor wie al zichtbaar is maar een heldere site mist.",
-          "deliver": "Design, bouw, contactflows, teksten en beeld in jouw toon.",
-          "timeline": "3 tot 4 weken",
-          "cta": "Vraag voorstel"
+          "title": "Apps & systemen",
+          "who": "Voor bedrijven die minder afhankelijk willen zijn van losse tools of spreadsheets.",
+          "deliver": "Klantportalen, dashboards, boekingssystemen, interne tools, MVP’s en CRM-achtige systemen.",
+          "timeline": "Vanaf 4 weken",
+          "cta": "Bespreek mijn app-idee",
+          "href": "/apps-systemen"
         },
         {
-          "title": "Zichtbaar blijven",
-          "who": "Voor wie continu herkenbaar wil posten zonder tijd te verliezen.",
-          "deliver": "Social templates, contentkalender, publicatie en monitoring.",
-          "timeline": "Maandelijkse samenwerking",
-          "cta": "Plan 15-min kennismaking"
+          "title": "AI-agents",
+          "who": "Voor teams die terugkerend werk slimmer willen automatiseren.",
+          "deliver": "AI-chatbots, leadflows, e-mailagents, rapportages, kennisbank-agents en toolkoppelingen.",
+          "timeline": "Vanaf 2 weken",
+          "cta": "Doe de AI-kansen scan",
+          "href": "/ai-agents"
+        }
+      ],
+      "approach_title": "Van idee naar werkend systeem",
+      "approach": [
+        {
+          "title": "Strategiegesprek",
+          "body": "We bespreken je bedrijf, probleem en doel."
+        },
+        {
+          "title": "Slim plan",
+          "body": "We bepalen welke oplossing nodig is: website, app, AI-agent of combinatie."
+        },
+        {
+          "title": "Design & build",
+          "body": "We ontwerpen en bouwen een werkende oplossing."
+        },
+        {
+          "title": "Testen & lanceren",
+          "body": "We testen, verbeteren en zetten live."
+        },
+        {
+          "title": "Doorontwikkeling",
+          "body": "We blijven optimaliseren waar nodig."
         }
       ]
     },
@@ -250,9 +326,9 @@
     },
     "case_jack": {
       "hero": "Case: Jack Plooij",
-      "ask": "Vraag: een website en socials die zijn stem en energie uitstralen.",
-      "built": "Gebouwd: snelle site, duidelijke knoppen, social templates en publicatieformat.",
-      "why": "Waarom het werkt: herkenbare foto s, directe teksten en vaste call to actions.",
+      "ask": "Probleem: Jack Plooij had een online plek nodig die zijn activiteiten, energie en content overzichtelijk samenbrengt.",
+      "built": "Gebouwd: een snelle website met duidelijke routes, interactieve onderdelen, social templates en een praktische race-kalender.",
+      "why": "Resultaat: bezoekers vinden sneller wat ze zoeken en de online uitstraling past beter bij zijn naam en publiek.",
       "features_title": "Functionaliteiten:",
       "features": [
         {
@@ -291,9 +367,9 @@
     },
     "case_canservices": {
       "hero": "Case: CANSERVICES.nl",
-      "ask": "Vraag: een zakelijke site die meteen duidelijk maakt wat het bedrijf doet.",
-      "built": "Gebouwd: moderne homepage, dienstenoverzicht en sterke call to action.",
-      "why": "Waarom het werkt: rust in het design, sterke foto s en duidelijke contactopties.",
+      "ask": "Probleem: CANSERVICES.nl had een zakelijke website nodig die direct uitlegt wat het bedrijf doet en vertrouwen opbouwt.",
+      "built": "Gebouwd: een moderne bedrijfswebsite met dienstenoverzicht, heldere structuur en duidelijke contactroutes.",
+      "why": "Resultaat: een professionelere eerste indruk en minder ruis voor bezoekers die snel contact willen opnemen.",
       "gallery": [
         {
           "src": "assets/img/cases/canservices.nl-home.png",
@@ -303,113 +379,47 @@
       "cta": "Plan 15-min kennismaking"
     },
     "pricing": {
-      "intro": "Selectief samenwerken. Projecten starten vanaf 1500 euro.",
-      "tiers": [
-        {
-          "name": "Start",
-          "range": "Vanaf 1500 euro",
-          "items": [
-            "Website onepager",
-            "Basis tekst en beeld",
-            "Publicatie en overdracht"
-          ]
-        },
-        {
-          "name": "Essentieel",
-          "range": "2000 - 3500 euro",
-          "items": [
-            "Meerdere pagina s",
-            "Social templates",
-            "Contentplanning 1 maand"
-          ]
-        },
-        {
-          "name": "Doorlopend",
-          "range": "Vanaf 800 euro per maand",
-          "items": [
-            "Updates en optimalisaties",
-            "Contentcreatie en posting",
-            "Maandelijkse check"
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Waarom geen vaste prijzen?",
-          "a": "Iedere naam en situatie is anders. Na de call krijg je een duidelijke indicatie."
-        },
-        {
-          "q": "Wat is inbegrepen?",
-          "a": "Design, bouw, basis content en begeleiding bij livegang."
-        },
-        {
-          "q": "Hoe snel start je?",
-          "a": "Binnen een week na akkoord, afhankelijk van beschikbaarheid."
-        }
-      ],
       "page_title": "Prijzen",
-      "structures_title": "Structuren",
+      "intro": "Richtprijzen voor digitale systemen. Na een strategiegesprek maken we de scope concreet en krijg je een helder voorstel.",
+      "structures_title": "Prijscategorieën",
       "structures": [
         {
-          "title": "Fixed Price",
-          "body": "Voor opdrachten werken we met fixed price: vooraf spreken we een vaste prijs en worden er verschillende parameters afgestemd, zodat er geen verrassingen ontstaan en beide kanten goed geinformeerd zijn over ekaars verwachtingen."
+          "title": "Website Start",
+          "price": "Vanaf €1.500",
+          "body": "Voor een onepager of compacte bedrijfswebsite."
         },
         {
-          "title": "Abbonnement",
-          "body": "Voor onderhoud, updates en het bijhouden van socials werken we met abonnementen: vaste afspraken per maand voor doorlopende ondersteuning, zodat je website en online uitstraling actueel, veilig en consistent blijven."
+          "title": "Website Pro",
+          "price": "€2.500 - €5.000",
+          "body": "Voor meerdere pagina’s, betere funnel, SEO-basis en conversie."
+        },
+        {
+          "title": "App / systeem MVP",
+          "price": "Vanaf €4.000",
+          "body": "Voor dashboards, portalen, boekingssystemen of interne tools."
+        },
+        {
+          "title": "AI-agent / automatisering",
+          "price": "Vanaf €1.500 setup",
+          "body": "Voor automatiseringen, chatbots, leadflows, e-mailagents of interne AI-tools."
+        },
+        {
+          "title": "Doorontwikkeling",
+          "price": "Vanaf €800 per maand",
+          "body": "Voor onderhoud, optimalisatie, content, automatisering en nieuwe features."
         }
       ],
       "sections": [
         {
-          "title": "Fixed price: duidelijkheid vooraf",
+          "title": "Altijd eerst duidelijkheid",
           "body": [
-            "Bij LionScape werken we met fixed price. Dat betekent dat we vooraf een vaste prijs afspreken voor een duidelijke opdracht. Geen verrassingen achteraf en geen discussies over uren. Jij weet precies wat het kost en wat je ervoor krijgt, en wij weten precies wat we moeten opleveren."
+            "We starten met een gratis strategiegesprek. Daarna bepalen we wat nodig is: website, applicatie, AI-agent of een combinatie. Je krijgt een concreet voorstel met scope, planning en investering."
           ]
         },
         {
-          "title": "Waarom we hiervoor kiezen",
+          "title": "Waarom vanaf-prijzen?",
           "body": [
-            "In veel trajecten ontstaat gedoe door werken op uurbasis. Een klant wil vooral een goed eindresultaat, maar krijgt uiteindelijk een rekening die vooral over tijd gaat. Dat voelt niet altijd eerlijk, zeker als iets meer tijd kost dan verwacht.",
-            "Fixed price haalt die spanning weg. Jij wordt niet \"gestraft\" als iets complexer blijkt, en wij hoeven niet te haasten om binnen een aantal uren te blijven. Daardoor kunnen we focussen op wat telt: kwaliteit, een consistente uitstraling en een website die echt af is."
-          ]
-        },
-        {
-          "title": "Heldere scope is de basis",
-          "body": [
-            "Een vaste prijs werkt alleen als we vooraf goed afspreken wat er binnen de opdracht valt. Daarom starten we met een korte intake en maken we de scope concreet: welke pagina's, welke onderdelen, welke contentblokken, welke functies en eventuele integraties. Op basis daarvan ontvang je een voorstel met een vaste prijs en duidelijke opleverpunten.",
-            "Dit geeft rust. Jij hoeft niet te twijfelen of een vraag extra kosten betekent, en wij kunnen doorbouwen zonder dat er voortdurend opnieuw onderhandeld hoeft te worden."
-          ]
-        },
-        {
-          "title": "Wat meestal inbegrepen is",
-          "body": [
-            "Afhankelijk van het pakket en de scope kan een fixed price traject bijvoorbeeld bestaan uit:"
-          ],
-          "list": [
-            "Design en unificatie van de look & feel (kleurenpalet, typografie, basisstijl)",
-            "Realisatie van de website (desktop en mobiel)",
-            "Opbouw van pagina's en herbruikbare contentmodules",
-            "Basis SEO (technische basis, metadata, indexeerbaarheid)",
-            "Performance en veiligheid (snelle laadtijden, technische checks)",
-            "Optioneel: ondersteuning bij socials (templates en consistente uitstraling)"
-          ]
-        },
-        {
-          "title": "Wijzigingen: flexibel, maar wel netjes geregeld",
-          "body": [
-            "Tijdens een traject komen er vaak nieuwe ideeen. Dat is normaal. Als een wijziging binnen de afgesproken scope past, nemen we die mee. Als het buiten de scope valt, maken we het concreet en spreken we een aanvullende fixed price af voor dat extra onderdeel. Zo houd jij de controle over het budget en blijft het voor ons haalbaar om kwaliteit te blijven leveren."
-          ]
-        },
-        {
-          "title": "Onderhoud en doorontwikkeling",
-          "body": [
-            "Een website is nooit echt \"klaar\". Er komen updates, verbeteringen, nieuwe pagina's en kleine optimalisaties. Daarom bieden we ook onderhoud en doorontwikkeling. Dat kan met vaste afspraken, bijvoorbeeld per maand of per wijzigingspakket, zodat je weet waar je aan toe bent en je website gezond blijft."
-          ]
-        },
-        {
-          "title": "Samenwerken zonder ruis",
-          "body": [
-            "Het doel van fixed price is simpel: helderheid en een prettige samenwerking. Jij koopt een resultaat, geen uren. En wij leveren dat resultaat met focus op consistentie, snelheid en een professionele uitstraling."
+            "Een landingspagina vraagt iets anders dan een klantportaal of AI-agent met koppelingen. Daarom werken we met duidelijke categorieën en maken we de exacte prijs pas na een korte analyse."
           ]
         }
       ]
@@ -586,7 +596,10 @@
         "cta_secondary": "See the Jack Plooij example",
         "cta_scan": "Request free growth scan"
       },
-      "trust": ["Jack Plooij", "CANSERVICES.nl"],
+      "trust": [
+        "Jack Plooij",
+        "CANSERVICES.nl"
+      ],
       "cards_title": "What I handle for you",
       "cards": [
         {

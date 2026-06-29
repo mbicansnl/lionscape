@@ -16,7 +16,7 @@ $shared = content_for($content, $lang, 'shared', []);
         <p class="muted"><?php echo htmlspecialchars($offer['who']); ?></p>
         <p><?php echo htmlspecialchars($offer['deliver']); ?></p>
         <p class="muted"><?php echo htmlspecialchars($offer['timeline']); ?></p>
-        <a class="button primary" href="/contact"><?php echo htmlspecialchars($offer['cta']); ?></a>
+        <a class="button primary" href="<?php echo htmlspecialchars($offer['href'] ?? '/contact'); ?>"><?php echo htmlspecialchars($offer['cta']); ?></a>
       </article>
     <?php endforeach; ?>
   </div>
