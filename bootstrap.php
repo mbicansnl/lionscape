@@ -47,7 +47,12 @@ function current_page(): string
         return 'home';
     }
     $map = [
+        'diensten' => 'services',
         'aanpak' => 'services',
+        'websites' => 'websites',
+        'apps-systemen' => 'apps',
+        'ai-agents' => 'ai-agents',
+        'werkwijze' => 'workflow',
         'voorbeelden' => 'cases',
         'case-jack' => 'case-jack',
         'case-canservices' => 'case-canservices',
@@ -135,6 +140,8 @@ function handle_forms(array $content, string $lang): array
     $name = sanitize($_POST['name'] ?? '');
     $email = filter_var(sanitize($_POST['email'] ?? ''), FILTER_VALIDATE_EMAIL);
     $phone = sanitize($_POST['phone'] ?? '');
+    $company = sanitize($_POST['company'] ?? '');
+    $helpType = sanitize($_POST['help_type'] ?? '');
     $message = sanitize($_POST['message'] ?? '');
 
     if (!$name || !$email) {
@@ -146,6 +153,8 @@ function handle_forms(array $content, string $lang): array
         'name' => $name,
         'email' => $email,
         'phone' => $phone,
+        'company' => $company,
+        'help_type' => $helpType,
         'message' => $message
     ];
 
@@ -170,7 +179,11 @@ function canonical_url(string $page, string $lang): string
     $basePath = '';
     $map = [
         'home' => '',
-        'services' => 'aanpak',
+        'services' => 'diensten',
+        'websites' => 'websites',
+        'apps' => 'apps-systemen',
+        'ai-agents' => 'ai-agents',
+        'workflow' => 'werkwijze',
         'cases' => 'voorbeelden',
         'case-jack' => 'case-jack',
         'case-canservices' => 'case-canservices',
@@ -210,7 +223,7 @@ function json_ld(array $content, string $lang, string $page): array
         'name' => 'LionScape',
         'url' => 'https://lionscape.nl',
         'logo' => 'https://lionscape.nl/LionScape-logo-transparent-header.png',
-        'description' => 'Digitale diensten voor ondernemers: webdesign, SEO en social media.',
+        'description' => 'Digitale bouwpartner voor ondernemers: websites, maatwerk applicaties, AI-agents en automatisering.',
         'address' => [
             '@type' => 'PostalAddress',
             'addressCountry' => 'NL'
@@ -230,7 +243,8 @@ function json_ld(array $content, string $lang, string $page): array
         'serviceType' => [
             'Webdesign',
             'SEO',
-            'Social Media Management'
+            'AI automation',
+            'Custom software development'
         ],
         'areaServed' => [
             '@type' => 'Country',

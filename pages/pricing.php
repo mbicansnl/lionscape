@@ -15,7 +15,7 @@ $pricing = content_for($content, $lang, 'pricing', []);
         <details class="pricing-pill pricing-card">
           <summary><h3><?php echo htmlspecialchars($structure['title'] ?? ''); ?></h3></summary>
           <div class="pricing-pill__content">
-            <p><?php echo htmlspecialchars($structure['body'] ?? ''); ?></p>
+            <?php if (!empty($structure['price'])): ?><p class="price"><?php echo htmlspecialchars($structure['price']); ?></p><?php endif; ?><p><?php echo htmlspecialchars($structure['body'] ?? ''); ?></p>
           </div>
         </details>
       <?php endforeach; ?>

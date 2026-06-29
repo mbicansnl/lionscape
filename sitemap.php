@@ -3,7 +3,7 @@ declare(strict_types=1);
 require __DIR__ . '/bootstrap.php';
 $lang = detect_lang($content);
 header('Content-Type: application/xml');
-$pages = ['home','services','cases','case-jack','case-canservices','pricing','about','contact','privacy','cookies','terms'];
+$pages = ['home','services','websites','apps','ai-agents','cases','workflow','case-jack','case-canservices','pricing','contact','privacy','cookies','terms'];
 $urls = [];
 foreach ($pages as $page) {
     foreach (supported_langs($content) as $lng) {
