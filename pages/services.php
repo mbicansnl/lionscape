@@ -2,7 +2,7 @@
   <div class="container">
     <h1>Digitale oplossingen die je bedrijf vooruithelpen.</h1>
     <p>Lionscape bouwt websites, apps en AI-agents voor ondernemers die meer aanvragen willen, slimmer willen werken of processen willen automatiseren.</p>
-    <div class="cta-group"><a class="button primary" href="/contact">Vertel wat je wilt bouwen</a></div>
+    <div class="cta-group"><a class="button primary" href="/contact">Plan gratis strategiegesprek</a></div>
   </div>
 </section>
 <?php

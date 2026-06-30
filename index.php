@@ -7,6 +7,10 @@ $page = current_page();
 if ($page === '404') {
     http_response_code(404);
 }
+if ($page === 'sitemap') {
+    require __DIR__ . '/sitemap.php';
+    exit;
+}
 $messages = handle_forms($content, $lang);
 $template = template_for($page);
 $meta = meta_for($content, $lang, $page);
