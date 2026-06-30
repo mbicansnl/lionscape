@@ -14,20 +14,20 @@
     },
     "meta": {
       "home": {
-        "title": "Websites, apps en AI-agents voor ondernemers | LionScape",
-        "description": "LionScape bouwt websites, maatwerk applicaties en AI-agents voor ondernemers die slimmer willen werken, meer leads willen en processen willen automatiseren."
+        "title": "Lionscape | Websites, apps en AI-agents voor ondernemers",
+        "description": "Lionscape bouwt websites, maatwerk applicaties en AI-agents voor ondernemers die meer aanvragen willen, slimmer willen werken en processen willen automatiseren."
       },
       "services": {
-        "title": "Diensten: websites, apps en AI-automatisering | LionScape",
-        "description": "Bekijk hoe LionScape helpt met professionele websites, maatwerk applicaties, klantportalen, dashboards, MVP’s en AI automatisering voor bedrijven."
+        "title": "Diensten | Websites, apps en AI-agents laten bouwen",
+        "description": "Bekijk hoe Lionscape ondernemers helpt met professionele websites, maatwerk applicaties en AI-agents voor automatisering."
       },
       "cases": {
-        "title": "Voorbeelden: Jack Plooij en CANSERVICES.nl | LionScape",
-        "description": "Bewijs met echte voorbeelden: Jack Plooij en CANSERVICES.nl."
+        "title": "Cases | Projecten van Lionscape",
+        "description": "Bekijk voorbeelden van digitale projecten die Lionscape heeft gebouwd voor ondernemers en bedrijven."
       },
       "case_jack": {
         "title": "Case Jack Plooij | LionScape",
-        "description": "Website en socials voor Jack Plooij met duidelijke zichtbaarheid."
+        "description": "Case over een digitale website-oplossing met duidelijke routes en praktische interactieve onderdelen."
       },
       "case_canservices": {
         "title": "Case CANSERVICES.nl | LionScape",
@@ -38,8 +38,8 @@
         "description": "LionScape bouwt websites, apps en AI-agents voor ondernemers die slimmer willen werken, processen willen automatiseren en meer aanvragen willen krijgen."
       },
       "contact": {
-        "title": "Contact over website, app of AI-agent | LionScape",
-        "description": "Plan een gratis strategiegesprek met LionScape en bespreek je website, app-idee, klantportaal, dashboard of AI automatisering."
+        "title": "Contact | Bespreek je website, app of AI-agent",
+        "description": "Heb je een idee voor een website, applicatie of AI-agent? Neem contact op met Lionscape en bespreek je project."
       },
       "privacy": {
         "title": "Privacy | LionScape",
@@ -54,16 +54,16 @@
         "description": "De pagina bestaat niet."
       },
       "websites": {
-        "title": "Website laten maken voor ondernemers | LionScape",
-        "description": "Professionele website laten maken die vertrouwen wekt, leads oplevert en SEO-basis goed neerzet. Voor ondernemers en bedrijven."
+        "title": "Website laten maken door Lionscape",
+        "description": "Laat een professionele website bouwen die duidelijk communiceert, vertrouwen wekt en bezoekers richting contact stuurt."
       },
       "apps": {
-        "title": "Maatwerk applicatie, klantportaal of dashboard laten maken | LionScape",
-        "description": "Laat een maatwerk applicatie, dashboard, klantportaal, boekingssysteem, interne tool of MVP bouwen door LionScape."
+        "title": "Maatwerk applicatie of systeem laten bouwen",
+        "description": "Lionscape bouwt dashboards, klantportalen, boekingssystemen, interne tools en MVP’s voor ondernemers en bedrijven."
       },
       "ai_agents": {
-        "title": "AI-agent laten maken en bedrijfsprocessen automatiseren | LionScape",
-        "description": "AI automatisering voor bedrijven: chatbots, lead-opvolging, e-mailagents, rapportages, interne kennisbank-agents en toolkoppelingen."
+        "title": "AI-agent laten maken voor je bedrijf",
+        "description": "Automatiseer terugkerend werk met AI-agents voor leadopvolging, e-mail, support, data en interne processen."
       },
       "workflow": {
         "title": "Werkwijze voor websites, apps en AI-agents | LionScape",
@@ -81,7 +81,7 @@
         "email": "E-mail",
         "phone": "Telefoon (optioneel)",
         "message": "Wat wil je verbeteren?",
-        "submit": "Plan gratis gesprek",
+        "submit": "Verstuur mijn aanvraag",
         "success": "Bedankt. We nemen snel contact met je op.",
         "company": "Bedrijf",
         "help_type": "Waar wil je hulp bij?",
@@ -99,7 +99,7 @@
         },
         {
           "q": "Wie maakt de content?",
-          "a": "Dit wordt van te voren besproekn waar de voorkeur ligt, dit gaat meestal hand in hand, om te kijken wat jij wil en dan komt de uitvoering bij ons."
+          "a": "Dit bespreken we vooraf. Meestal werken we samen: jij geeft richting en input, wij maken de tekst scherp en passend bij je doelgroep."
         },
         {
           "q": "Hoe werkt de samenwerking?",
@@ -110,7 +110,7 @@
         "line": "Lionscape bouwt websites, apps en AI-agents voor ondernemers die slimmer willen werken.",
         "contact": "Contact",
         "email": "info@lionscape.nl",
-        "phone": "+31 6 0000 0000",
+        "phone": "",
         "services_title": "Diensten",
         "services": [
           {
@@ -337,7 +337,7 @@
     "case_jack": {
       "hero": "Case: Jack Plooij",
       "ask": "Probleem: Jack Plooij had een online plek nodig die zijn activiteiten, energie en content overzichtelijk samenbrengt.",
-      "built": "Gebouwd: een snelle website met duidelijke routes, interactieve onderdelen, social templates en een praktische race-kalender.",
+      "built": "Gebouwd: een snelle website met duidelijke routes, interactieve onderdelen en een praktische race-kalender.",
       "why": "Resultaat: bezoekers vinden sneller wat ze zoeken en de online uitstraling past beter bij zijn naam en publiek.",
       "features_title": "Functionaliteiten:",
       "features": [
@@ -373,7 +373,7 @@
           "caption": "Homepage Jack Plooij"
         }
       ],
-      "cta": "Plan 15-min kennismaking"
+      "cta": "Plan gratis strategiegesprek"
     },
     "case_canservices": {
       "hero": "Case: CANSERVICES.nl",
@@ -386,7 +386,7 @@
           "caption": "Homepage CANSERVICES.nl"
         }
       ],
-      "cta": "Plan 15-min kennismaking"
+      "cta": "Plan gratis strategiegesprek"
     },
     "about": {
       "title": "Over LionScape",
@@ -427,7 +427,7 @@
       "title": "Contact",
       "intro": "Geen salesdruk. Eerst helder krijgen wat je nodig hebt.",
       "note": "Liever zelf plannen? Stuur een mail voor een korte belafspraak.",
-      "cta": "Plan 15-min kennismaking"
+      "cta": "Verstuur mijn aanvraag"
     },
     "legal": {
       "privacy": {
@@ -472,7 +472,7 @@
       },
       "case_jack": {
         "title": "Case Jack Plooij | LionScape",
-        "description": "Website and socials for Jack Plooij with clear visibility."
+        "description": "Website project for Jack Plooij with clear routes and practical interactive components."
       },
       "case_canservices": {
         "title": "Case CANSERVICES.nl | LionScape",
@@ -536,7 +536,7 @@
         "line": "Lionscape builds websites, apps and AI agents for entrepreneurs who want to work smarter.",
         "contact": "Contact",
         "email": "info@lionscape.nl",
-        "phone": "+31 6 0000 0000"
+        "phone": ""
       },
       "faq_title": "FAQ",
       "menu_label": "Menu",
@@ -564,21 +564,21 @@
       "cards_title": "What I handle for you",
       "cards": [
         {
-          "title": "Site that stands",
-          "text": "A crisp site that shows who you are and invites contact."
+          "title": "Website that converts",
+          "text": "A clear website that explains what you do and guides visitors to contact."
         },
         {
-          "title": "Socials handled",
-          "text": "Structure and tone so you stay visible without scattered posts."
+          "title": "Custom app or system",
+          "text": "A practical portal, dashboard or MVP that gives your process more structure."
         },
         {
-          "title": "Always consistent",
-          "text": "From imagery to bios and link in bio, every touchpoint matches."
+          "title": "AI automation",
+          "text": "Agents and workflows that save time on recurring work."
         }
       ],
       "featured": {
         "title": "Case Jack Plooij",
-        "text": "New website, social templates and publishing cadence. Short lines and plain language.",
+        "text": "New website structure with practical interactive elements and clear routes.",
         "cta": "View case"
       },
       "secondary": {
@@ -614,12 +614,12 @@
       "final_cta": {
         "title": "Ready for a site that fits your name?",
         "text": "Book a short call. I only take a few projects at a time.",
-        "cta": "Book a 15-min intro"
+        "cta": "Book a free strategy call"
       }
     },
     "services": {
-      "h1": "Webdesign, SEO and Social Media Services",
-      "intro": "Three concrete ways to handle your online presence without hassle.",
+      "h1": "Websites, apps and AI agents for entrepreneurs",
+      "intro": "Three concrete ways to build digital systems that help your business work smarter.",
       "approach_title": "Approach",
       "approach": [
         {
@@ -657,25 +657,25 @@
       ],
       "offers": [
         {
-          "title": "Online presence",
-          "who": "For public figures who want a stronger name online.",
-          "deliver": "Website, social bio, link in bio, image curation and baseline planning.",
+          "title": "Websites",
+          "who": "For entrepreneurs who need a clearer website and more enquiries.",
+          "deliver": "Strategy, design, build, conversion sections and contact flows.",
           "timeline": "2 to 3 weeks",
-          "cta": "Book a 15-min intro"
+          "cta": "Check my website"
         },
         {
-          "title": "Site that fits",
-          "who": "For those already visible but missing a clear site.",
-          "deliver": "Design, build, contact flows, copy and visuals in your voice.",
+          "title": "Apps & systems",
+          "who": "For teams that want to replace spreadsheets or disconnected tools.",
+          "deliver": "Portals, dashboards, booking systems, internal tools and MVPs.",
           "timeline": "3 to 4 weeks",
-          "cta": "Request outline"
+          "cta": "Discuss my app idea"
         },
         {
-          "title": "Stay visible",
-          "who": "For steady posting without wasting time.",
-          "deliver": "Social templates, content calendar, publishing and light monitoring.",
+          "title": "AI agents",
+          "who": "For teams that want to automate recurring work.",
+          "deliver": "AI agents for lead follow-up, email, support, data and internal processes.",
           "timeline": "Monthly collaboration",
-          "cta": "Book a 15-min intro"
+          "cta": "Do the AI opportunity scan"
         }
       ]
     },
@@ -685,7 +685,7 @@
         {
           "slug": "case-jack",
           "title": "Jack Plooij",
-          "excerpt": "Website and socials that carry his voice...",
+          "excerpt": "Website with practical interactive components and clear routes.",
           "image": "assets/img/cases/jackontracks-home.png",
           "image_alt": "Jack Plooij website"
         },
@@ -700,8 +700,8 @@
     },
     "case_jack": {
       "hero": "Case: Jack Plooij",
-      "ask": "Ask: a website and socials that show his voice and energy.",
-      "built": "Built: fast site, direct buttons, social templates and publishing format.",
+      "ask": "Ask: a website that brings his activities, energy and content together clearly.",
+      "built": "Built: a fast website with direct routes, interactive components and a practical race calendar.",
       "why": "Why it works: recognizable photos, direct copy and fixed calls to action.",
       "features_title": "Features:",
       "features": [
@@ -756,7 +756,7 @@
       "title": "About LionScape",
       "logo_alt": "LionScape logo",
       "intro": "I work with you directly. Quality and speed together.",
-      "body": "My projects are built on clarity. No buzzwords, just a site and socials that show who you are. Limited capacity keeps the focus on you.",
+      "body": "My projects are built on clarity: websites, apps and AI agents that help entrepreneurs work smarter.",
       "proof": "Experience with Jack Plooij and companies like CANSERVICES.nl.",
       "sections": [
         {
@@ -768,7 +768,7 @@
           "body": "We build professional websites, custom apps and internal systems, and AI agents that take over recurring work. That includes dashboards, customer portals, booking systems, workflow tools, MVPs, lead follow-up, data processing, planning, and support. The right solution can be one part, or a combination built around your business."
         },
         {
-          "title": "From scattered online presence to one system",
+          "title": "From scattered tools to one digital system",
           "body": "Many companies outgrow their website, tools, and processes. Forms become disconnected, work stays manual, and communication gets fragmented. LionScape brings structure: clear positioning, logical flows, reliable technology, and smart connections between the places where your customers, data, and team meet."
         },
         {

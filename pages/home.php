@@ -22,11 +22,11 @@ $cases = content_for($content, $lang, 'cases.list', []);
     <div class="system-visual next-gen-visual reveal-on-scroll" aria-label="Digitale systemen visualisatie">
       <div class="visual-glow" aria-hidden="true"></div>
       <div class="visual-window"><span></span><span></span><span></span></div>
-      <div class="visual-card wide pulse-card">Website funnel <strong>+42% aanvragen</strong></div>
+      <div class="visual-card wide pulse-card">Website, app of AI-agent</div>
       <div class="visual-row"><div>Dashboard</div><div>Klantportaal</div></div>
       <div class="visual-flow"><span>Lead</span><i></i><span>AI-agent</span><i></i><span>Actie</span></div>
       <div class="visual-metric metric-a"><strong>24/7</strong><small>automation</small></div>
-      <div class="visual-metric metric-b"><strong>3.8s</strong><small>response</small></div>
+      <div class="visual-metric metric-b"><strong>Slim</strong><small>proces</small></div>
     </div>
   </div>
 </section>
@@ -39,7 +39,7 @@ $cases = content_for($content, $lang, 'cases.list', []);
 
 <section class="cards"><div class="container"><p class="eyebrow reveal-on-scroll">De oplossing</p><h2 class="reveal-on-scroll"><?php echo htmlspecialchars($home['solution_title'] ?? ''); ?></h2><div class="grid-3">
 <?php foreach (($home['solutions'] ?? []) as $index => $solution): ?><article class="card service-card reveal-on-scroll" style="--stagger: <?php echo (int) $index; ?>"><h3><?php echo htmlspecialchars($solution['title']); ?></h3><p><?php echo htmlspecialchars($solution['text']); ?></p><a class="button text" href="<?php echo htmlspecialchars($solution['href']); ?>"><?php echo htmlspecialchars($solution['cta']); ?></a></article><?php endforeach; ?>
-</div><p class="section-cta reveal-on-scroll"><a class="button primary magnetic" href="/contact">Vertel wat je wilt bouwen</a></p></div></section>
+</div><p class="section-cta reveal-on-scroll"><a class="button primary magnetic" href="/contact">Plan gratis strategiegesprek</a></p></div></section>
 
 <section class="examples-section"><div class="container"><h2 class="reveal-on-scroll"><?php echo htmlspecialchars($home['examples_title'] ?? ''); ?></h2><div class="grid-3">
 <?php $exampleIndex = 0; foreach (($home['examples'] ?? []) as $title => $items): ?><article class="card reveal-on-scroll" style="--stagger: <?php echo (int) $exampleIndex++; ?>"><h3><?php echo htmlspecialchars($title); ?></h3><ul class="bullet-list"><?php foreach ($items as $item): ?><li><?php echo htmlspecialchars($item); ?></li><?php endforeach; ?></ul></article><?php endforeach; ?>
@@ -54,4 +54,4 @@ $cases = content_for($content, $lang, 'cases.list', []);
 <section id="scan" class="form-block spotlight-section"><div class="container form-grid"><div class="reveal-on-scroll"><p class="eyebrow">Gratis scan</p><h2><?php echo htmlspecialchars($home['scan']['title'] ?? ''); ?></h2><p><?php echo htmlspecialchars($home['scan']['text'] ?? ''); ?></p><?php if (!empty($messages['success'])): ?><div class="notice success" role="status"><?php echo htmlspecialchars($messages['success']); ?></div><?php elseif (!empty($messages['error'])): ?><div class="notice error" role="alert"><?php echo htmlspecialchars($messages['error']); ?></div><?php endif; ?></div><?php include __DIR__ . '/partials/lead-form.php'; ?></div></section>
 
 <section class="final-cta spotlight-section"><div class="container final-grid reveal-on-scroll"><div><h2><?php echo htmlspecialchars($home['final_cta']['title'] ?? ''); ?></h2><p><?php echo htmlspecialchars($home['final_cta']['text'] ?? ''); ?></p></div><div class="cta-actions"><a class="button primary magnetic" href="/contact"><?php echo htmlspecialchars($home['final_cta']['cta'] ?? ''); ?></a></div></div></section>
-<a class="mobile-sticky-cta" href="/contact">Plan gratis gesprek</a>
+<a class="mobile-sticky-cta" href="/contact">Plan gratis strategiegesprek</a>

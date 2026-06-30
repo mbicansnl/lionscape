@@ -9,7 +9,7 @@ $services = $footer['services'] ?? [
   ['label' => $nav['ai_agents'] ?? ($lang === 'en' ? 'AI agents' : 'AI-agents'), 'href' => '/ai-agents'],
 ];
 $email = $footer['email'] ?? 'info@lionscape.nl';
-$phone = $footer['phone'] ?? '+31 6 0000 0000';
+$phone = trim((string)($footer['phone'] ?? ''));
 $phone_href = preg_replace('/[^+0-9]/', '', $phone);
 ?>
 <footer class="site-footer">
@@ -33,7 +33,9 @@ $phone_href = preg_replace('/[^+0-9]/', '', $phone);
         <h2 id="footer-contact-title" data-i18n="shared.footer.contact"><?php echo htmlspecialchars($footer['contact'] ?? 'Contact'); ?></h2>
         <ul class="footer-list footer-contact">
           <li><a href="mailto:<?php echo htmlspecialchars($email); ?>"><?php echo htmlspecialchars($email); ?></a></li>
-          <li><a href="tel:<?php echo htmlspecialchars($phone_href); ?>"><?php echo htmlspecialchars($phone); ?></a></li>
+          <?php if ($phone !== ''): ?>
+            <li><a href="tel:<?php echo htmlspecialchars($phone_href); ?>"><?php echo htmlspecialchars($phone); ?></a></li>
+          <?php endif; ?>
         </ul>
       </section>
     </div>
