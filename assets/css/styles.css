@@ -1009,6 +1009,131 @@ body.menu-open {
 .visual-flow { display:flex; align-items:center; justify-content:space-between; gap:.65rem; flex-wrap:wrap; }
 .visual-flow span { background:#0b1c2c; border:1px solid var(--border); border-radius:999px; padding:.45rem .7rem; }
 .visual-flow i { flex:1; min-width:24px; height:2px; background:linear-gradient(90deg, var(--accent), transparent); }
+.service-switcher {
+  position: relative;
+  align-self: center;
+  width: min(100%, 440px);
+  min-height: 0;
+  justify-self: end;
+  overflow: hidden;
+  border-radius: 28px;
+  border: 1px solid rgba(123, 200, 255, .26);
+  padding: 1rem;
+  background:
+    radial-gradient(circle at 88% 12%, rgba(123, 200, 255, .18), transparent 42%),
+    linear-gradient(145deg, rgba(19, 42, 70, .86), rgba(11, 23, 38, .94));
+  box-shadow: var(--shadow), 0 0 42px rgba(63, 169, 245, .12);
+  display: grid;
+  gap: .9rem;
+}
+.service-switcher::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  border-radius: 27px;
+  pointer-events: none;
+  background: linear-gradient(135deg, rgba(255,255,255,.11), transparent 38%, rgba(123,200,255,.09));
+}
+.service-switcher > * { position: relative; z-index: 1; }
+.service-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .45rem;
+  padding: .3rem;
+  border: 1px solid rgba(123, 200, 255, .16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .035);
+  backdrop-filter: blur(14px);
+}
+.service-tab {
+  min-height: 38px;
+  border: 0;
+  border-radius: 999px;
+  padding: .55rem .7rem;
+  cursor: pointer;
+  color: var(--muted);
+  background: transparent;
+  font: inherit;
+  font-size: .88rem;
+  font-weight: 800;
+  transition: color .2s ease, background .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+.service-tab:hover,
+.service-tab:focus-visible {
+  color: var(--text);
+  outline: none;
+  background: rgba(123, 200, 255, .08);
+}
+.service-tab.is-active {
+  color: #0b1726;
+  background: linear-gradient(120deg, #3fa9f5, #7bc8ff);
+  box-shadow: 0 10px 24px rgba(63, 169, 245, .22);
+}
+.service-panels {
+  border: 1px solid rgba(123, 200, 255, .16);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, .04);
+  backdrop-filter: blur(16px);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.08);
+}
+.service-panel {
+  padding: 1.25rem;
+  animation: service-panel-in .28s ease both;
+}
+.service-panel h2 {
+  margin: 0;
+  font-size: clamp(1.35rem, 3vw, 1.85rem);
+  line-height: 1.05;
+  letter-spacing: -.04em;
+}
+.service-panel p {
+  margin: .55rem 0 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.service-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin-top: 1rem;
+}
+.service-tags span,
+.service-status {
+  border: 1px solid rgba(123, 200, 255, .18);
+  background: rgba(11, 28, 44, .68);
+  color: #d8ecff;
+}
+.service-tags span {
+  border-radius: 999px;
+  padding: .38rem .58rem;
+  font-size: .82rem;
+  font-weight: 750;
+}
+.service-status {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  margin-top: 1rem;
+  border-radius: 999px;
+  padding: .55rem .72rem;
+  font-size: .86rem;
+  color: var(--muted);
+}
+.service-status span { color: var(--accent); }
+.service-progress {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .4rem;
+}
+.service-progress span {
+  height: 3px;
+  border-radius: 999px;
+  background: rgba(123, 200, 255, .18);
+  overflow: hidden;
+}
+.service-progress span.is-active { background: linear-gradient(90deg, var(--accent), rgba(123, 200, 255, .38)); }
+@keyframes service-panel-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
 .problem-section,
 .examples-section,
 .route-section { padding: 3rem 0; }
@@ -1194,6 +1319,9 @@ body.effects-ready .reveal-on-scroll.is-visible { opacity: 1; transform: none; }
   .makeover-hero { min-height: auto; padding-top: 3.5rem; }
   .hero-copy h1 { max-width: 100%; font-size: clamp(2.3rem, 12vw, 3.6rem); }
   .next-gen-visual { min-height: 390px; }
+  .service-switcher { justify-self: stretch; width: 100%; }
+  .service-panel { padding: 1rem; }
+  .service-tab { font-size: .82rem; padding-inline: .45rem; }
   .visual-metric { position: static; }
   .process-timeline .process-list::before { display: none; }
 }
@@ -1221,4 +1349,19 @@ select:focus {
 }
 .check-list li {
   margin: 0.35rem 0;
+}
+
+/* Compact hero service switcher overrides */
+.next-gen-visual.service-switcher {
+  min-height: 0;
+}
+@media (max-width: 767px) {
+  .next-gen-visual.service-switcher {
+    min-height: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .service-panel {
+    animation: none;
+  }
 }

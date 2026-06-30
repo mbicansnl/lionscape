@@ -19,14 +19,36 @@ $cases = content_for($content, $lang, 'cases.list', []);
         <?php foreach (($home['trust'] ?? []) as $name): ?><span><?php echo htmlspecialchars($name); ?></span><?php endforeach; ?>
       </div>
     </div>
-    <div class="system-visual next-gen-visual reveal-on-scroll" aria-label="Digitale systemen visualisatie">
+    <div class="service-switcher next-gen-visual reveal-on-scroll" data-service-switcher aria-label="Compact overzicht van Lionscape diensten">
       <div class="visual-glow" aria-hidden="true"></div>
-      <div class="visual-window"><span></span><span></span><span></span></div>
-      <div class="visual-card wide pulse-card">Website, app of AI-agent</div>
-      <div class="visual-row"><div>Dashboard</div><div>Klantportaal</div></div>
-      <div class="visual-flow"><span>Lead</span><i></i><span>AI-agent</span><i></i><span>Actie</span></div>
-      <div class="visual-metric metric-a"><strong>24/7</strong><small>automation</small></div>
-      <div class="visual-metric metric-b"><strong>Slim</strong><small>proces</small></div>
+      <div class="service-tabs" role="tablist" aria-label="Diensten">
+        <button class="service-tab is-active" type="button" role="tab" id="service-tab-websites" aria-selected="true" aria-controls="service-panel-websites" data-service-tab="0">Websites</button>
+        <button class="service-tab" type="button" role="tab" id="service-tab-apps" aria-selected="false" aria-controls="service-panel-apps" data-service-tab="1">Apps</button>
+        <button class="service-tab" type="button" role="tab" id="service-tab-ai" aria-selected="false" aria-controls="service-panel-ai" data-service-tab="2">AI-agents</button>
+      </div>
+
+      <div class="service-panels">
+        <article class="service-panel is-active" role="tabpanel" id="service-panel-websites" aria-labelledby="service-tab-websites" data-service-panel="0">
+          <h2>Website laten maken</h2>
+          <p>Sterke structuur, duidelijke CTA’s en meer aanvragen.</p>
+          <div class="service-tags" aria-label="Website kenmerken"><span>Homepage</span><span>Funnel</span><span>SEO-basis</span></div>
+          <div class="service-status">Bezoeker <span>→</span> CTA <span>→</span> Aanvraag</div>
+        </article>
+        <article class="service-panel" role="tabpanel" id="service-panel-apps" aria-labelledby="service-tab-apps" data-service-panel="1" hidden>
+          <h2>App of systeem bouwen</h2>
+          <p>Dashboards, klantportalen en tools die werk simpeler maken.</p>
+          <div class="service-tags" aria-label="App kenmerken"><span>Dashboard</span><span>Portaal</span><span>MVP</span></div>
+          <div class="service-status">Proces <span>→</span> Overzicht <span>→</span> Actie</div>
+        </article>
+        <article class="service-panel" role="tabpanel" id="service-panel-ai" aria-labelledby="service-tab-ai" data-service-panel="2" hidden>
+          <h2>AI-agent automatisering</h2>
+          <p>Agents die leads opvolgen, vragen beantwoorden en acties klaarzetten.</p>
+          <div class="service-tags" aria-label="AI-agent kenmerken"><span>Leads</span><span>E-mail</span><span>Taken</span></div>
+          <div class="service-status">Input <span>→</span> AI-agent <span>→</span> Opvolging</div>
+        </article>
+      </div>
+
+      <div class="service-progress" aria-hidden="true"><span></span><span></span><span></span></div>
     </div>
   </div>
 </section>
