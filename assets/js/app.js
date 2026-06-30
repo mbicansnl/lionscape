@@ -143,6 +143,7 @@ handleStoredLanguage();
 
 function attachMakeoverEffects() {
   const revealItems = qsa('.reveal-on-scroll');
+  document.body.classList.add('effects-ready');
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
