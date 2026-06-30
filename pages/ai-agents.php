@@ -1,3 +1,11 @@
 <?php
-$serviceData = ['eyebrow'=>'AI-agents','h1'=>'AI-agent laten maken die terugkerend werk overneemt.','intro'=>'AI automatisering voor bedrijven die tijd verliezen aan e-mails, lead-opvolging, data verwerken, planning, support of rapportages.','cta'=>'Doe de AI-kansen scan','title'=>'AI-automatiseringen','cards'=>[['title'=>'AI-chatbots','text'=>'Chatbots voor support, intake, veelgestelde vragen of interne kennis.'],['title'=>'Lead- en e-mailflows','text'=>'Automatische opvolging, samenvattingen en acties op basis van binnenkomende leads.'],['title'=>'Toolkoppelingen','text'=>'Automatiseringen tussen systemen zodat data niet steeds handmatig verplaatst hoeft te worden.']], 'fit_title'=>'Waar zit de meeste winst?','fit_text'=>'We starten met een AI-kansen scan en zoeken taken die vaak terugkomen, duidelijke regels hebben en direct tijd besparen.','secondary_cta'=>'Doe de AI-kansen scan','bullets'=>['AI automatisering bedrijf','AI agent laten maken','bedrijfsprocessen automatiseren','Interne kennisbank-agent','Automatische rapportages en data-analyse']];
+$serviceData = [
+  'eyebrow'=>'AI-agents','h1'=>'AI-agents die werk uit handen nemen.','intro'=>'Lionscape bouwt slimme AI-agents en automatiseringen die leads opvolgen, vragen beantwoorden, data verwerken en tools met elkaar verbinden.','cta'=>'Doe de AI-kansen scan','cta_href'=>'/contact?help=ai','secondary_cta'=>'Doe de AI-kansen scan',
+  'sections'=>[
+    ['title'=>'Herken je dit?','items'=>['Je beantwoordt vaak dezelfde vragen','Leads worden te laat opgevolgd','Je verwerkt handmatig informatie','Je gebruikt AI losse flodders, maar niet als systeem','Je team verspilt tijd aan terugkerend werk']],
+    ['title'=>'Wat we bouwen','items'=>['AI-chatbots','Lead-opvolg agents','E-mailagents','Interne kennisbank-agents','Rapportage-agents','Data-verwerkingsflows','Automatiseringen tussen tools']],
+    ['title'=>'Voorbeelden van taken','items'=>['Nieuwe aanvragen samenvatten','E-mails categoriseren','Veelgestelde vragen beantwoorden','Leads opvolgen','Rapportages maken','Informatie uit documenten halen','Taken klaarzetten in andere tools']],
+  ],
+  'final_title'=>'Ontdek waar AI praktisch waarde toevoegt.','final_text'=>'We zoeken naar terugkerend werk, duidelijke beslisregels en koppelingen waar automatisering betrouwbaar kan helpen.','final_href'=>'/contact?help=ai'
+];
 include __DIR__ . '/service-detail.php';
