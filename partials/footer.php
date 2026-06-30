@@ -6,7 +6,13 @@ $brand = content_for($content, $lang, 'brand', 'LionScape');
   <div class="container footer-grid">
     <div>
       <p class="brand"><?php echo htmlspecialchars($brand); ?></p>
-      <p data-i18n="shared.proof_line"><?php echo htmlspecialchars($shared['proof_line'] ?? ''); ?></p>
+      <p data-i18n="shared.footer.line"><?php echo htmlspecialchars($shared['footer']['line'] ?? ($shared['proof_line'] ?? '')); ?></p>
+    </div>
+    <div class="footer-links">
+      <p><?php echo htmlspecialchars($shared['footer']['services_title'] ?? 'Diensten'); ?></p>
+      <?php foreach (($shared['footer']['services'] ?? []) as $service): ?>
+        <a href="<?php echo htmlspecialchars($service['href']); ?>"><?php echo htmlspecialchars($service['label']); ?></a>
+      <?php endforeach; ?>
     </div>
     <div>
       <p data-i18n="shared.footer.contact"><?php echo htmlspecialchars($shared['footer']['contact'] ?? 'Contact'); ?></p>

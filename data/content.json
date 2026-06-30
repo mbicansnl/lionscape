@@ -34,8 +34,8 @@
         "description": "Zakelijke case voor CANSERVICES.nl met heldere site en uitstraling."
       },
       "about": {
-        "title": "Over LionScape | Digitaal Bureau voor Online Groei",
-        "description": "LionScape is een digitaal bureau dat ondernemers helpt groeien met websites, SEO en social media. Transparant, praktisch en resultaatgericht."
+        "title": "Over LionScape | Websites, apps en AI-agents",
+        "description": "LionScape bouwt websites, apps en AI-agents voor ondernemers die slimmer willen werken, processen willen automatiseren en meer aanvragen willen krijgen."
       },
       "contact": {
         "title": "Contact over website, app of AI-agent | LionScape",
@@ -107,10 +107,25 @@
         }
       ],
       "footer": {
-        "line": "Selectieve projecten voor bekende Nederlanders en sterke merken.",
+        "line": "Lionscape bouwt websites, apps en AI-agents voor ondernemers die slimmer willen werken.",
         "contact": "Contact",
         "email": "info@lionscape.nl",
-        "phone": "+31 6 0000 0000"
+        "phone": "+31 6 0000 0000",
+        "services_title": "Diensten",
+        "services": [
+          {
+            "label": "Websites",
+            "href": "/websites"
+          },
+          {
+            "label": "Apps & systemen",
+            "href": "/apps-systemen"
+          },
+          {
+            "label": "AI-agents & automatisering",
+            "href": "/ai-agents"
+          }
+        ]
       },
       "faq_title": "FAQ",
       "menu_label": "Menu",
@@ -120,22 +135,22 @@
       "nav_label": "Main",
       "trust_label": "Vertrouwde namen",
       "last_update_label": "Last update",
-      "proof_line": "Websites, applicaties en automatisering vanuit één partner"
+      "proof_line": "Strategie, design, ontwikkeling en automatisering vanuit één partner."
     },
     "home": {
       "hero": {
         "h1": "Websites, apps en AI-agents die je bedrijf slimmer laten werken.",
-        "sub": "Van een professionele website tot een maatwerk applicatie of AI-agent die werk automatiseert. LionScape helpt ondernemers digitale systemen bouwen die klanten opleveren, tijd besparen en processen simpeler maken.",
-        "cta_primary": "Plan een gratis strategiegesprek",
-        "cta_secondary": "Ontdek wat we kunnen bouwen"
+        "sub": "Lionscape bouwt digitale systemen voor ondernemers: van professionele websites tot maatwerk applicaties en AI-agents die terugkerend werk automatiseren.",
+        "cta_primary": "Plan gratis strategiegesprek",
+        "cta_secondary": "Bekijk oplossingen"
       },
       "trust": [
         "Websites",
-        "Maatwerk applicaties",
+        "Apps & systemen",
         "AI-agents",
         "Automatisering"
       ],
-      "routes_title": "Waar wil je vandaag mee starten?",
+      "routes_title": "Kies de route die past bij je vraag.",
       "routes": [
         {
           "title": "Ik wil een professionele website",
@@ -145,8 +160,8 @@
         },
         {
           "title": "Ik wil een app of intern systeem",
-          "text": "Voor bedrijven die een dashboard, klantportaal, boekingssysteem, workflowtool of MVP willen bouwen.",
-          "cta": "Bespreek mijn app-idee",
+          "text": "Voor bedrijven die een dashboard, klantportaal, boekingssysteem, interne tool of MVP willen bouwen.",
+          "cta": "Check mijn app-idee",
           "href": "/apps-systemen"
         },
         {
@@ -160,7 +175,7 @@
       "problems": [
         "Je website levert te weinig aanvragen op",
         "Je gebruikt te veel losse tools",
-        "Je doet veel handmatig werk",
+        "Je doet nog veel handmatig werk",
         "Je hebt een idee voor een app, maar geen technische partner",
         "Je wilt AI gebruiken, maar weet niet waar te beginnen"
       ],
@@ -168,24 +183,24 @@
       "solutions": [
         {
           "title": "Websites",
-          "text": "Professionele websites die duidelijk positioneren, vertrouwen opbouwen en bezoekers naar aanvraag of gesprek sturen.",
+          "text": "Een snelle, professionele website met duidelijke structuur, sterke copy en logische contactroutes.",
           "cta": "Laat mijn website checken",
           "href": "/websites"
         },
         {
-          "title": "Applicaties",
-          "text": "Dashboards, klantportalen, boekingssystemen, interne tools en MVP’s die passen bij jouw manier van werken.",
+          "title": "Apps & systemen",
+          "text": "Maatwerk software zoals dashboards, klantportalen, boekingssystemen, interne tools en MVP’s.",
           "cta": "Check mijn app-idee",
           "href": "/apps-systemen"
         },
         {
           "title": "AI-agents & automatisering",
-          "text": "AI-agents en workflows die terugkerende taken overnemen en tools slimmer aan elkaar koppelen.",
+          "text": "Slimme agents en workflows die terugkerende taken automatiseren en je team tijd besparen.",
           "cta": "Doe de AI-kansen scan",
           "href": "/ai-agents"
         }
       ],
-      "examples_title": "Voorbeelden van wat LionScape kan bouwen",
+      "examples_title": "Wat we kunnen bouwen",
       "examples": {
         "Websites": [
           "Bedrijfswebsites",
@@ -194,7 +209,7 @@
           "Conversiegerichte websites",
           "SEO-basis"
         ],
-        "Applicaties": [
+        "Apps & systemen": [
           "Klantportalen",
           "Dashboards",
           "Boekingssystemen",
@@ -206,13 +221,13 @@
           "AI-chatbots",
           "Lead-opvolging",
           "Automatische e-mailflows",
-          "Data-analyse",
+          "Data verwerken",
           "Interne kennisbank-agent",
           "Automatische rapportages",
           "Koppelingen tussen tools"
         ]
       },
-      "steps_title": "Zo werken we",
+      "steps_title": "Van idee naar werkend digitaal systeem.",
       "steps": [
         {
           "title": "Strategiegesprek",
@@ -227,7 +242,7 @@
           "body": "We ontwerpen en bouwen een werkende oplossing."
         },
         {
-          "title": "Testen & lanceren",
+          "title": "Lancering",
           "body": "We testen, verbeteren en zetten live."
         },
         {
@@ -242,8 +257,8 @@
         "text": "Niet zeker wat je nodig hebt? Vul het formulier in. We kijken mee en sturen je naar de slimste volgende stap."
       },
       "final_cta": {
-        "title": "Wil je weten wat LionScape voor jouw bedrijf kan bouwen?",
-        "text": "Plan een gratis strategiegesprek. Dan vertalen we je idee of probleem naar een concrete digitale oplossing.",
+        "title": "Heb je een idee voor een website, app of AI-agent?",
+        "text": "Vertel kort wat je wilt bouwen of verbeteren. Dan kijken we samen welke oplossing het meeste oplevert.",
         "cta": "Plan gratis strategiegesprek"
       }
     },
@@ -444,12 +459,12 @@
     },
     "meta": {
       "home": {
-        "title": "Webdesign, SEO & Social Media for Entrepreneurs | LionScape",
-        "description": "LionScape helps entrepreneurs grow with webdesign, SEO and social media. More online visibility, higher conversion and measurable results."
+        "title": "Websites, apps and AI agents for entrepreneurs | LionScape",
+        "description": "LionScape builds websites, custom apps and AI agents for entrepreneurs who want to work smarter, generate more leads and automate processes."
       },
       "services": {
-        "title": "Webdesign, SEO & Social Media Services for Entrepreneurs | LionScape",
-        "description": "Professional webdesign, SEO and social media services for entrepreneurs. Clear approach, a transparent process and focus on results."
+        "title": "Services: websites, apps and AI automation | LionScape",
+        "description": "Explore professional websites, custom apps, portals, dashboards, MVPs and AI automation for businesses."
       },
       "cases": {
         "title": "Work: Jack Plooij and CANSERVICES.nl | LionScape",
@@ -464,12 +479,12 @@
         "description": "Business case for CANSERVICES.nl with a clear site and presence."
       },
       "about": {
-        "title": "About LionScape | Digital Agency for Online Growth",
-        "description": "LionScape is a digital agency that helps entrepreneurs grow with websites, SEO and social media. Transparent, practical and results-driven."
+        "title": "About LionScape | Websites, apps and AI agents",
+        "description": "LionScape builds websites, apps and AI agents for entrepreneurs who want to work smarter, automate processes and generate more leads."
       },
       "contact": {
-        "title": "Contact | Webdesign & SEO for Entrepreneurs | LionScape",
-        "description": "Contact LionScape for webdesign, SEO or social media. Direct communication, clear agreements and fast follow-up."
+        "title": "Contact about a website, app or AI agent | LionScape",
+        "description": "Book a free strategy call with LionScape to discuss your website, app idea, portal, dashboard or AI automation."
       },
       "privacy": {
         "title": "Privacy | LionScape",
@@ -518,7 +533,7 @@
         }
       ],
       "footer": {
-        "line": "Selective projects for public figures and strong brands.",
+        "line": "Lionscape builds websites, apps and AI agents for entrepreneurs who want to work smarter.",
         "contact": "Contact",
         "email": "info@lionscape.nl",
         "phone": "+31 6 0000 0000"
@@ -530,19 +545,21 @@
       "skip_link": "Skip to content",
       "nav_label": "Main",
       "trust_label": "Trusted names",
-      "last_update_label": "Last update"
+      "last_update_label": "Last update",
+      "proof_line": "Strategy, design, development and automation from one partner."
     },
     "home": {
       "hero": {
-        "h1": "Webdesign, SEO and Social Media for Entrepreneurs",
-        "sub": "Ready to be found with a site and socials that fit. No hassle, made personally.",
-        "cta_primary": "Book a 15-min intro",
-        "cta_secondary": "See the Jack Plooij example",
-        "cta_scan": "Request free growth scan"
+        "h1": "Websites, apps and AI agents that help your business work smarter.",
+        "sub": "LionScape builds digital systems for entrepreneurs: from professional websites to custom applications and AI agents that automate recurring work.",
+        "cta_primary": "Book a free strategy call",
+        "cta_secondary": "View solutions"
       },
       "trust": [
-        "Jack Plooij",
-        "CANSERVICES.nl"
+        "Websites",
+        "Apps & systems",
+        "AI agents",
+        "Automation"
       ],
       "cards_title": "What I handle for you",
       "cards": [
