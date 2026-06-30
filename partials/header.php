@@ -19,6 +19,7 @@ $brand = content_for($content, $lang, 'brand', 'LionScape');
         <li><a href="/ai-agents" class="<?php echo is_active('ai-agents', $page) ? 'active' : ''; ?>"><?php echo htmlspecialchars($nav['ai_agents'] ?? 'AI-agents'); ?></a></li>
         <li><a href="/voorbeelden" class="<?php echo is_active('cases', $page) ? 'active' : ''; ?>"><?php echo htmlspecialchars($nav['cases'] ?? 'Cases'); ?></a></li>
         <li><a href="/werkwijze" class="<?php echo is_active('workflow', $page) ? 'active' : ''; ?>"><?php echo htmlspecialchars($nav['workflow'] ?? 'Werkwijze'); ?></a></li>
+        <li><a href="/contact" class="<?php echo is_active('contact', $page) ? 'active' : ''; ?>"><?php echo htmlspecialchars($nav['contact'] ?? 'Contact'); ?></a></li>
       </ul>
       <div class="nav-actions"><a class="button primary" href="/contact"><?php echo htmlspecialchars($shared['cta_primary'] ?? 'Plan gratis strategiegesprek'); ?></a></div>
     </nav>
