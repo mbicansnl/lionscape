@@ -148,6 +148,7 @@ h3 {
 }
 .nav-actions .button {
   width: 100%;
+  white-space: nowrap;
 }
 .lang-toggle {
   display: flex;
@@ -694,6 +695,9 @@ body.menu-open {
   }
   .nav-actions .button {
     width: auto;
+    min-height: 40px;
+    padding: 0.55rem 0.85rem;
+    font-size: 0.92rem;
   }
   .lang-toggle {
     flex-wrap: nowrap;
