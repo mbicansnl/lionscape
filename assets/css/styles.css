@@ -1199,3 +1199,23 @@ body.effects-ready .reveal-on-scroll.is-visible { opacity: 1; transform: none; }
   body.effects-ready .reveal-on-scroll,
   .reveal-on-scroll { opacity: 1; transform: none; }
 }
+select {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #0b1c2c;
+  color: var(--text);
+  min-height: 44px;
+}
+select:focus {
+  outline: 2px solid var(--accent);
+}
+.check-list {
+  margin: 0.8rem 0 1.2rem;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+.check-list li {
+  margin: 0.35rem 0;
+}
