@@ -31,7 +31,6 @@ $shared = content_for($content, $lang, 'shared', []);
     </div>
     <div class="cta-actions">
       <a class="button primary" href="/contact"><?php echo htmlspecialchars(content_for($content, $lang, 'home.final_cta.cta', '')); ?></a>
-      <a class="button ghost" href="/prijzen" data-i18n="nav.pricing"><?php echo htmlspecialchars(content_for($content, $lang, 'nav.pricing', 'Prijzen')); ?></a>
     </div>
   </div>
 </section>

@@ -4,6 +4,9 @@ require __DIR__ . '/bootstrap.php';
 
 $lang = detect_lang($content);
 $page = current_page();
+if ($page === '404') {
+    http_response_code(404);
+}
 $messages = handle_forms($content, $lang);
 $template = template_for($page);
 $meta = meta_for($content, $lang, $page);
