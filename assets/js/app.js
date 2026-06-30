@@ -144,7 +144,8 @@ function attachServiceSwitcher() {
 
     let activeIndex = Math.max(0, tabs.findIndex(tab => tab.classList.contains('is-active')));
     let intervalId = null;
-    let isPaused = false;
+    let hasManualSelection = false;
+    const rotationDelay = 6000;
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     const setActive = index => {
@@ -171,33 +172,27 @@ function attachServiceSwitcher() {
     };
 
     const startRotation = () => {
-      if (reduceMotion || intervalId || isPaused) return;
-      intervalId = window.setInterval(() => setActive(activeIndex + 1), 4500);
+      if (reduceMotion || intervalId || hasManualSelection) return;
+      intervalId = window.setInterval(() => setActive(activeIndex + 1), rotationDelay);
     };
 
     tabs.forEach((tab, index) => {
       tab.addEventListener('click', () => {
+        hasManualSelection = true;
         setActive(index);
         stopRotation();
-        startRotation();
       });
       tab.addEventListener('keydown', event => {
         if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
         event.preventDefault();
         const nextIndex = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : activeIndex + (event.key === 'ArrowRight' ? 1 : -1);
+        hasManualSelection = true;
         setActive(nextIndex);
+        stopRotation();
         tabs[activeIndex].focus();
       });
     });
 
-    ['mouseenter', 'focusin'].forEach(eventName => switcher.addEventListener(eventName, () => {
-      isPaused = true;
-      stopRotation();
-    }));
-    ['mouseleave', 'focusout'].forEach(eventName => switcher.addEventListener(eventName, () => {
-      isPaused = false;
-      startRotation();
-    }));
 
     setActive(activeIndex);
     startRotation();
