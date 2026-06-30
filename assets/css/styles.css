@@ -367,6 +367,11 @@ figcaption {
   object-fit: cover;
   display: block;
 }
+.about-content {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
 .case-highlights,
 .case-highlight,
 .case-secondary,
