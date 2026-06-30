@@ -137,65 +137,98 @@ handleStoredLanguage();
 
 function attachServiceSwitcher() {
   qsa('[data-service-switcher]').forEach(switcher => {
+    if (switcher.serviceRotationId) {
+      window.clearTimeout(switcher.serviceRotationId);
+      switcher.serviceRotationId = null;
+    }
+
     const tabs = qsa('[data-service-tab]', switcher);
     const panels = qsa('[data-service-panel]', switcher);
     const progressItems = qsa('.service-progress span', switcher);
     if (!tabs.length || !panels.length) return;
 
-    let activeIndex = Math.max(0, tabs.findIndex(tab => tab.classList.contains('is-active')));
-    let intervalId = null;
-    let hasManualSelection = false;
+    const tabByIndex = new Map(tabs.map(tab => [Number(tab.dataset.serviceTab), tab]));
+    const indexes = tabs
+      .map(tab => Number(tab.dataset.serviceTab))
+      .filter(Number.isInteger)
+      .sort((a, b) => a - b);
+    if (!indexes.length) return;
+
+    const getCurrentIndex = () => {
+      const activeTab = tabs.find(tab => tab.classList.contains('is-active'));
+      const activeIndex = activeTab ? Number(activeTab.dataset.serviceTab) : indexes[0];
+      return indexes.includes(activeIndex) ? activeIndex : indexes[0];
+    };
+
+    let activeIndex = getCurrentIndex();
     const rotationDelay = 6000;
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+    const getNextIndex = index => {
+      const currentPosition = indexes.indexOf(index);
+      return indexes[(currentPosition + 1) % indexes.length];
+    };
+
     const setActive = index => {
-      activeIndex = (index + tabs.length) % tabs.length;
-      tabs.forEach((tab, tabIndex) => {
-        const isActive = tabIndex === activeIndex;
+      activeIndex = indexes.includes(index) ? index : indexes[0];
+      switcher.dataset.activeService = String(activeIndex);
+
+      tabs.forEach(tab => {
+        const isActive = Number(tab.dataset.serviceTab) === activeIndex;
         tab.classList.toggle('is-active', isActive);
         tab.setAttribute('aria-selected', String(isActive));
         tab.tabIndex = isActive ? 0 : -1;
       });
-      panels.forEach((panel, panelIndex) => {
-        const isActive = panelIndex === activeIndex;
+
+      panels.forEach(panel => {
+        const isActive = Number(panel.dataset.servicePanel) === activeIndex;
         panel.classList.toggle('is-active', isActive);
-        panel.hidden = !isActive;
+        if (isActive) {
+          panel.removeAttribute('hidden');
+        } else {
+          panel.setAttribute('hidden', '');
+        }
       });
+
       progressItems.forEach((item, itemIndex) => {
-        item.classList.toggle('is-active', itemIndex === activeIndex);
+        item.classList.toggle('is-active', itemIndex === indexes.indexOf(activeIndex));
       });
     };
 
-    const stopRotation = () => {
-      if (intervalId) window.clearInterval(intervalId);
-      intervalId = null;
+    const queueNextRotation = () => {
+      if (reduceMotion) return;
+      switcher.serviceRotationId = window.setTimeout(() => {
+        setActive(getNextIndex(activeIndex));
+        queueNextRotation();
+      }, rotationDelay);
     };
 
-    const startRotation = () => {
-      if (reduceMotion || intervalId || hasManualSelection) return;
-      intervalId = window.setInterval(() => setActive(activeIndex + 1), rotationDelay);
-    };
+    tabs.forEach(tab => {
+      tab.onclick = () => {
+        const requestedIndex = Number(tab.dataset.serviceTab);
+        setActive(requestedIndex);
+        if (switcher.serviceRotationId) window.clearTimeout(switcher.serviceRotationId);
+        queueNextRotation();
+      };
 
-    tabs.forEach((tab, index) => {
-      tab.addEventListener('click', () => {
-        hasManualSelection = true;
-        setActive(index);
-        stopRotation();
-      });
-      tab.addEventListener('keydown', event => {
+      tab.onkeydown = event => {
         if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
         event.preventDefault();
-        const nextIndex = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : activeIndex + (event.key === 'ArrowRight' ? 1 : -1);
-        hasManualSelection = true;
+        const currentPosition = indexes.indexOf(activeIndex);
+        const nextIndex = event.key === 'Home'
+          ? indexes[0]
+          : event.key === 'End'
+            ? indexes[indexes.length - 1]
+            : indexes[(currentPosition + (event.key === 'ArrowRight' ? 1 : -1) + indexes.length) % indexes.length];
         setActive(nextIndex);
-        stopRotation();
-        tabs[activeIndex].focus();
-      });
+        if (switcher.serviceRotationId) window.clearTimeout(switcher.serviceRotationId);
+        queueNextRotation();
+        tabByIndex.get(activeIndex)?.focus();
+      };
     });
 
-
     setActive(activeIndex);
-    startRotation();
+    queueNextRotation();
   });
 }
 

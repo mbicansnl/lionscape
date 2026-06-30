@@ -1,5 +1,5 @@
-const STATIC_CACHE = 'ls-static-v1';
-const HTML_CACHE = 'ls-html-v1';
+const STATIC_CACHE = 'ls-static-v2';
+const HTML_CACHE = 'ls-html-v2';
 const OFFLINE_URL = '/pwa/offline.html';
 const STATIC_ASSETS = [
   '/assets/css/styles.css',
