@@ -38,6 +38,7 @@ async function switchLanguage(lang) {
       updateMeta('description', data.description);
       updateCanonical(data.canonical);
       attachInteractions();
+      attachMakeoverEffects();
     }
   } catch (error) {
     window.location.href = `${url.pathname}?page=${page}&lang=${lang}`;
@@ -139,3 +140,35 @@ if ('serviceWorker' in navigator) {
 
 attachInteractions();
 handleStoredLanguage();
+
+function attachMakeoverEffects() {
+  const revealItems = qsa('.reveal-on-scroll');
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.16, rootMargin: '0px 0px -8% 0px' });
+    revealItems.forEach(item => observer.observe(item));
+  } else {
+    revealItems.forEach(item => item.classList.add('is-visible'));
+  }
+
+  qsa('.magnetic').forEach(button => {
+    button.addEventListener('pointermove', event => {
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const rect = button.getBoundingClientRect();
+      const x = ((event.clientX - rect.left) / rect.width - 0.5) * 10;
+      const y = ((event.clientY - rect.top) / rect.height - 0.5) * 10;
+      button.style.transform = `translate(${x}px, ${y}px)`;
+    });
+    button.addEventListener('pointerleave', () => {
+      button.style.transform = '';
+    });
+  });
+}
+
+attachMakeoverEffects();
