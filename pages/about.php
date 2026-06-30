@@ -14,7 +14,7 @@ $logoAlt = $data['logo_alt'] ?? 'LionScape logo';
     <figure class="about-hero-image">
       <img src="/LionScape-logo-full.png" alt="<?php echo htmlspecialchars($logoAlt); ?>" width="1080" height="1080" loading="lazy" decoding="async">
     </figure>
-    <div class="grid-2">
+    <div class="about-content">
       <div class="about-sections">
         <?php if (!empty($data['sections']) && is_array($data['sections'])): ?>
           <?php foreach ($data['sections'] as $section): ?>
