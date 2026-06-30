@@ -1042,7 +1042,7 @@ body.theme::before {
   max-width: 11ch;
   text-wrap: balance;
   text-shadow: 0 18px 44px rgba(0,0,0,.34);
-  font-size: clamp(3rem, 9vw, 6.9rem);
+  font-size: clamp(2.6rem, 7vw, 5.4rem);
 }
 .hero-copy .lead { font-size: clamp(1.08rem, 2vw, 1.35rem); max-width: 42rem; }
 .hero-kicker { display: inline-flex; align-items: center; gap: .65rem; color: var(--accent); }
@@ -1123,7 +1123,7 @@ body.effects-ready .reveal-on-scroll.is-visible { opacity: 1; transform: none; }
 }
 @media (max-width: 767px) {
   .makeover-hero { min-height: auto; padding-top: 3.5rem; }
-  .hero-copy h1 { max-width: 100%; font-size: clamp(2.7rem, 16vw, 4.7rem); }
+  .hero-copy h1 { max-width: 100%; font-size: clamp(2.3rem, 12vw, 3.6rem); }
   .next-gen-visual { min-height: 390px; }
   .visual-metric { position: static; }
   .process-timeline .process-list::before { display: none; }
