@@ -551,75 +551,6 @@ textarea:focus {
   font-size: 1.05rem;
 }
 
-.pricing-structures {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  margin-bottom: 2rem;
-}
-.pricing-structures.pricing-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 24px;
-}
-.pricing-structures.pricing-grid > .pricing-card {
-  min-width: 0;
-  width: 100%;
-}
-.pricing-body .container {
-  width: min(var(--max-width), 97vw);
-}
-.pricing-pill {
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  background: var(--card);
-  box-shadow: var(--shadow);
-  transition:
-    border-color 0.2s ease,
-    box-shadow 0.2s ease,
-    background 0.2s ease,
-    transform 0.2s ease;
-  overflow: hidden;
-}
-.pricing-pill summary {
-  cursor: pointer;
-  font-weight: 600;
-  padding: 0.85rem 1.4rem;
-  list-style: none;
-}
-.pricing-pill summary::marker,
-.pricing-pill summary::-webkit-details-marker {
-  display: none;
-}
-.pricing-pill__content {
-  padding: 1rem 1.4rem 1.4rem;
-}
-.pricing-pill__content h3 {
-  margin-top: 0;
-}
-.pricing-pill:hover,
-.pricing-pill[open] {
-  border-color: var(--accent);
-  background: #173250;
-  box-shadow: 0 0 18px rgba(123, 200, 255, 0.35);
-  transform: translateY(-2px);
-}
-.pricing-pill[open] {
-  border-radius: var(--radius);
-}
-
-@media (min-width: 768px) {
-  .pricing-structures.pricing-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 1024px) {
-  .pricing-structures.pricing-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
 @media (min-width: 768px) {
   .case-card {
     display: flex;
@@ -848,44 +779,6 @@ body.menu-open {
   }
 }
 
-/* Pricing grid defaults: mobile stacked */
-.pricing-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 24px;
-}
-
-/* Tablet (optional): 2 columns */
-@media (min-width: 768px) {
-  .pricing-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-/* Desktop: ALWAYS 3 columns */
-@media (min-width: 1024px) {
-  .pricing-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
-/* Ensure cards can shrink within the grid and do not force wrapping */
-.pricing-card {
-  min-width: 0;
-  width: 100%;
-}
-
-/* If any existing CSS sets a fixed width/min-width on these cards, override it here */
-@media (min-width: 1024px) {
-  .pricing-card {
-    max-width: none;
-  }
-  .pricing-grid .pricing-card {
-    width: 100% !important;
-    min-width: 0 !important;
-  }
-}
-
 /* MOBILE-ONLY OVERRIDES — DESKTOP MUST NOT CHANGE */
 @media (max-width: 767px) {
   html,
@@ -934,15 +827,8 @@ body.menu-open {
   }
 
   .case-card,
-  .card,
-  .pricing-pill,
-  .pricing-pill:hover,
-  .pricing-pill[open] {
+  .card {
     box-shadow: none;
-  }
-
-  .pricing-pill summary {
-    padding: 0.75rem 1rem;
   }
 
   .footer-links a {
@@ -1078,7 +964,6 @@ body.menu-open {
 .process-list h3 { margin: 0 0 .25rem; }
 .process-list p { margin: 0; color: var(--muted); }
 .future-card { margin-top: 1.25rem; }
-.price { color: var(--accent); font-size: 1.4rem; font-weight: 800; margin: .25rem 0 .5rem; }
 select { width: 100%; padding: 0.75rem; border-radius: 8px; border: 1px solid var(--border); background: #0b1c2c; color: var(--text); min-height: 44px; }
 select:focus { outline: 2px solid var(--accent); }
 .mobile-sticky-cta { display:none; }

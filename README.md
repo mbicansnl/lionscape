@@ -39,7 +39,7 @@ Complete bilingual (NL default, EN) PHP 8.2 website for a one-person business se
 ## Structure
 - `index.php` front controller with fragment responses for language switching.
 - `bootstrap.php` helpers for content, routing, meta, schema, forms.
-- `pages/` contains templates: home, services (aanpak), cases, individual case pages, pricing, about, contact, legal, 404.
+- `pages/` contains templates: home, services (aanpak), cases, individual case pages, about, contact, legal, 404.
 - `assets/css/styles.css` modern responsive styling (no external assets), `assets/js/app.js` for language toggle, mobile nav, SW registration.
 - `pwa/` holds manifest, service worker, offline fallback.
 - `tools/` contains the screenshot automation.

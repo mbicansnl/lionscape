@@ -10,7 +10,6 @@
       "ai_agents": "AI-agents",
       "cases": "Cases",
       "workflow": "Werkwijze",
-      "pricing": "Prijzen",
       "contact": "Contact"
     },
     "meta": {
@@ -33,10 +32,6 @@
       "case_canservices": {
         "title": "Case CANSERVICES.nl | LionScape",
         "description": "Zakelijke case voor CANSERVICES.nl met heldere site en uitstraling."
-      },
-      "pricing": {
-        "title": "Prijzen voor websites, apps en AI-agents | LionScape",
-        "description": "Bekijk richtprijzen voor websites, maatwerk applicaties, MVP’s, AI-agents, automatiseringen en doorontwikkeling bij LionScape."
       },
       "about": {
         "title": "Over LionScape | Digitaal Bureau voor Online Groei",
@@ -378,52 +373,6 @@
       ],
       "cta": "Plan 15-min kennismaking"
     },
-    "pricing": {
-      "page_title": "Prijzen",
-      "intro": "Richtprijzen voor digitale systemen. Na een strategiegesprek maken we de scope concreet en krijg je een helder voorstel.",
-      "structures_title": "Prijscategorieën",
-      "structures": [
-        {
-          "title": "Website Start",
-          "price": "Vanaf €1.500",
-          "body": "Voor een onepager of compacte bedrijfswebsite."
-        },
-        {
-          "title": "Website Pro",
-          "price": "€2.500 - €5.000",
-          "body": "Voor meerdere pagina’s, betere funnel, SEO-basis en conversie."
-        },
-        {
-          "title": "App / systeem MVP",
-          "price": "Vanaf €4.000",
-          "body": "Voor dashboards, portalen, boekingssystemen of interne tools."
-        },
-        {
-          "title": "AI-agent / automatisering",
-          "price": "Vanaf €1.500 setup",
-          "body": "Voor automatiseringen, chatbots, leadflows, e-mailagents of interne AI-tools."
-        },
-        {
-          "title": "Doorontwikkeling",
-          "price": "Vanaf €800 per maand",
-          "body": "Voor onderhoud, optimalisatie, content, automatisering en nieuwe features."
-        }
-      ],
-      "sections": [
-        {
-          "title": "Altijd eerst duidelijkheid",
-          "body": [
-            "We starten met een gratis strategiegesprek. Daarna bepalen we wat nodig is: website, applicatie, AI-agent of een combinatie. Je krijgt een concreet voorstel met scope, planning en investering."
-          ]
-        },
-        {
-          "title": "Waarom vanaf-prijzen?",
-          "body": [
-            "Een landingspagina vraagt iets anders dan een klantportaal of AI-agent met koppelingen. Daarom werken we met duidelijke categorieën en maken we de exacte prijs pas na een korte analyse."
-          ]
-        }
-      ]
-    },
     "about": {
       "title": "Over LionScape",
       "logo_alt": "LionScape logo",
@@ -490,7 +439,6 @@
       "home": "Home",
       "services": "Approach",
       "cases": "Work",
-      "pricing": "Pricing",
       "about": "About",
       "contact": "Contact"
     },
@@ -501,7 +449,7 @@
       },
       "services": {
         "title": "Webdesign, SEO & Social Media Services for Entrepreneurs | LionScape",
-        "description": "Professional webdesign, SEO and social media services for entrepreneurs. Clear approach, fixed pricing and focus on results."
+        "description": "Professional webdesign, SEO and social media services for entrepreneurs. Clear approach, a transparent process and focus on results."
       },
       "cases": {
         "title": "Work: Jack Plooij and CANSERVICES.nl | LionScape",
@@ -514,10 +462,6 @@
       "case_canservices": {
         "title": "Case CANSERVICES.nl | LionScape",
         "description": "Business case for CANSERVICES.nl with a clear site and presence."
-      },
-      "pricing": {
-        "title": "Pricing from EUR 1500 | LionScape",
-        "description": "Selective projects. After the intro call you get a clear indication."
       },
       "about": {
         "title": "About LionScape | Digital Agency for Online Growth",
@@ -663,7 +607,7 @@
       "approach": [
         {
           "title": "Intake",
-          "body": "We schedule a short intake to define goals, audience, constraints, and desired functionality. Based on that, you receive an initial price indication and a compact concept. Within two business days you get a proposal with key points, a rough timeline, and clear next steps."
+          "body": "We schedule a short intake to define goals, audience, constraints, and desired functionality. Based on that, you receive an initial project indication and a compact concept. Within two business days you get a proposal with key points, a rough timeline, and clear next steps."
         },
         {
           "title": "Refinement",
@@ -790,118 +734,6 @@
         }
       ],
       "cta": "Book a 15-min intro"
-    },
-    "pricing": {
-      "intro": "Selective collaborations. Projects start from EUR 1500.",
-      "tiers": [
-        {
-          "name": "Start",
-          "range": "From EUR 1500",
-          "items": [
-            "One-page site",
-            "Baseline copy and visuals",
-            "Launch and handover"
-          ]
-        },
-        {
-          "name": "Essential",
-          "range": "EUR 2000 - 3500",
-          "items": [
-            "Multiple pages",
-            "Social templates",
-            "One-month content planning"
-          ]
-        },
-        {
-          "name": "Ongoing",
-          "range": "From EUR 800 per month",
-          "items": [
-            "Updates and refinements",
-            "Content creation and posting",
-            "Monthly review"
-          ]
-        }
-      ],
-      "faq": [
-        {
-          "q": "Why no fixed prices?",
-          "a": "Every name and context differs. After the call you receive a clear indication."
-        },
-        {
-          "q": "What is included?",
-          "a": "Design, build, baseline content and support for launch."
-        },
-        {
-          "q": "How soon can we start?",
-          "a": "Within a week after agreement, depending on availability."
-        }
-      ],
-      "page_title": "Pricing",
-      "structures_title": "Structures",
-      "structures": [
-        {
-          "title": "Fixed Price",
-          "body": "For projects we work with fixed price: we agree on a set price upfront and align on the parameters so there are no surprises and both sides are clear on expectations."
-        },
-        {
-          "title": "Subscription",
-          "body": "For maintenance, updates, and social posting we use subscriptions: fixed monthly agreements for ongoing support so your site and online presence stay current, secure, and consistent."
-        }
-      ],
-      "sections": [
-        {
-          "title": "Fixed price: clarity upfront",
-          "body": [
-            "At LionScape we work with fixed price. That means we agree on a set price upfront for a clear assignment. No surprises afterward and no debates about hours. You know exactly what it costs and what you get, and we know exactly what to deliver."
-          ]
-        },
-        {
-          "title": "Why we choose this",
-          "body": [
-            "In many projects, hourly billing creates friction. A client wants a strong end result but ends up with a bill that mainly reflects time. That does not always feel fair, especially when something takes longer than expected.",
-            "Fixed price removes that tension. You are not \"penalized\" if something turns out to be more complex, and we do not have to rush to stay within a set number of hours. That lets us focus on what matters: quality, a consistent presence, and a site that is truly finished."
-          ]
-        },
-        {
-          "title": "Clear scope is the foundation",
-          "body": [
-            "A fixed price only works if we agree upfront on what is included. That is why we start with a short intake and make the scope concrete: which pages, which components, which content blocks, which features and any integrations. Based on that you receive a proposal with a fixed price and clear delivery points.",
-            "This brings calm. You do not have to wonder whether a question means extra costs, and we can keep building without constant renegotiation."
-          ]
-        },
-        {
-          "title": "What is usually included",
-          "body": [
-            "Depending on the package and scope, a fixed price project can include:"
-          ],
-          "list": [
-            "Design and unification of the look & feel (color palette, typography, base style)",
-            "Website delivery (desktop and mobile)",
-            "Page build-out and reusable content modules",
-            "Basic SEO (technical foundation, metadata, indexability)",
-            "Performance and security (fast load times, technical checks)",
-            "Optional: social support (templates and consistent presence)"
-          ]
-        },
-        {
-          "title": "Changes: flexible but clearly managed",
-          "body": [
-            "During a project there are often new ideas. That is normal. If a change fits within the agreed scope, we include it. If it falls outside the scope, we make it concrete and agree on an additional fixed price for that extra part. This keeps you in control of the budget and keeps quality achievable for us."
-          ]
-        },
-        {
-          "title": "Maintenance and ongoing development",
-          "body": [
-            "A website is never truly \"finished\". There are updates, improvements, new pages, and small optimizations. That is why we also offer maintenance and ongoing development. This can be arranged with fixed agreements, for example per month or per change package, so you know what to expect and your website stays healthy."
-          ]
-        },
-        {
-          "title": "Working together without noise",
-          "body": [
-            "The goal of fixed price is simple: clarity and a pleasant collaboration. You buy a result, not hours. And we deliver that result with focus on consistency, speed, and a professional presence."
-          ]
-        }
-      ]
     },
     "about": {
       "title": "About LionScape",

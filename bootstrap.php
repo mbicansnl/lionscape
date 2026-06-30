@@ -56,7 +56,6 @@ function current_page(): string
         'voorbeelden' => 'cases',
         'case-jack' => 'case-jack',
         'case-canservices' => 'case-canservices',
-        'prijzen' => 'pricing',
         'over' => 'about',
         'contact' => 'contact',
         'privacy' => 'privacy',
@@ -69,8 +68,7 @@ function current_page(): string
     if ($uri === 'sitemap.xml') {
         return 'sitemap';
     }
-    $fallback = $_GET['page'] ?? 'home';
-    return $fallback;
+    return '404';
 }
 
 function template_for(string $page): string
@@ -187,7 +185,6 @@ function canonical_url(string $page, string $lang): string
         'cases' => 'voorbeelden',
         'case-jack' => 'case-jack',
         'case-canservices' => 'case-canservices',
-        'pricing' => 'prijzen',
         'about' => 'over',
         'contact' => 'contact',
         'privacy' => 'privacy',
