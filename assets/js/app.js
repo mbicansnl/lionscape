@@ -38,6 +38,7 @@ async function switchLanguage(lang) {
       updateMeta('description', data.description);
       updateCanonical(data.canonical);
       attachInteractions();
+      attachServiceSwitcher();
       attachMakeoverEffects();
     }
   } catch (error) {
@@ -131,7 +132,77 @@ if ('serviceWorker' in navigator) {
 }
 
 attachInteractions();
+attachServiceSwitcher();
 handleStoredLanguage();
+
+function attachServiceSwitcher() {
+  qsa('[data-service-switcher]').forEach(switcher => {
+    const tabs = qsa('[data-service-tab]', switcher);
+    const panels = qsa('[data-service-panel]', switcher);
+    const progressItems = qsa('.service-progress span', switcher);
+    if (!tabs.length || !panels.length) return;
+
+    let activeIndex = Math.max(0, tabs.findIndex(tab => tab.classList.contains('is-active')));
+    let intervalId = null;
+    let isPaused = false;
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const setActive = index => {
+      activeIndex = (index + tabs.length) % tabs.length;
+      tabs.forEach((tab, tabIndex) => {
+        const isActive = tabIndex === activeIndex;
+        tab.classList.toggle('is-active', isActive);
+        tab.setAttribute('aria-selected', String(isActive));
+        tab.tabIndex = isActive ? 0 : -1;
+      });
+      panels.forEach((panel, panelIndex) => {
+        const isActive = panelIndex === activeIndex;
+        panel.classList.toggle('is-active', isActive);
+        panel.hidden = !isActive;
+      });
+      progressItems.forEach((item, itemIndex) => {
+        item.classList.toggle('is-active', itemIndex === activeIndex);
+      });
+    };
+
+    const stopRotation = () => {
+      if (intervalId) window.clearInterval(intervalId);
+      intervalId = null;
+    };
+
+    const startRotation = () => {
+      if (reduceMotion || intervalId || isPaused) return;
+      intervalId = window.setInterval(() => setActive(activeIndex + 1), 4500);
+    };
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', () => {
+        setActive(index);
+        stopRotation();
+        startRotation();
+      });
+      tab.addEventListener('keydown', event => {
+        if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
+        event.preventDefault();
+        const nextIndex = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : activeIndex + (event.key === 'ArrowRight' ? 1 : -1);
+        setActive(nextIndex);
+        tabs[activeIndex].focus();
+      });
+    });
+
+    ['mouseenter', 'focusin'].forEach(eventName => switcher.addEventListener(eventName, () => {
+      isPaused = true;
+      stopRotation();
+    }));
+    ['mouseleave', 'focusout'].forEach(eventName => switcher.addEventListener(eventName, () => {
+      isPaused = false;
+      startRotation();
+    }));
+
+    setActive(activeIndex);
+    startRotation();
+  });
+}
 
 function attachMakeoverEffects() {
   const revealItems = qsa('.reveal-on-scroll');
