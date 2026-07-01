@@ -219,6 +219,8 @@ function attachServiceSwitcher() {
         if (status) status.innerHTML = formatStatus(item.status);
       });
 
+      progressItems.forEach(item => item.classList.remove('is-active'));
+      if (!reduceMotion) switcher.offsetHeight;
       progressItems.forEach((item, itemIndex) => {
         item.classList.toggle('is-active', itemIndex === activeIndex);
       });
