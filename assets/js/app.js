@@ -147,7 +147,6 @@ function attachServiceSwitcher() {
     const progressItems = qsa('.service-progress span', switcher);
     if (!tabs.length || !panels.length) return;
 
-    const tabByIndex = new Map(tabs.map(tab => [Number(tab.dataset.serviceTab), tab]));
     const indexes = tabs
       .map(tab => Number(tab.dataset.serviceTab))
       .filter(Number.isInteger)
@@ -169,6 +168,14 @@ function attachServiceSwitcher() {
       return indexes[(currentPosition + 1) % indexes.length];
     };
 
+    const restartRotation = () => {
+      if (switcher.serviceRotationId) {
+        window.clearTimeout(switcher.serviceRotationId);
+        switcher.serviceRotationId = null;
+      }
+      queueNextRotation();
+    };
+
     const setActive = index => {
       activeIndex = indexes.includes(index) ? index : indexes[0];
       switcher.dataset.activeService = String(activeIndex);
@@ -183,11 +190,7 @@ function attachServiceSwitcher() {
       panels.forEach(panel => {
         const isActive = Number(panel.dataset.servicePanel) === activeIndex;
         panel.classList.toggle('is-active', isActive);
-        if (isActive) {
-          panel.removeAttribute('hidden');
-        } else {
-          panel.setAttribute('hidden', '');
-        }
+        panel.hidden = !isActive;
       });
 
       progressItems.forEach((item, itemIndex) => {
@@ -204,14 +207,15 @@ function attachServiceSwitcher() {
     };
 
     tabs.forEach(tab => {
-      tab.onclick = () => {
-        const requestedIndex = Number(tab.dataset.serviceTab);
-        setActive(requestedIndex);
-        if (switcher.serviceRotationId) window.clearTimeout(switcher.serviceRotationId);
-        queueNextRotation();
-      };
+      if (tab.dataset.serviceTabBound === 'true') return;
+      tab.dataset.serviceTabBound = 'true';
 
-      tab.onkeydown = event => {
+      tab.addEventListener('click', () => {
+        setActive(Number(tab.dataset.serviceTab));
+        restartRotation();
+      });
+
+      tab.addEventListener('keydown', event => {
         if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
         event.preventDefault();
         const currentPosition = indexes.indexOf(activeIndex);
@@ -221,10 +225,9 @@ function attachServiceSwitcher() {
             ? indexes[indexes.length - 1]
             : indexes[(currentPosition + (event.key === 'ArrowRight' ? 1 : -1) + indexes.length) % indexes.length];
         setActive(nextIndex);
-        if (switcher.serviceRotationId) window.clearTimeout(switcher.serviceRotationId);
-        queueNextRotation();
-        tabByIndex.get(activeIndex)?.focus();
-      };
+        restartRotation();
+        tabs.find(item => Number(item.dataset.serviceTab) === activeIndex)?.focus();
+      });
     });
 
     setActive(activeIndex);
