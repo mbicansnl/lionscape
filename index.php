@@ -83,7 +83,7 @@ if (isset($_GET['fragment'])) {
 </main>
 <?php echo $footerHtml; ?>
 </div>
-<script src="/assets/js/app.js" type="module"></script>
+<script src="/assets/js/app.js?v=3" type="module"></script>
 <script>
   if (!document.cookie.includes('lang_pref')) {
     document.cookie = 'lang_pref=<?php echo $lang; ?>;path=/;max-age=31536000';

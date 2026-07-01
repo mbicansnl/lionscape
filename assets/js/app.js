@@ -136,9 +136,33 @@ attachServiceSwitcher();
 handleStoredLanguage();
 
 function attachServiceSwitcher() {
+  const carouselItems = [
+    {
+      tab: "Websites",
+      title: "Website laten maken",
+      description: "Sterke structuur, duidelijke CTA’s en meer aanvragen.",
+      tags: ["Homepage", "Funnel", "SEO-basis"],
+      status: "Bezoeker → CTA → Aanvraag",
+    },
+    {
+      tab: "Apps",
+      title: "App of systeem bouwen",
+      description: "Dashboards, klantportalen en tools die werk simpeler maken.",
+      tags: ["Dashboard", "Portaal", "MVP"],
+      status: "Proces → Overzicht → Actie",
+    },
+    {
+      tab: "AI-agents",
+      title: "AI-agent automatisering",
+      description: "Agents die leads opvolgen, vragen beantwoorden en acties klaarzetten.",
+      tags: ["Leads", "E-mail", "Taken"],
+      status: "Input → AI-agent → Opvolging",
+    },
+  ];
+
   qsa('[data-service-switcher]').forEach(switcher => {
     if (switcher.serviceRotationId) {
-      window.clearTimeout(switcher.serviceRotationId);
+      window.clearInterval(switcher.serviceRotationId);
       switcher.serviceRotationId = null;
     }
 
@@ -147,91 +171,107 @@ function attachServiceSwitcher() {
     const progressItems = qsa('.service-progress span', switcher);
     if (!tabs.length || !panels.length) return;
 
-    const indexes = tabs
-      .map(tab => Number(tab.dataset.serviceTab))
-      .filter(Number.isInteger)
-      .sort((a, b) => a - b);
-    if (!indexes.length) return;
+    const totalSlides = Math.min(carouselItems.length, tabs.length, panels.length);
+    if (!totalSlides) return;
 
-    const getCurrentIndex = () => {
-      const activeTab = tabs.find(tab => tab.classList.contains('is-active'));
-      const activeIndex = activeTab ? Number(activeTab.dataset.serviceTab) : indexes[0];
-      return indexes.includes(activeIndex) ? activeIndex : indexes[0];
-    };
-
-    let activeIndex = getCurrentIndex();
-    const rotationDelay = 6000;
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-    const getNextIndex = index => {
-      const currentPosition = indexes.indexOf(index);
-      return indexes[(currentPosition + 1) % indexes.length];
+    const rotationDelay = 5000;
+    const state = {
+      activeIndex: 0,
+      isPaused: false,
     };
 
-    const restartRotation = () => {
-      if (switcher.serviceRotationId) {
-        window.clearTimeout(switcher.serviceRotationId);
-        switcher.serviceRotationId = null;
-      }
-      queueNextRotation();
-    };
+    const formatStatus = status => status
+      .split('→')
+      .map(part => part.trim())
+      .map((part, index, parts) => index < parts.length - 1 ? `${part} <span>→</span>` : part)
+      .join(' ');
 
-    const setActive = index => {
-      activeIndex = indexes.includes(index) ? index : indexes[0];
+    const setActiveIndex = index => {
+      const activeIndex = (index + totalSlides) % totalSlides;
+      const activeItem = carouselItems[activeIndex];
+      state.activeIndex = activeIndex;
       switcher.dataset.activeService = String(activeIndex);
 
-      tabs.forEach(tab => {
-        const isActive = Number(tab.dataset.serviceTab) === activeIndex;
+      tabs.forEach((tab, tabIndex) => {
+        const item = carouselItems[tabIndex];
+        const isActive = tabIndex === activeIndex;
+        if (item) tab.textContent = item.tab;
         tab.classList.toggle('is-active', isActive);
         tab.setAttribute('aria-selected', String(isActive));
         tab.tabIndex = isActive ? 0 : -1;
       });
 
-      panels.forEach(panel => {
-        const isActive = Number(panel.dataset.servicePanel) === activeIndex;
+      panels.forEach((panel, panelIndex) => {
+        const isActive = panelIndex === activeIndex;
         panel.classList.toggle('is-active', isActive);
         panel.hidden = !isActive;
+
+        const item = carouselItems[panelIndex] || activeItem;
+        const title = qs('h2', panel);
+        const description = qs('p', panel);
+        const tags = qs('.service-tags', panel);
+        const status = qs('.service-status', panel);
+
+        if (title) title.textContent = item.title;
+        if (description) description.textContent = item.description;
+        if (tags) tags.innerHTML = item.tags.map(tag => `<span>${tag}</span>`).join('');
+        if (status) status.innerHTML = formatStatus(item.status);
       });
 
       progressItems.forEach((item, itemIndex) => {
-        item.classList.toggle('is-active', itemIndex === indexes.indexOf(activeIndex));
+        item.classList.toggle('is-active', itemIndex === activeIndex);
       });
     };
 
-    const queueNextRotation = () => {
-      if (reduceMotion) return;
-      switcher.serviceRotationId = window.setTimeout(() => {
-        setActive(getNextIndex(activeIndex));
-        queueNextRotation();
-      }, rotationDelay);
+    const rotate = () => {
+      if (!state.isPaused) {
+        setActiveIndex(state.activeIndex + 1);
+      }
     };
 
-    tabs.forEach(tab => {
+    const restartRotation = () => {
+      if (reduceMotion) return;
+      if (switcher.serviceRotationId) window.clearInterval(switcher.serviceRotationId);
+      switcher.serviceRotationId = window.setInterval(rotate, rotationDelay);
+    };
+
+    tabs.forEach((tab, tabIndex) => {
       if (tab.dataset.serviceTabBound === 'true') return;
       tab.dataset.serviceTabBound = 'true';
 
       tab.addEventListener('click', () => {
-        setActive(Number(tab.dataset.serviceTab));
+        setActiveIndex(tabIndex);
         restartRotation();
       });
 
       tab.addEventListener('keydown', event => {
         if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
         event.preventDefault();
-        const currentPosition = indexes.indexOf(activeIndex);
         const nextIndex = event.key === 'Home'
-          ? indexes[0]
+          ? 0
           : event.key === 'End'
-            ? indexes[indexes.length - 1]
-            : indexes[(currentPosition + (event.key === 'ArrowRight' ? 1 : -1) + indexes.length) % indexes.length];
-        setActive(nextIndex);
+            ? totalSlides - 1
+            : (state.activeIndex + (event.key === 'ArrowRight' ? 1 : -1) + totalSlides) % totalSlides;
+        setActiveIndex(nextIndex);
         restartRotation();
-        tabs.find(item => Number(item.dataset.serviceTab) === activeIndex)?.focus();
+        tabs[nextIndex]?.focus();
       });
     });
 
-    setActive(activeIndex);
-    queueNextRotation();
+    if (switcher.dataset.servicePauseBound !== 'true') {
+      switcher.dataset.servicePauseBound = 'true';
+      switcher.addEventListener('pointerenter', () => { state.isPaused = true; });
+      switcher.addEventListener('pointerleave', () => { state.isPaused = false; });
+      switcher.addEventListener('focusin', () => { state.isPaused = true; });
+      switcher.addEventListener('focusout', event => {
+        if (!switcher.contains(event.relatedTarget)) state.isPaused = false;
+      });
+    }
+
+    const initialTab = tabs.findIndex(tab => tab.classList.contains('is-active'));
+    setActiveIndex(initialTab >= 0 ? initialTab : 0);
+    restartRotation();
   });
 }
 
