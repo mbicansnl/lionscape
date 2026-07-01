@@ -1,4 +1,4 @@
-const STATIC_CACHE = 'ls-static-v2';
+const STATIC_CACHE = 'ls-static-v3';
 const HTML_CACHE = 'ls-html-v2';
 const OFFLINE_URL = '/pwa/offline.html';
 const STATIC_ASSETS = [
