@@ -21,7 +21,14 @@ $brand = content_for($content, $lang, 'brand', 'LionScape');
         <li><a href="/werkwijze" class="<?php echo is_active('workflow', $page) ? 'active' : ''; ?>"><?php echo htmlspecialchars($nav['workflow'] ?? 'Werkwijze'); ?></a></li>
         <li><a href="/contact" class="<?php echo is_active('contact', $page) ? 'active' : ''; ?>"><?php echo htmlspecialchars($nav['contact'] ?? 'Contact'); ?></a></li>
       </ul>
-      <div class="nav-actions"><a class="button primary" href="/contact"><?php echo htmlspecialchars($shared['cta_primary'] ?? 'Plan gratis strategiegesprek'); ?></a></div>
+      <div class="nav-actions">
+        <div class="lang-toggle" data-language-toggle aria-label="<?php echo htmlspecialchars($lang === 'en' ? 'Choose language' : 'Kies taal'); ?>">
+          <a href="<?php echo htmlspecialchars(language_target_url($page, 'nl')); ?>" data-lang="nl" class="<?php echo $lang === 'nl' ? 'active' : ''; ?>" lang="nl" hreflang="nl" aria-current="<?php echo $lang === 'nl' ? 'true' : 'false'; ?>">NL</a>
+          <span aria-hidden="true">|</span>
+          <a href="<?php echo htmlspecialchars(language_target_url($page, 'en')); ?>" data-lang="en" class="<?php echo $lang === 'en' ? 'active' : ''; ?>" lang="en" hreflang="en" aria-current="<?php echo $lang === 'en' ? 'true' : 'false'; ?>">EN</a>
+        </div>
+        <a class="button primary" href="/contact"><?php echo htmlspecialchars($shared['cta_primary'] ?? 'Plan gratis strategiegesprek'); ?></a>
+      </div>
     </nav>
   </div>
 </header>
