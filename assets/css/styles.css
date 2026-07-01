@@ -731,6 +731,15 @@ body.menu-open {
   .case-grid {
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   }
+  .logo {
+    flex-shrink: 0;
+  }
+  .logo img {
+    height: 42px;
+    width: auto;
+    max-width: none;
+    object-fit: contain;
+  }
   .nav {
     position: static;
     inset: auto;
