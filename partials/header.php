@@ -7,7 +7,7 @@ $brand = content_for($content, $lang, 'brand', 'LionScape');
   <a class="skip-link" href="#main"><?php echo htmlspecialchars($shared['skip_link'] ?? ''); ?></a>
   <div class="container header-inner">
     <a class="logo" href="/" aria-label="<?php echo htmlspecialchars($brand); ?>">
-      <img src="/LionScape-logo-transparent-header.png" alt="<?php echo htmlspecialchars($brand); ?>" width="1080" height="450">
+      <img src="/LionScape-icon-transparent.png" alt="<?php echo htmlspecialchars($brand); ?>" width="1080" height="450">
     </a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="nav"><?php echo htmlspecialchars($shared['menu_label'] ?? 'Menu'); ?></button>
     <nav id="nav" class="nav" aria-label="<?php echo htmlspecialchars($shared['nav_label'] ?? ''); ?>">
